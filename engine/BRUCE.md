@@ -81,7 +81,8 @@ f=sorted(glob.glob(sys.argv[1]+'/slide-*.png'));w,h=432,540
 s=Image.new('RGB',(w*4+50,h*2+30),'#888')
 [s.paste(Image.open(p).resize((w,h)),(10+(k%4)*(w+10),10+(k//4)*(h+10))) for k,p in enumerate(f)]
 s.save('/tmp/sheet.png')" posts/YYYY-MM-DD-slug
-``` Check spelling, that nothing is cut off, and that the CTA keyword is right. Fix and re-render if anything is off.
+```
+Check spelling, that nothing is cut off, and that the CTA keyword is right. Fix and re-render if anything is off.
 
 ### 5. Write the caption (SEO and GEO)
 Instagram search and AI assistants read captions and alt text, so they are written for discovery:
