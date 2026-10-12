@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-12",
+ "topic": "AI search cites social media",
+ "keyword": "CITED",
+ "spec": {
+  "tag": "AI search",
+  "slides": [
+   {
+    "kind": "cover",
+    "kicker": "New SE Ranking study, October 2026",
+    "title": "AI search is reading your socials",
+    "sub": "A study of 100,000 keywords shows Google's AI answers lean hard on social posts. Here is what that means for your brand."
+   },
+   {
+    "kind": "stat",
+    "big": "67.66%",
+    "title": "of AI Overviews cite social",
+    "body": "SE Ranking found social platform links in 67.66% of Google AI Overview responses. YouTube was the most cited social source.",
+    "source": "SE Ranking via Social Media Today, Oct 2026"
+   },
+   {
+    "kind": "stat",
+    "big": "48.58%",
+    "title": "of non-brand AI Mode answers",
+    "body": "In Google AI Mode, social sources showed up in 48.58% of non-branded searches and 39.34% of searches that name a brand.",
+    "source": "SE Ranking via Social Media Today, Oct 2026"
+   },
+   {
+    "kind": "stat",
+    "big": "8.4%",
+    "title": "of ChatGPT answers",
+    "body": "ChatGPT leans on social far less. Social links appeared in 8.4% of its answers, and Reddit and LinkedIn were the platforms it cited most.",
+    "source": "SE Ranking via Social Media Today, Oct 2026"
+   },
+   {
+    "kind": "point",
+    "title": "Volume alone won't get you in",
+    "body": "There is no one-size-fits-all approach. AI pulls from wherever your category gets discussed, so useful, consistent posts there count most."
+   },
+   {
+    "kind": "point",
+    "title": "Make every profile match",
+    "body": "When AI pulls your posts into an answer, people should know it's you. Use the same name, logo, colors and description on every profile and your site."
+   },
+   {
+    "kind": "cta",
+    "title": "Make sure AI finds a brand worth trusting",
+    "body": "We build brand identities, social templates and SEO-ready websites for Black-owned businesses, so every post and page reads as one strong brand.",
+    "keyword": "CITED"
+   }
+  ]
+ },
+ "caption": "AI search and social media checklist: 4 things Black-owned businesses should tighten up now that Google's AI answers cite social posts.\n\nA new SE Ranking study of 100,000 keywords, covered by Social Media Today on October 7, found social platform links in 67.66% of Google AI Overview responses and 32.39% of Google AI Mode replies. ChatGPT was far lower at 8.4%. In AI Mode, social sources appeared in 48.58% of non-branded searches, the ones where people look for a category and haven't picked a business yet.\n\nHere's what to tighten up:\n1. The same business name, logo and colors on every profile.\n2. A bio that says exactly what you do and where you serve.\n3. Posts that answer the questions your customers actually ask.\n4. A website that matches your socials and backs up what they say.\n\nThere's no one-size-fits-all formula for AI visibility. A clear, consistent brand makes you easier to recognize wherever you get cited.\n\nAt Blackwell Graphics we build brand identities, social templates and SEO-ready websites for Black-owned businesses. DM us \"CITED\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who posts on social.\n\n#BlackBusinessOwners #SupportBlackBusiness #AISearch #SmallBusinessMarketing #WebDesign",
+ "alt": [
+  "Black slide with the headline: AI search is reading your socials, citing a new SE Ranking study of 100,000 keywords.",
+  "White slide showing 67.66% with the line: of AI Overviews cite social, noting YouTube was the most cited social source.",
+  "Black slide showing 48.58% with the line: of non-brand AI Mode answers, plus 39.34% for searches that name a brand.",
+  "White slide showing 8.4% with the line: of ChatGPT answers, noting Reddit and LinkedIn were its most cited social platforms.",
+  "Black slide numbered 01 with the headline: Volume alone won't get you in.",
+  "White slide numbered 02 with the headline: Make every profile match, about using the same name, logo, colors and description everywhere.",
+  "Black slide with the headline: Make sure AI finds a brand worth trusting, and a button reading DM CITED with blackwellgraphics.com."
+ ],
+ "sources": [
+  "https://www.socialmediatoday.com/news/ai-favors-brands-with-an-active-social-media-presence/832450/",
+  "https://wersm.com/ai-search-turning-social-activity-into-brand-visibility/"
+ ]
+}
