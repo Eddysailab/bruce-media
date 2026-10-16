@@ -1,0 +1,70 @@
+{
+ "date": "2026-10-16",
+ "topic": "Google Universal Cart launch",
+ "keyword": "CART",
+ "spec": {
+  "tag": "Google shopping",
+  "slides": [
+   {
+    "kind": "cover",
+    "kicker": "New from Google, October 15",
+    "title": "Google's new cart puts you next to Target",
+    "sub": "Universal Cart lets shoppers fill one cart from many stores in Search and Gemini. Here's what it means for your brand."
+   },
+   {
+    "kind": "point",
+    "title": "What launched",
+    "body": "Universal Cart went live in the US on October 15 in Google Search, including AI Mode, and the Gemini app. Shoppers save items from many stores."
+   },
+   {
+    "kind": "point",
+    "title": "What the cart does",
+    "body": "It tracks price drops and restocks, shows promo codes, and lets shoppers pay with Google Pay or send the cart to the store's own site."
+   },
+   {
+    "kind": "stat",
+    "big": "60B+",
+    "title": "Listings in the mix",
+    "body": "Universal Cart pulls from more than 60 billion product listings in Google's Shopping Graph. Your product has to stand out in that crowd.",
+    "source": "Google, October 2026"
+   },
+   {
+    "kind": "point",
+    "title": "Who's in already",
+    "body": "Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair and many Shopify merchants. You stay the seller of record on every order."
+   },
+   {
+    "kind": "point",
+    "title": "Your listing is your storefront",
+    "body": "In one cart, your product sits right beside the big names. Clear photos, plain product names and a logo people recognize do the selling."
+   },
+   {
+    "kind": "point",
+    "title": "Your site still closes it",
+    "body": "Shoppers can move the cart to your website to check out. It has to load fast, look like your brand and make paying easy."
+   },
+   {
+    "kind": "cta",
+    "title": "Make your products ready for Google's new cart",
+    "body": "We design brand identities, product visuals and fast, SEO-ready websites for Black-owned businesses, so you hold your own next to the biggest stores.",
+    "keyword": "CART"
+   }
+  ]
+ },
+ "caption": "Google Universal Cart checklist: 4 things Black-owned businesses that sell online should have ready now that Google lets shoppers mix stores in one cart.\n\nGoogle launched Universal Cart in the US on October 15. It works in Google Search, including AI Mode, and in the Gemini app. Shoppers can save products from different stores in one cart, get alerts on price drops and restocks, see promo codes, and pay with Google Pay or move the cart to the store's own site. Early partners include Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair and many Shopify merchants, and the store stays the seller of record.\n\nHere's what to have in place:\n1. Product photos that look sharp and consistent at thumbnail size.\n2. Plain, searchable product names and descriptions.\n3. A logo and brand look shoppers recognize in a lineup.\n4. A fast website with an easy checkout for carts sent your way.\n\nIf you sell on Shopify, check Sales channels > Agentic in your admin to see your settings.\n\nAt Blackwell Graphics we build brand identities, product visuals and SEO-ready websites for Black-owned businesses. DM us \"CART\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who sells online.\n\n#BlackOwnedBusiness #SupportBlackBusiness #GoogleShopping #SmallBusinessMarketing #WebDesign",
+ "alt_text": [
+  "Black slide with the headline: Google's new cart puts you next to Target.",
+  "White slide titled What launched, explaining Universal Cart went live in the US on October 15 in Google Search, AI Mode and the Gemini app.",
+  "Black slide titled What the cart does, listing price drop and restock alerts, promo codes, and checkout with Google Pay or on the store's own site.",
+  "White slide with the number 60B+ and the title Listings in the mix, about the 60 billion product listings in Google's Shopping Graph.",
+  "Black slide titled Who's in already, naming Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair and many Shopify merchants.",
+  "White slide titled Your listing is your storefront, about clear photos, plain product names and a recognizable logo.",
+  "Black slide titled Your site still closes it, about a fast, on-brand website with easy checkout.",
+  "Black slide with the headline: Make your products ready for Google's new cart, and a button reading DM CART."
+ ],
+ "sources": [
+  "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+  "https://www.seroundtable.com/universal-cart-google-search-42312.html",
+  "https://www.searchenginejournal.com/google-universal-cart-store-handoff/593145/"
+ ]
+}
