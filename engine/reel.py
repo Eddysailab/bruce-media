@@ -34,6 +34,7 @@ W, H, FPS = 1080, 1920, 30
 SR = 24000
 MIN_S, MAX_S = 30.0, 40.0
 GAP = 0.22           # breath after each scene's narration
+SFX_LEVEL = 0.7      # sound effects at 70% (Eddy, Oct 24: 30% quieter)
 WPS = 3.6            # rough spoken words per second, for length advice
 
 LIMITS = {
@@ -235,6 +236,7 @@ def build_audio(scenes, clips, total, events, out, seed):
             st = max(0, st - len(snd))
         if st < n:
             fx[st:st + len(snd)] += snd[: n - st]
+    fx *= SFX_LEVEL
     write_wav(out / "vo.wav", vo); write_wav(out / "sfx.wav", fx)
     music = sorted((HERE / "music").glob("*.mp3")) + sorted((HERE / "music").glob("*.wav"))
     if music:
@@ -309,6 +311,11 @@ h1{font-size:104px}h2{font-size:88px}
 .dm{display:inline-flex;align-self:flex-start;background:#fff;color:#000;font-size:80px;font-weight:800;padding:26px 50px;border-radius:24px;margin-top:64px;letter-spacing:-.02em}
 .alt{font-size:36px;font-weight:500;margin-top:34px}.alt b{font-weight:800}
 .ctalogo{height:110px;margin-top:70px;align-self:flex-start}
+.light .dm{background:#000;color:#fff}
+.light .hlogo{box-shadow:0 0 0 3px #000 inset}
+.light .card{box-shadow:0 30px 80px rgba(0,0,0,.28),0 0 0 3px #000}
+.light .tile{box-shadow:0 0 0 3px #000 inset}
+.dark .tile{box-shadow:none}
 #top{position:absolute;left:80px;right:140px;top:200px;display:flex;align-items:center;justify-content:space-between;z-index:50;mix-blend-mode:difference;color:#fff}
 #top img{height:66px}
 #top .pill{border:3px solid #fff;border-radius:999px;padding:10px 26px;font-size:25px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
@@ -493,8 +500,7 @@ def card_html(it, a, rot, top, ctx, t0, type_dur=0.9):
 
 def scene_html(s, i, logos, ctx):
     k, t0 = s["kind"], s["_start"]
-    theme = s.get("theme") or {"hook": "dark", "sources": "dark", "article": "dark", "stat": "dark", "cta": "dark", "logos": "light"}.get(k) \
-        or ("light" if s.get("_pi", 0) % 2 == 0 else "dark")
+    theme = s.get("theme") or ("dark" if i % 2 == 0 else "light")   # black and white alternate scene to scene
     style = s.get("style") or ["punch", "slide", "flip", "drop", "mix"][i % 5]
     ghost_word = s.get("ghost") or (s.get("accent") or s.get("keyword") or s.get("big") or "").split(" ")[0]
     deco = f'<div class="grid"></div><div class="ghost">{e(ghost_word)} {e(ghost_word)} {e(ghost_word)}</div>' \
@@ -558,7 +564,7 @@ def scene_html(s, i, logos, ctx):
         inner = f'''<h2>{t}</h2>
 <div class="dm" data-fx="pulse" data-a="{d + 0.2:.2f}" style="opacity:0">DM &ldquo;{e(s["keyword"].upper())}&rdquo;</div>
 <div class="alt" data-fx="fade" data-a="{d + 0.5:.2f}" style="opacity:0">or tap the link in bio: <b>blackwellgraphics.com</b></div>
-<img class="ctalogo" data-fx="fade" data-a="{d + 0.8:.2f}" style="opacity:0" src="data:image/png;base64,{logos['white']}">'''
+<img class="ctalogo" data-fx="fade" data-a="{d + 0.8:.2f}" style="opacity:0" src="data:image/png;base64,{logos['white' if theme == 'dark' else 'black']}">'''
     else:
         raise SystemExit(f"unknown scene kind {k}")
     pa = f' data-push="{push}"' if push else ""
