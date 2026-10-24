@@ -1,0 +1,76 @@
+{
+ "date": "2026-10-24",
+ "format": "REEL",
+ "topic": "Chrome warns before insecure HTTP sites",
+ "keyword": "SECURE",
+ "spec": {
+  "tag": "Chrome HTTP",
+  "voice": "am_onyx",
+  "speed": 1.05,
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "googlechrome",
+    "kicker": "New from Google Chrome, Oct 21",
+    "title": "Chrome now stops people at your door",
+    "accent": "stops",
+    "say": "If your website doesn't show that little lock, Chrome now stops your customers before your page even loads."
+   },
+   {
+    "kind": "sources",
+    "say": "On October twenty first, Google turned on a new Chrome default. It now asks permission before it opens any site that isn't secure. Google says Chrome is the first browser to do this.",
+    "items": [
+     {
+      "publication": "Google Blog",
+      "domain": "blog.google",
+      "logo": "google",
+      "date": "Oct 21, 2026",
+      "headline": "Chrome Now Warns Before Insecure HTTP Connections",
+      "accent": "Warns Before"
+     },
+     {
+      "publication": "Android Authority",
+      "domain": "androidauthority.com",
+      "logo": "android",
+      "date": "Oct 21, 2026",
+      "headline": "Google Chrome is done warning you about insecure websites after the fact",
+      "accent": "after the fact"
+     }
+    ]
+   },
+   {
+    "kind": "point",
+    "icon": "triangle-alert",
+    "title": "A warning before your menu",
+    "accent": "warning",
+    "say": "Picture a mom ordering a birthday cake. She taps your bakery's link and gets a warning screen instead of your menu."
+   },
+   {
+    "kind": "stat",
+    "big": "95%",
+    "label": "of desktop users see no HTTP warning in a week",
+    "source": "Google Blog, Oct 2026",
+    "say": "Google says nearly ninety five percent of desktop users see no warning in a typical week. So if your site triggers one, you stand out for the wrong reason."
+   },
+   {
+    "kind": "cta",
+    "title": "Put the lock on before the next click.",
+    "accent": "lock",
+    "keyword": "SECURE",
+    "say": "We build secure, fast websites for Black-owned businesses, with the lock in place from day one. DM us secure and let's talk about yours."
+   }
+  ]
+ },
+ "caption": "Google Chrome HTTP warning checklist: 4 things every small business website needs now that Chrome warns visitors before insecure sites load.\n\nOn October 21, 2026, Google said Chrome now asks people for permission before it opens a website that isn't secure (HTTP instead of HTTPS). The setting is called Always Use Secure Connections. It's on by default for all Chrome users, and Google says Chrome is the first browser to do this. Your visitor sees a warning and decides whether to go back or continue.\n\nGoogle says nearly 95% of desktop users see no warning in a typical week, because most of the web is already secure. If your site is one of the few that isn't, your customers get stopped before they ever see your menu, prices or booking button.\n\nCheck these four things today:\n1. Your web address starts with https and shows the lock in Chrome.\n2. Every link you share (Instagram bio, Google Business Profile, flyers, email signature) uses the https version.\n3. Your booking, contact and checkout pages open without a warning.\n4. Your security certificate is set to renew, so the lock never quietly disappears.\n\nAt Blackwell Graphics we design and build secure, fast websites and brand identities for Black-owned businesses in the US, with HTTPS set up from day one. DM us \"SECURE\" to talk through your site, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner whose website hasn't been touched in a while.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleChrome #SmallBusinessTips #WebDesign",
+ "caption_drafts": {
+  "checklist (published)": "Google Chrome HTTP warning checklist: 4 things every small business website needs now that Chrome warns visitors before insecure sites load.\n\nOn October 21, 2026, Google said Chrome now asks people for permission before it opens a website that isn't secure (HTTP instead of HTTPS). The setting is called Always Use Secure Connections. It's on by default for all Chrome users, and Google says Chrome is the first browser to do this. Your visitor sees a warning and decides whether to go back or continue.\n\nGoogle says nearly 95% of desktop users see no warning in a typical week, because most of the web is already secure. If your site is one of the few that isn't, your customers get stopped before they ever see your menu, prices or booking button.\n\nCheck these four things today:\n1. Your web address starts with https and shows the lock in Chrome.\n2. Every link you share (Instagram bio, Google Business Profile, flyers, email signature) uses the https version.\n3. Your booking, contact and checkout pages open without a warning.\n4. Your security certificate is set to renew, so the lock never quietly disappears.\n\nAt Blackwell Graphics we design and build secure, fast websites and brand identities for Black-owned businesses in the US, with HTTPS set up from day one. DM us \"SECURE\" to talk through your site, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner whose website hasn't been touched in a while.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleChrome #SmallBusinessTips #WebDesign",
+  "explainer": "Google Chrome now warns visitors before opening insecure websites, and it matters for every small business with an older site.\n\nOn October 21, 2026, Google turned on Always Use Secure Connections for all Chrome users. Before a page without HTTPS loads, Chrome asks the visitor for permission to continue. Google says Chrome is the first browser to do this.\n\nMost sites already pass. Google says nearly 95% of desktop users see no warning in a typical week. The sites that do trigger it now meet customers with a warning screen instead of a homepage.\n\nAt Blackwell Graphics we build secure, fast websites for Black-owned businesses. DM us \"SECURE\" or visit blackwellgraphics.com (link in bio).\n\nSave this and check your site tonight.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleChrome #SmallBusinessTips #WebDesign",
+  "provocation": "Would a customer still book with you after Chrome warned them about your website? Small business owners with older sites need to ask that this week.\n\nOn October 21, 2026, Google made Chrome ask permission before opening any site that isn't secure. One bakery site loads its menu. The one across town loads a warning first. Same cakes, different first impression.\n\nGoogle says nearly 95% of desktop users see no warning in a typical week, so the sites that trigger one stand out fast.\n\nAt Blackwell Graphics we build secure websites and brands for Black-owned businesses. DM us \"SECURE\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner who needs to hear it.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleChrome #SmallBusinessTips #WebDesign"
+ },
+ "alt_text": "Motion graphics explainer about Google Chrome's new HTTP warning, showing articles from the Google Blog and Android Authority, a 95 percent stat, and ending with a DM SECURE button.",
+ "sources": [
+  "https://blog.google/security/chrome-now-warns-before-insecure-http-connections/",
+  "https://www.androidauthority.com/google-chrome-https-security-warnings-default-3725570/",
+  "https://piunikaweb.com/2026/10/22/google-chrome-http-warnings-default/"
+ ]
+}
