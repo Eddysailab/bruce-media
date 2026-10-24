@@ -1,0 +1,9 @@
+{
+  "name": "bruce-reel-engine",
+  "private": true,
+  "description": "Logo and icon libraries for engine/reel.py",
+  "dependencies": {
+    "lucide-static": "1.61.0",
+    "simple-icons": "16.35.0"
+  }
+}

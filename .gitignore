@@ -1,0 +1,3 @@
+engine/node_modules/
+engine/.cache/
+__pycache__/
