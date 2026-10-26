@@ -1,0 +1,83 @@
+{
+ "date": "2026-10-26",
+ "format": "REEL",
+ "topic": "Meta business terms let it crawl your website",
+ "keyword": "CRAWL",
+ "spec": {
+  "tag": "Meta crawl terms",
+  "voice": "am_onyx",
+  "speed": 1.05,
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "meta",
+    "kicker": "Meta business terms, Nov 20",
+    "title": "Meta wants to crawl your website",
+    "accent": "crawl",
+    "say": "If your business has an Instagram page, Meta's new terms say it can crawl your website too."
+   },
+   {
+    "kind": "sources",
+    "say": "Meta's new terms cover every business on Facebook or Instagram. After publisher pushback, the start moved from October thirtieth to November twentieth.",
+    "items": [
+     {
+      "publication": "Social Media Today",
+      "domain": "socialmediatoday.com",
+      "date": "Oct 25, 2026",
+      "headline": "Meta delays business terms update over data scraping concerns",
+      "accent": "data scraping"
+     },
+     {
+      "publication": "PPC Land",
+      "domain": "ppc.land",
+      "date": "Oct 23, 2026",
+      "headline": "Meta delays website-crawling terms to Nov 20 after publisher complaints",
+      "accent": "website-crawling"
+     }
+    ]
+   },
+   {
+    "kind": "point",
+    "icon": "bot",
+    "title": "Their bot. Your pages.",
+    "accent": "Your pages.",
+    "say": "The clause lets Meta's software access, index and collect content from sites tied to your business."
+   },
+   {
+    "kind": "point",
+    "icon": "store",
+    "title": "Your prices and photos, in scope",
+    "accent": "in scope",
+    "say": "Picture a salon owner. Her price list and booking page live on a site linked to her Instagram."
+   },
+   {
+    "kind": "point",
+    "icon": "file-code",
+    "title": "robots.txt is your say",
+    "accent": "your say",
+    "body": "Meta says it respects it. The terms don't say so.",
+    "say": "Meta says a file called robots dot text still blocks its crawler. That promise isn't in the terms. Keep using Meta after November twentieth, and you've agreed."
+   },
+   {
+    "kind": "cta",
+    "title": "Decide what Meta sees on your site.",
+    "accent": "Meta sees",
+    "keyword": "CRAWL",
+    "say": "We build websites for Black-owned businesses so you decide what crawlers see. DM us crawl."
+   }
+  ]
+ },
+ "caption": "Meta's new business terms let it crawl your website. Here's a 4-step checklist for Black-owned businesses on Instagram before November 20.\n\nMeta updated its Commercial Terms, which cover any business with a Facebook or Instagram presence. One clause lets Meta use automated software to access, index and collect content from websites tied to your products or services. The terms were set to start October 30. On October 23, after pushback from publishers, Meta moved the date to November 20, 2026. Keep using Meta's tools for business after that date and you've accepted them.\n\nMeta calls the concern largely a misunderstanding and took out a line about training. It also says you can still block its crawler with your robots.txt file. Fast Company, Nieman Lab and PPC Land report that this promise isn't written into the terms themselves.\n\nBefore November 20:\n1. Find out who controls your website and can edit robots.txt.\n2. Open yoursite.com/robots.txt and see what it allows today.\n3. List the pages you'd rather not have crawled, like price sheets or client galleries.\n4. Decide on purpose what Meta's crawler can read, and keep a record of it.\n\nAt Blackwell Graphics we build websites for Black-owned businesses, set up so you decide what crawlers see. DM us \"CRAWL\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who sells on Instagram.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #InstagramForBusiness #SmallBusinessTips #WebDesign",
+ "caption_drafts": {
+  "checklist (published)": "Meta's new business terms let it crawl your website. Here's a 4-step checklist for Black-owned businesses on Instagram before November 20.\n\nMeta updated its Commercial Terms, which cover any business with a Facebook or Instagram presence. One clause lets Meta use automated software to access, index and collect content from websites tied to your products or services. The terms were set to start October 30. On October 23, after pushback from publishers, Meta moved the date to November 20, 2026. Keep using Meta's tools for business after that date and you've accepted them.\n\nMeta calls the concern largely a misunderstanding and took out a line about training. It also says you can still block its crawler with your robots.txt file. Fast Company, Nieman Lab and PPC Land report that this promise isn't written into the terms themselves.\n\nBefore November 20:\n1. Find out who controls your website and can edit robots.txt.\n2. Open yoursite.com/robots.txt and see what it allows today.\n3. List the pages you'd rather not have crawled, like price sheets or client galleries.\n4. Decide on purpose what Meta's crawler can read, and keep a record of it.\n\nAt Blackwell Graphics we build websites for Black-owned businesses, set up so you decide what crawlers see. DM us \"CRAWL\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who sells on Instagram.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #InstagramForBusiness #SmallBusinessTips #WebDesign",
+  "explainer": "Meta website crawling terms: what Black-owned small businesses on Facebook and Instagram need to know before November 20.\n\nMeta's updated Commercial Terms cover any business with a Facebook or Instagram presence. A clause lets Meta's software access, index and collect content from sites tied to your products or services, for advertising and business products.\n\nThe start date was October 30. On October 23 Meta pushed it to November 20, 2026 after publishers objected. Meta says robots.txt still works to block its crawler, though that line isn't in the terms.\n\nYour website is where your prices, photos and booking live. We build websites for Black-owned businesses with that control built in. DM us \"CRAWL\" or visit blackwellgraphics.com (link in bio).\n\nSave this before November 20.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #InstagramForBusiness #SmallBusinessTips #WebDesign",
+  "provocation": "Do you know what Meta can read on your small business website once its new terms start November 20? Most Black-owned businesses on Instagram don't.\n\nMeta's new Commercial Terms let its software access, index and collect content from websites tied to any business on Facebook or Instagram. Your Instagram is the storefront. Your website is the back office, with the price list, the photos and the booking page.\n\nMeta moved the start date from October 30 to November 20, 2026 after publishers pushed back. It says robots.txt can still block its crawler. The terms don't say that.\n\nWe build websites for Black-owned businesses so you decide what crawlers see. DM us \"CRAWL\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner who'd want to know.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #InstagramForBusiness #SmallBusinessTips #WebDesign"
+ },
+ "alt_text": "Motion graphics explainer about Meta's new business terms that let Meta crawl your website, showing articles from Social Media Today and PPC Land, ending with a DM CRAWL button.",
+ "sources": [
+  "https://www.socialmediatoday.com/news/meta-delays-business-terms-update-over-data-scraping-concerns/833905/",
+  "https://ppc.land/meta-delays-website-crawling-terms-to-nov-20-after-publisher-complaints/",
+  "https://www.fastcompany.com/91628981/meta-quietly-delays-controversial-update-that-critics-say-will-allow-website-scraping",
+  "https://www.niemanlab.org/2026/10/meta-delays-rollout-of-terms-that-would-allow-broad-scraping-of-news-sites-legal-experts-are-still-skeptical/"
+ ]
+}
