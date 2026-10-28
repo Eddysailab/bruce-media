@@ -1,0 +1,68 @@
+{
+ "spec": {
+  "tag": "Google Ads AI",
+  "slides": [
+   {
+    "kind": "cover",
+    "kicker": "Spotted in Google Ads, Oct 24",
+    "title": "Google's AI now writes part of your ad",
+    "sub": "It reads your reviews from across the web, writes a short summary and shows it in your Search ad. You can't edit a word of it."
+   },
+   {
+    "kind": "point",
+    "title": "Your reviews become ad copy",
+    "body": "Google's help page says its AI gathers reviews from across the web and turns them into short, positive commentary shown with your ad."
+   },
+   {
+    "kind": "point",
+    "title": "You can't change the words",
+    "body": "Google says advertisers cannot edit or customize the text, because it represents customer feedback. The page lists no way to turn it off."
+   },
+   {
+    "kind": "point",
+    "title": "Live in the US, in English",
+    "body": "It runs on English Search campaigns in the US, UK, Australia and India, in every ad position on Google.com. Google decides when it shows."
+   },
+   {
+    "kind": "stat",
+    "big": "84%",
+    "title": "said they'd buy after an AI summary",
+    "body": "Compared with 52% who read the original reviews, in a UC San Diego study cited by PPC Land.",
+    "source": "PPC Land, Oct 2026"
+   },
+   {
+    "kind": "point",
+    "title": "What they say is your ad now",
+    "body": "The words customers use about you are turning into marketing. A clear brand promise gives them the right words to repeat."
+   },
+   {
+    "kind": "cta",
+    "title": "Give customers the right words to say about you.",
+    "body": "We build brand identities and websites for Black-owned businesses, so your promise is clear long before the first review. DM us REVIEWS to talk it through.",
+    "keyword": "REVIEWS"
+   }
+  ]
+ },
+ "caption": "Google Ads AI review summaries checklist: 4 things small business and Black-owned business owners should fix now.\n\nGoogle is now showing AI-written review summaries inside Search ads. Its help page says Google AI gathers reviews from across the web and turns them into short, positive commentary shown with your ad. Advertisers can't edit the text, and the page lists no way to turn it off. PPC Land and The Keyword reported it on October 24 to 26, 2026. It runs on English Search campaigns in the US, UK, Australia and India.\n\nSo the way customers describe you is turning into ad copy. Here's what to tighten up first:\n1. One clear line on your website that says what you do and who it's for.\n2. The same business name, logo and photos on Google, Yelp, Facebook and Instagram.\n3. A simple ask after every job that tells happy customers where to leave a review.\n4. Replies to your reviews that sound like you, every time.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses, so your promise is clear before the first review is written. DM us \"REVIEWS\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who runs Google Ads.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleAds #SmallBusinessMarketing #SmallBusinessBranding",
+ "caption_drafts": {
+  "checklist (published)": "Google Ads AI review summaries checklist: 4 things small business and Black-owned business owners should fix now.\n\nGoogle is now showing AI-written review summaries inside Search ads. Its help page says Google AI gathers reviews from across the web and turns them into short, positive commentary shown with your ad. Advertisers can't edit the text, and the page lists no way to turn it off. PPC Land and The Keyword reported it on October 24 to 26, 2026. It runs on English Search campaigns in the US, UK, Australia and India.\n\nSo the way customers describe you is turning into ad copy. Here's what to tighten up first:\n1. One clear line on your website that says what you do and who it's for.\n2. The same business name, logo and photos on Google, Yelp, Facebook and Instagram.\n3. A simple ask after every job that tells happy customers where to leave a review.\n4. Replies to your reviews that sound like you, every time.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses, so your promise is clear before the first review is written. DM us \"REVIEWS\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who runs Google Ads.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleAds #SmallBusinessMarketing #SmallBusinessBranding",
+  "explainer": "Google Ads now adds AI review summaries to Search ads, and small business owners can't edit them.\n\nGoogle's help page for review summaries says its AI gathers online reviews from across the web and turns them into short commentary shown with your ad. Google says the summaries are only positive, and it shows them only when it predicts they will improve ad performance. They run on English Search campaigns in the US, UK, Australia and India.\n\nThe part that matters for a Black-owned business: Google says advertisers cannot edit or customize the generated text, because it represents customer feedback. What customers say about you across the web now feeds the ad you pay for.\n\nAt Blackwell Graphics we build brand identities and websites for Black-owned businesses so the story customers repeat is the one you meant to tell. DM us \"REVIEWS\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who runs Google Ads.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleAds #SmallBusinessMarketing #SmallBusinessBranding",
+  "provocation": "If Google's AI wrote one line about your small business in your next ad, what would it say?\n\nThat's happening now. Google is showing AI-written review summaries inside Search ads in the US, UK, Australia and India. Google AI pulls reviews from across the web and writes short, positive commentary next to your ad. You can't edit it, and Google's help page lists no off switch.\n\nPicture two Black-owned salons running the same ad. One has reviews that keep saying \"clean, on time, worth it.\" The other has scattered reviews on three sites under two different names. Google's AI has very different material to work with.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses so customers know exactly what to say about you. DM us \"REVIEWS\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this for your next review push.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleAds #SmallBusinessMarketing #SmallBusinessBranding"
+ },
+ "alt_text": [
+  "Black slide with the headline: Google's AI now writes part of your ad, about Google Ads AI review summaries.",
+  "White slide 01 with the headline: Your reviews become ad copy.",
+  "Black slide 02 with the headline: You can't change the words.",
+  "White slide 03 with the headline: Live in the US, in English.",
+  "Black slide with a large 84% and the line: said they'd buy after an AI summary.",
+  "White slide 04 with the headline: What they say is your ad now.",
+  "Black slide with the headline: Give customers the right words to say about you, and a DM REVIEWS button."
+ ],
+ "sources": [
+  "https://support.google.com/google-ads/answer/18760807",
+  "https://ppc.land/google-ai-writes-positive-only-review-summaries-into-search-ads-in-4-markets/",
+  "https://ppc.land/review-summaries/",
+  "https://www.thekeyword.co/news/google-ads-review-summaries",
+  "https://searchengineland.com/google-confirms-ai-generated-review-summaries-in-search-ads-498977"
+ ]
+}
