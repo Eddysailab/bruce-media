@@ -1,0 +1,93 @@
+{
+ "date": "2026-10-30",
+ "format": "REEL",
+ "topic": "Google Business Profile ordering controls",
+ "keyword": "ORDER",
+ "spec": {
+  "tag": "Google ordering",
+  "voice": "am_onyx",
+  "speed": 1.05,
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "google",
+    "kicker": "Google Business Profile, Oct 28",
+    "title": "Restaurants just got the off switch",
+    "accent": "off switch",
+    "say": "If you own a restaurant, Google just let you switch off the delivery apps on your profile."
+   },
+   {
+    "kind": "sources",
+    "say": "On October twenty eighth, Google said owners can turn off any ordering provider themselves, right from the Business Profile dashboard.",
+    "items": [
+     {
+      "publication": "Search Engine Roundtable",
+      "domain": "seroundtable.com",
+      "date": "Oct 28, 2026",
+      "headline": "Google Business Profiles Finally Adds Third-Party Ordering Controls",
+      "accent": "Ordering Controls"
+     },
+     {
+      "publication": "Search Engine Journal",
+      "domain": "searchenginejournal.com",
+      "date": "Oct 28, 2026",
+      "headline": "Google Gives Restaurants Direct Control Over Ordering Providers",
+      "accent": "Direct Control"
+     }
+    ]
+   },
+   {
+    "kind": "logos",
+    "title": "Pickup, delivery, or neither",
+    "accent": "neither",
+    "logos": [
+     "doordash",
+     "ubereats",
+     "grubhub",
+     "instacart"
+    ],
+    "names": {
+     "grubhub": "Grubhub",
+     "ubereats": "Uber Eats",
+     "doordash": "DoorDash",
+     "instacart": "Instacart"
+    },
+    "say": "Uber Eats, DoorDash, Grubhub. Each one gets separate switches for pickup and delivery."
+   },
+   {
+    "kind": "point",
+    "icon": "hourglass",
+    "title": "No more five day wait",
+    "accent": "five day wait",
+    "say": "Before this, you had to ask each app to pull its link, and they had up to five business days."
+   },
+   {
+    "kind": "point",
+    "icon": "badge-dollar-sign",
+    "title": "Your margins, your call",
+    "accent": "your call",
+    "say": "Picture a family kitchen where one app's cut eats the profit on every plate. Google's own team says if a provider doesn't fit your margins, turn it off."
+   },
+   {
+    "kind": "cta",
+    "title": "Send hungry customers to your own site.",
+    "accent": "your own site.",
+    "keyword": "ORDER",
+    "say": "Google also lets you add your own ordering link. We build websites for Black-owned restaurants worth sending it to. DM us order."
+   }
+  ]
+ },
+ "caption": "Google Business Profile ordering controls: a 4-step check for Black-owned businesses that sell food, now that you can switch off delivery apps yourself.\n\nOn October 28, 2026, Google said restaurants can turn off individual third-party ordering providers, like Uber Eats, DoorDash, Grubhub and Instacart, right from the Business Profile dashboard. Each provider gets separate switches for pickup and delivery. Before this, you had to ask every app to remove its link, and Google's help page gave them up to five business days. Google's policy page also says every partner integration starts switched on by default.\n\nLisa Landsman, who leads SMB success at Google, put it plainly: if a provider no longer fits your operations or your margins, you can turn it off yourself.\n\nYour 4-step check:\n1. Open Food ordering in your Business Profile and look at which apps are listed.\n2. Go app by app and decide on pickup, delivery, both or neither based on your margins.\n3. Add your own ordering link so Google has somewhere direct to send hungry customers.\n4. Tap every link that's left and make sure it opens an accurate menu.\n\nSwitching an app off only pays when the place you send people instead looks good and works on a phone.\n\nAt Blackwell Graphics we design websites, menus and branding for Black-owned restaurants and food businesses. DM us \"ORDER\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this for your next profile check, or send it to a restaurant owner you know.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #RestaurantMarketing #SmallBusinessBranding",
+ "caption_drafts": {
+  "checklist (PUBLISHED)": "Google Business Profile ordering controls: a 4-step check for Black-owned businesses that sell food, now that you can switch off delivery apps yourself.\n\nOn October 28, 2026, Google said restaurants can turn off individual third-party ordering providers, like Uber Eats, DoorDash, Grubhub and Instacart, right from the Business Profile dashboard. Each provider gets separate switches for pickup and delivery. Before this, you had to ask every app to remove its link, and Google's help page gave them up to five business days. Google's policy page also says every partner integration starts switched on by default.\n\nLisa Landsman, who leads SMB success at Google, put it plainly: if a provider no longer fits your operations or your margins, you can turn it off yourself.\n\nYour 4-step check:\n1. Open Food ordering in your Business Profile and look at which apps are listed.\n2. Go app by app and decide on pickup, delivery, both or neither based on your margins.\n3. Add your own ordering link so Google has somewhere direct to send hungry customers.\n4. Tap every link that's left and make sure it opens an accurate menu.\n\nSwitching an app off only pays when the place you send people instead looks good and works on a phone.\n\nAt Blackwell Graphics we design websites, menus and branding for Black-owned restaurants and food businesses. DM us \"ORDER\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this for your next profile check, or send it to a restaurant owner you know.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #RestaurantMarketing #SmallBusinessBranding",
+  "explainer": "Google Business Profile now lets restaurants switch off delivery apps, and it matters for every Black-owned small business that sells food.\n\nOn October 28, 2026, Google said owners can turn off individual third-party ordering providers like Uber Eats, DoorDash, Grubhub and Instacart from the Business Profile dashboard, with separate switches for pickup and delivery. Until now, you had to ask each provider to take its link down, and they had up to five business days to do it.\n\nYou can also add your own ordering link, so the profile can point people straight to you.\n\nAt Blackwell Graphics we design websites, menus and branding for Black-owned restaurants. DM us \"ORDER\" or visit blackwellgraphics.com (link in bio).\n\nSend this to a restaurant owner you know.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #RestaurantMarketing #SmallBusinessBranding",
+  "provocation": "Which delivery app is your Google Business Profile sending customers to right now? Black-owned small businesses that sell food can finally choose.\n\nGoogle's policy page says every partner integration starts switched on by default. On October 28, 2026, Google gave restaurants their own switch: turn off Uber Eats, DoorDash, Grubhub or Instacart for pickup, delivery or both, straight from the dashboard. No more asking each app and waiting up to five business days.\n\nPicture two kitchens on the same block. One sends every Google order through an app. The other sends people to its own site.\n\nAt Blackwell Graphics we design websites, menus and branding for Black-owned restaurants. DM us \"ORDER\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your next profile check.\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #RestaurantMarketing #SmallBusinessBranding"
+ },
+ "pick_reason": "Checklist gives owners 4 concrete steps the 37s video had no time for (save-worthy); search phrase and Black-owned businesses inside first 125 characters; topic has real practical steps.",
+ "alt_text": "Motion graphics explainer about Google Business Profile ordering controls for restaurants, showing articles from Search Engine Roundtable and Search Engine Journal, DoorDash, Uber Eats, Grubhub and Instacart tiles, and ending with a DM ORDER button.",
+ "sources": [
+  "https://www.seroundtable.com/google-business-profiles-ordering-controls-42411.html",
+  "https://www.searchenginejournal.com/google-restaurants-opt-out-ordering-providers/594794/",
+  "https://support.google.com/business/answer/10842217?hl=en"
+ ]
+}
