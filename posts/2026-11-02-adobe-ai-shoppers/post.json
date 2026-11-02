@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-02",
+ "format": "REEL",
+ "topic": "Adobe AI shopping traffic and site readability",
+ "keyword": "VISIBLE",
+ "spec": {
+  "tag": "AI shoppers",
+  "voice": "am_onyx",
+  "speed": 1.05,
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "adobe",
+    "kicker": "Adobe retail data, Oct 29",
+    "title": "AI shoppers spend 83% more per visit",
+    "accent": "83% more",
+    "say": "Shoppers who find a store through AI now spend eighty three percent more per visit."
+   },
+   {
+    "kind": "sources",
+    "say": "That's from Adobe, which tracked over a trillion U.S. retail visits.",
+    "items": [
+     {
+      "publication": "Adobe Blog",
+      "domain": "business.adobe.com",
+      "date": "Oct 29, 2026",
+      "headline": "AI Traffic Drives 83% Higher Revenue Per Visit",
+      "accent": "83% Higher Revenue"
+     },
+     {
+      "publication": "Small Business Trends",
+      "domain": "smallbiztrends.com",
+      "date": "Nov 1, 2026",
+      "headline": "AI-Driven Retail Traffic Surges 71%, Converts 90% Better",
+      "accent": "Converts 90% Better"
+     }
+    ]
+   },
+   {
+    "kind": "stat",
+    "big": "90%",
+    "label": "better conversion from AI shoppers in September",
+    "source": "Adobe, Oct 2026",
+    "say": "They also converted ninety percent better in September."
+   },
+   {
+    "kind": "point",
+    "icon": "scan-eye",
+    "title": "AI can't pick what it can't read",
+    "accent": "can't read",
+    "say": "Picture a shopper asking AI where to buy a gift. It only sends her to stores it can read."
+   },
+   {
+    "kind": "stat",
+    "big": "63%",
+    "label": "of the average retail homepage is readable to AI",
+    "source": "Adobe, Oct 2026",
+    "say": "Adobe found over a third of the average retail homepage is invisible to AI."
+   },
+   {
+    "kind": "point",
+    "icon": "trending-up",
+    "title": "Black Friday AI traffic: up 95%",
+    "accent": "up 95%",
+    "say": "And AI traffic on Black Friday is expected to nearly double."
+   },
+   {
+    "kind": "cta",
+    "title": "Build a site AI can read and recommend.",
+    "accent": "recommend.",
+    "keyword": "VISIBLE",
+    "say": "Adobe's fix is clear product details, FAQs and return policies. We build websites for Black-owned businesses that AI can read. DM us visible."
+   }
+  ]
+ },
+ "caption": "AI shopping traffic checklist: 4 things Black-owned businesses should fix on their website before Black Friday, based on Adobe's new data.\n\nOn October 29, 2026, Adobe reported that shoppers who reached U.S. retail sites from AI tools spent 83% more per visit in September and converted 90% better than other visitors. AI traffic to U.S. retail sites grew 71% year over year, and Adobe expects it to be up 95% on Black Friday.\n\nThe catch: Adobe scored the average U.S. retail homepage at 63% on its Citation Readability Score. More than a third of what's on that page is invisible to AI.\n\nYour 4-point check:\n1. Put your product details in real text, not only inside images.\n2. Add an FAQ that answers what customers ask you every week.\n3. Make your return or refund policy easy to find.\n4. Say plainly on your homepage what you sell and who it's for.\n\nAdobe's own advice is pages that answer shoppers' questions: product details, buying guides, FAQs and return policies.\n\nAt Blackwell Graphics we design websites and branding for Black-owned businesses that people and AI can both read. DM us \"VISIBLE\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this for your pre-holiday website check, or send it to a business owner who sells online.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #AISearch #SmallBusinessTips #WebDesign",
+ "caption_drafts": {
+  "checklist (published)": "AI shopping traffic checklist: 4 things Black-owned businesses should fix on their website before Black Friday, based on Adobe's new data.\n\nOn October 29, 2026, Adobe reported that shoppers who reached U.S. retail sites from AI tools spent 83% more per visit in September and converted 90% better than other visitors. AI traffic to U.S. retail sites grew 71% year over year, and Adobe expects it to be up 95% on Black Friday.\n\nThe catch: Adobe scored the average U.S. retail homepage at 63% on its Citation Readability Score. More than a third of what's on that page is invisible to AI.\n\nYour 4-point check:\n1. Put your product details in real text, not only inside images.\n2. Add an FAQ that answers what customers ask you every week.\n3. Make your return or refund policy easy to find.\n4. Say plainly on your homepage what you sell and who it's for.\n\nAdobe's own advice is pages that answer shoppers' questions: product details, buying guides, FAQs and return policies.\n\nAt Blackwell Graphics we design websites and branding for Black-owned businesses that people and AI can both read. DM us \"VISIBLE\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSave this for your pre-holiday website check, or send it to a business owner who sells online.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #AISearch #SmallBusinessTips #WebDesign",
+  "explainer": "Adobe's new AI shopping data matters for every small business that sells online, and Black-owned businesses heading into the holidays should look closely.\n\nOn October 29, 2026, Adobe published an analysis of over 1 trillion visits to U.S. retail sites. In September, shoppers arriving from AI tools spent 83% more per visit, converted 90% better, and spent 73% more time on site than other visitors.\n\nAdobe also found the average U.S. retail homepage scores 63% on its Citation Readability Score, so more than a third of the page is invisible to AI. It expects AI traffic to be up 95% on Black Friday.\n\nAt Blackwell Graphics we build websites and branding for Black-owned businesses that AI can read and shoppers trust. DM us \"VISIBLE\" or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who sells online.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #AISearch #SmallBusinessTips #WebDesign",
+  "provocation": "If an AI assistant read your small business website today, how much of it could it actually see?\n\nAdobe says the average U.S. retail homepage scores 63% on its Citation Readability Score. More than a third of the page is invisible to AI systems.\n\nThat gap now costs real money. Adobe reported on October 29, 2026 that shoppers coming from AI tools spent 83% more per visit in September than other shoppers. A year earlier, AI visitors converted worse than everyone else.\n\nPicture two Black-owned boutiques. One has its products, sizes and return policy written out clearly. The other has a slideshow of photos. The AI can only recommend the first.\n\nAt Blackwell Graphics we design websites for Black-owned businesses that AI can read. DM us \"VISIBLE\" or visit blackwellgraphics.com (link in bio).\n\nSave this before Black Friday.\n\n#BlackOwnedBusiness #BlackEntrepreneurs #AISearch #SmallBusinessTips #WebDesign"
+ },
+ "caption_pick_reason": "Checklist gives four concrete website fixes the video had no time for, which earns saves; topic phrase and 'Black-owned businesses' land in the first 125 characters; the topic has real practical steps.",
+ "alt_text": [
+  "Motion graphics explainer about Adobe's AI shopping traffic data, showing that AI shoppers spend 83% more per visit, articles from the Adobe Blog and Small Business Trends, and a DM VISIBLE button."
+ ],
+ "sources": [
+  "https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday",
+  "https://smallbiztrends.com/ai-driven-retail-traffic-surges-71-converts-90-better/"
+ ]
+}
