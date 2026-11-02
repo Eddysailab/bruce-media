@@ -7,7 +7,7 @@ Usage: python3 engine/reel.py spec.json posts/YYYY-MM-DD-slug [--preview]
 Run engine/setup_reel.sh once per session first (voice model, logo and icon libraries).
 
 spec.json:
-{"tag": "Yelp AI", "voice": "am_onyx", "speed": 1.05,
+{"tag": "Yelp AI",
  "scenes": [
   {"kind":"hook",    "say":"...", "logo":"yelp", "kicker":"New from Yelp, Oct 20", "title":"...", "accent":"word"},
   {"kind":"sources", "say":"...", "items":[
@@ -35,7 +35,9 @@ SR = 24000
 MIN_S, MAX_S = 30.0, 40.0
 GAP = 0.22           # breath after each scene's narration
 SFX_LEVEL = 0.7      # sound effects at 70% (Eddy, Oct 24: 30% quieter)
-WPS = 3.6            # rough spoken words per second, for length advice
+VOICE = "af_bella"   # narrator: Kokoro Bella, American female (Eddy, Nov 2 2026; replaced am_onyx)
+SPEED = 1.1          # Bella's pace for reels
+WPS = 3.2            # Bella's spoken words per second at SPEED, for length advice
 
 LIMITS = {
     "hook": {"kicker": 34, "title": 42},
@@ -616,7 +618,10 @@ def main():
     out = pathlib.Path(args[1]); out.mkdir(parents=True, exist_ok=True)
     validate(spec)
     scenes = spec["scenes"]
-    clips = tts(scenes, spec.get("voice", "am_onyx"), float(spec.get("speed", 1.05)))
+    # The narrator is fixed by Eddy. A "voice" or "speed" in the spec is ignored so old specs can't switch it back.
+    if spec.get("voice", VOICE) != VOICE or float(spec.get("speed", SPEED)) != SPEED:
+        print(f"note: spec voice/speed ignored; narrator is fixed to {VOICE} at {SPEED}", file=sys.stderr)
+    clips = tts(scenes, VOICE, SPEED)
     caps, total = build_timeline(scenes, clips)
     if not MIN_S <= total <= MAX_S:
         diff = (MIN_S + 2 - total) if total < MIN_S else (total - MAX_S + 2)

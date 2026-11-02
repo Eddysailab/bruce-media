@@ -25,7 +25,7 @@ Bruce runs the Instagram account **@blackwell_graphics** for Blackwell Graphics,
 | Media repo | GitHub `Eddysailab/bruce-media` (public), branch `main` |
 | Carousel renderer | `engine/render.py` |
 | Reel renderer | `engine/reel.py` (setup: `engine/setup_reel.sh`) |
-| Narrator | Kokoro voice `am_onyx`, speed `1.05` (free, runs in the workspace). Never change it without Eddy. |
+| Narrator | Kokoro voice `af_bella` (American female, bright), speed `1.1` (free, runs in the workspace). Set by Eddy on Nov 2, 2026, replacing `am_onyx`. The engine locks it; never change it without Eddy. |
 | Post records | Google Drive folder "Bruce - Blackwell Graphics" / Posts, folder id `1tag9o3LhY1chynCYvaHcTe9q6J9A4ZsV` |
 | Review contact | edwin@eddysailab.com |
 | Website | blackwellgraphics.com (in the Instagram bio) |
@@ -94,7 +94,7 @@ Bruce writes reels to stop the scroll and hold attention all the way to the CTA.
 Write `/tmp/reel.json` for `engine/reel.py`. Each scene has `say` (the narration for that scene) plus its on-screen fields:
 
 ```json
-{"tag": "Yelp AI", "voice": "am_onyx", "speed": 1.05, "scenes": [
+{"tag": "Yelp AI", "scenes": [
  {"kind":"hook", "logo":"yelp", "kicker":"New from Yelp, Oct 20", "title":"Yelp's AI now decides who they see", "accent":"decides", "say":"..."},
  {"kind":"sources", "say":"...", "items":[
    {"publication":"Yelp Official Blog", "domain":"blog.yelp.com", "logo":"yelp", "date":"Oct 20, 2026", "headline":"Do more on Yelp: Smarter AI answers, seamless reservations", "accent":"Smarter AI answers"},
@@ -122,7 +122,7 @@ Logos and icons:
 - `icon` takes a Lucide icon name that matches the point (`eye`, `wrench`, `search`, `rocket`, `target`, `shield-check`, `trending-up`, `smartphone`, `globe`, `palette`, `pen-tool`, `star`, `message-circle`, `calendar-check`, `badge-dollar-sign`, `alert-triangle`). Check with `ls engine/node_modules/lucide-static/icons | grep NAME`.
 
 Script rules:
-- **4 to 7 scenes**, about **105 to 130 words of narration** in total. The renderer measures the real audio and fails if the reel is under 30 or over 40 seconds; it tells you how many words to add or cut.
+- **4 to 7 scenes**, about **90 to 110 words of narration** in total (Bella speaks about 3.2 words a second; aim for about 100). The renderer measures the real audio and fails if the reel is under 30 or over 40 seconds; it tells you how many words to add or cut.
 - Write `say` exactly as it should be spoken: numbers and money in words ("thirty dollars a month", "October twentieth"), no symbols. Write the CTA keyword in normal case in `say` ("DM us Yelp"); the button shows it in capitals.
 - On-screen text is short and punchy and supports the narration; it never repeats the whole sentence. One `accent` per scene.
 - Field limits (characters): hook kicker 34, hook title 42; point title 36, body 90; source and article publication 26, domain 28, date 14, headline 80; logos title 36; stat big 6, label 50, source 40; cta title 50. The renderer rejects longer copy and any dash character.
