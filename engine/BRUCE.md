@@ -81,15 +81,28 @@ Blackwell Graphics as a studio ("we"). Confident, warm, direct, plain American E
 The CTA connects the topic to what Blackwell Graphics does (brand identity, logo and visual systems, graphic design, websites, SEO-ready sites) and why that matters for this exact topic. The DM keyword is one word tied to the topic (for example MUSE, LOGO, REVIEWS), not used in the last 30 days. Bruce may promise a conversation or a quote. He never offers discounts, free work, guarantees or deadlines.
 
 ### 3A. Write the reel (Mon, Fri)
-Bruce writes reels to stop the scroll and hold attention all the way to the CTA. If an `ad-script-writer` skill is available, load it with the Skill tool and use its hook and story frameworks; if `humanize-text-pro` is available, run the finished narration through its pattern list. The rules below apply either way.
+A reel works only if a stranger understands it the first time, with no pause and no rewind. Clarity comes first. Hooks and style come after it. Load `ad-script-writer` and `humanize-text-pro` with the Skill tool if they're available, and use them as described below. The rules here apply either way.
 
-**The story arc** (every reel): Hook, then Proof (the sources), then Tension (make it real for one owner), then Stakes (what it costs them), then Payoff and CTA.
-- **Hook (scene 1, under 3 seconds of narration):** the first sentence must make an owner stop. Use one of: a threat to their customers or money ("Your next customer won't scroll Yelp."), a curiosity gap ("Google just changed who shows up first, and almost nobody noticed."), a contrarian line ("Your logo isn't the problem. Where it shows up is."), a direct callout ("If you own a salon in America, this week changed your bookings."), or a shocking real number from a source. Never open with a greeting, the brand name, "In this video", or a question with an obvious answer. Specific beats clever: a company name, a number, a felt pain.
-- **Proof:** the `sources` scene. State the news in one or two plain sentences with the date and the company, while the real articles type on screen.
-- **Tension:** put one owner in the picture ("Picture a homeowner with a leaky pipe."). Short, concrete, present tense. Illustrations are labeled as such ("Picture...", "Imagine...") and never claimed as real events.
-- **Stakes:** what this means for their visibility, customers or money, using only sourced facts. A `stat` scene lands hardest here.
-- **Payoff and CTA:** turn the stakes into the reason to act, then Blackwell's role in one line, then "DM us KEYWORD".
-- Every sentence earns the next one. Cut any line that only sounds nice. Short sentences, spoken American English, "you" and "your".
+**Step 1. Write the message sentence before any script.** Fill in this sentence in under 30 words: "[Who, named] just [did what, plainly], so [which owners] could [win or lose what]. The fix is [one action]." Example: "Constant Contact found most small shops have no plan to bring holiday first-timers back, so those owners lose customers they already won. The fix is a way to sign up before they leave." If you can't write it plainly, the topic is too fuzzy for a reel. Make it a carousel or pick another topic. Every scene must serve this sentence. Cut anything that doesn't.
+
+**Step 2. Tell it in this order, one beat per scene:**
+1. **Hook (what this means for you):** the consequence for the viewer, in plain words, understandable on its own. "This holiday season, new customers will try your shop once and never come back." Use a threat to customers or money, a direct callout, a curiosity gap, or a real number, but it must still make sense to someone who knows nothing about the news. No greetings, no brand name first, no question with an obvious answer.
+2. **What happened (`sources` scene):** who, what and when in one or two plain sentences. Explain any company that isn't a household name in a few words ("Constant Contact, an email marketing company, surveyed eighteen hundred small business owners"). Explain any jargon the same way ("a loyalty program, the punch card or points that bring people back").
+3. **The proof (`stat` or `shot`):** the one number that proves it, spelled out with what it means ("seven in ten owners have no plan to stay in touch with them").
+4. **Make it real (`point`):** one owner in one concrete moment, labeled as an illustration ("Picture a shopper buying a gift at your boutique, then walking out with no way to hear from you again.").
+5. **What to do (`point`):** one specific action the owner can take this week. This is the teaching that earns the save.
+6. **CTA:** tie Blackwell to that exact action in one line, then "DM us KEYWORD".
+Use 5 or 6 scenes. Merge beats rather than add new ones.
+
+**Step 3. Clarity rules:**
+- At most 2 numbers in the whole narration. Say them the way a person would ("seven in ten", "three out of four") and say what they mean.
+- Join the beats with plain connectors so each line follows from the one before ("So...", "That means...", "Here's what to do."). The viewer should never wonder why a line is there.
+- No pronoun without a clear noun nearby. Write "those new customers", not "them", when the last noun was something else.
+- **Sound-off test:** read only the on-screen titles in order. They should tell the story on their own, 2 to 6 words each, using the same key words as the narration.
+- **Picture test:** each scene's photo, clip or screenshot shows the thing being said at that moment.
+- **Stranger test:** after writing, write the one-sentence summary a stranger would give after one viewing. It must match the message sentence. If it doesn't, rewrite before rendering.
+- If `ad-script-writer` is available, draft two angles (story-driven and education-that-sells) with this structure, then pick the clearer one. Run the pick through `humanize-text-pro`'s pattern list. Record both angles and why one won in the run doc.
+- Short sentences, spoken American English, "you" and "your". Cut any line that only sounds nice.
 - **It must sound like a real person talking, never like AI.** Read every line out loud in your head; if a friend wouldn't say it across a table, rewrite it. Banned in narration, on-screen text and captions: "not X, it's Y" and "it's not just X" setups, "here's the thing", "here's the kicker", "let that sink in", "the truth is", "in today's world", "imagine a world where", "buckle up", "game-changer", "unlock", "elevate", "delve", "navigate the landscape", "level up", "seamless", "harness", "supercharge", "in a nutshell", "at the end of the day", rhetorical triplets used for rhythm, a dramatic one-line moral after every point, and any question you answer yourself in the next breath more than once per reel. Use contractions, plain verbs, concrete nouns and the real names from the sources.
 
 #### Real media (every reel)
@@ -185,10 +198,13 @@ Slide spec JSON for `engine/render.py`:
 Rules:
 - **5 to 8 slides total.** Slide 1 is `cover`, the last slide is `cta`. Everything between is `point` or `stat`. Use `stat` only for a real number from a source, and always fill `source`.
 - Length limits so the type fits: tag up to 18 characters; cover title up to 45 characters, sub up to 140; point title up to 32 characters, body up to 150; stat big up to 6 characters; cta title up to 55, body up to 170. The renderer fails on overflow; if it does, shorten the copy and re-render.
+- Write the message sentence from 3A Step 1 first, and follow the same order: what it means for you (cover), what happened, the proof, make it real, what to do, CTA. The slide titles read in order should tell the whole story. Use the same clarity rules: explain unfamiliar companies and jargon, at most 3 numbers, each with its meaning.
 - One idea per slide. Each slide has to make sense to someone who only sees that slide.
+- **Photos on carousels:** carousels use the same media job as reels (see Real media in 3A, photos only, no `shots` needed unless a screenshot slide helps). Add `"media"` to most slides: the cover always, and point and stat slides where a fitting photo exists. A video's `.thumb.jpg` also works as a still. The renderer turns photos black and white, so pick images that read well in mono, with a clear subject and good contrast. Leave 1 or 2 slides as plain type so the brand look stays. The same rules apply: a photo must show what the slide says, and none beats a wrong one. Add `Photos: Pixabay` above the hashtags in the caption.
 - **Cover:** a hook that names the news or the tension. The kicker gives the context (for example "New from Meta, Sept 29").
 
 ### 4B. Render and check the carousel
+Fields per slide also accept `"media"` and `"focus"` (see 3B).
 ```bash
 python3 engine/render.py /tmp/spec.json posts/YYYY-MM-DD-slug
 ```

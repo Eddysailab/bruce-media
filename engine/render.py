@@ -6,9 +6,12 @@ Slide kinds:
   point: {"kind":"point","title":"...","body":"..."}
   stat:  {"kind":"stat","big":"73%","title":"...","body":"...","source":"..."}
   cta:   {"kind":"cta","title":"...","body":"...","keyword":"LOGO"}
+Any slide can add "media": "engine/.cache/media/SLUG/p1_2.jpg" (a Pixabay photo or a video's .thumb.jpg,
+or an article screenshot) and optional "focus": "50% 30%". Photos are turned black and white to keep the brand.
+Cover and cta show it full-bleed under a dark gradient; point and stat show it as a panel above the text.
 Needs: ./fonts/bricolage.woff2 and ./assets/logo-black.png (white version is derived)
 """
-import base64, html, json, sys, pathlib
+import base64, html, io, json, sys, pathlib
 from playwright.sync_api import sync_playwright
 
 HERE = pathlib.Path(__file__).parent
@@ -69,14 +72,44 @@ h1,h2{font-weight:800;font-stretch:78%;line-height:.92;letter-spacing:-.02em}
  font-stretch:80%;padding:22px 44px;border-radius:18px;letter-spacing:.02em}
 .dm .alt{font-size:32px;font-weight:500}
 .dm .alt b{font-weight:800}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.15) 28%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.94) 100%)}
+.hasbg>*:not(.bg){position:relative;z-index:1}
+.hasbg{color:#fff}
+.panel{margin-top:44px;height:560px;border-radius:28px;background-size:cover;background-position:center;position:relative;flex:none}
+.light .panel{box-shadow:0 0 0 4px #000}.dark .panel{box-shadow:0 0 0 2px rgba(255,255,255,.25)}
+.panel .pn{position:absolute;left:28px;bottom:24px;font-size:120px;font-weight:800;font-stretch:75%;line-height:.8;color:transparent;
+ -webkit-text-stroke:3px #fff;text-shadow:0 6px 30px rgba(0,0,0,.4)}
+.mpoint h2{font-size:84px}.mpoint .blk{margin-bottom:64px}
+.mstat .panel{height:370px}.mstat .big{font-size:170px;margin-top:36px}.mstat h2{font-size:64px}.mstat .blk{margin-bottom:56px;margin-top:24px}
+.hasbg.cover h1{margin-top:auto}
+.hasbg.cta .bg::after{background:rgba(0,0,0,.8)}
 """
+
+ROOT = HERE.parent
+
+def photo(path, w, h):
+    """Black-and-white, contrast-lifted, cropped photo as a data URL (keeps the black and white brand)."""
+    from PIL import Image, ImageOps, ImageEnhance
+    f = pathlib.Path(path)
+    if not f.is_absolute():
+        f = ROOT / path if (ROOT / path).exists() else pathlib.Path.cwd() / path
+    if not f.exists():
+        raise SystemExit(f"media not found: {path}")
+    im = ImageOps.exif_transpose(Image.open(f)).convert("L")
+    im = ImageOps.autocontrast(im, cutoff=1)
+    im = ImageEnhance.Contrast(im).enhance(1.12)
+    im.thumbnail((w * 2, h * 2 if h else 4000))
+    buf = io.BytesIO(); im.convert("RGB").save(buf, "JPEG", quality=86)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
 def e(t):
     return html.escape(t or "")
 
-def frame(theme, tag, i, n, inner, cls):
-    logo = LOGO["white" if theme == "dark" else "black"]
-    return f"""<div class="s {theme} {cls}">
+def frame(theme, tag, i, n, inner, cls, bg=""):
+    logo = LOGO["white" if theme == "dark" or bg else "black"]
+    bgd = f'<div class="bg" style="background-image:url({bg[0]});background-position:{bg[1]}"></div>' if bg else ""
+    return f"""<div class="s {theme} {cls}{' hasbg' if bg else ''}">{bgd}
 <div class="top"><span class="pill">{e(tag)}</span><span class="count">{i:02d} / {n:02d}</span></div>
 {inner}
 <div class="foot"><img src="data:image/png;base64,{logo}"><span class="handle">@blackwell_graphics</span></div>
@@ -84,11 +117,25 @@ def frame(theme, tag, i, n, inner, cls):
 
 def slide_html(s, i, n, tag):
     k = s["kind"]
+    m = s.get("media"); pos = e(s.get("focus") or "50% 40%")
+    full = (photo(m, W, H), pos) if m and k in ("cover", "cta") else ""
+    panel = photo(m, W, 600) if m and k in ("point", "stat") else ""
+    if k == "point" and panel:
+        theme = "light" if i % 2 == 0 else "dark"
+        inner = f"""<div class="panel" style="background-image:url({panel});background-position:{pos}"><span class="pn">{s['_n']:02d}</span></div>
+<div class="blk"><h2>{e(s['title'])}</h2><p class="body" style="margin-top:30px">{e(s.get('body'))}</p></div>"""
+        return frame(theme, tag, i, n, inner, "point mpoint")
+    if k == "stat" and panel:
+        theme = "light" if i % 2 == 0 else "dark"
+        src = f'<div class="src">Source: {e(s["source"])}</div>' if s.get("source") else ""
+        inner = f"""<div class="panel" style="background-image:url({panel});background-position:{pos}"></div><div class="big">{e(s['big'])}</div>
+<div class="blk"><h2>{e(s['title'])}</h2><p class="body" style="margin-top:22px">{e(s.get('body'))}</p>{src}</div>"""
+        return frame(theme, tag, i, n, inner, "stat mstat")
     if k == "cover":
         inner = f"""<div class="kicker">{e(s.get('kicker'))}</div><h1>{e(s['title'])}</h1>
 <div class="sub">{e(s.get('sub'))}</div>
 <div class="swipe" style="margin-top:56px"><span>Swipe</span><span class="ln"></span></div>"""
-        return frame("dark", tag, i, n, inner, "cover")
+        return frame("dark", tag, i, n, inner, "cover", full)
     if k == "point":
         theme = "light" if i % 2 == 0 else "dark"
         inner = f"""<div class="num">{s['_n']:02d}</div><div class="blk"><div class="rule"></div>
@@ -104,7 +151,7 @@ def slide_html(s, i, n, tag):
         inner = f"""<h1>{e(s['title'])}</h1><p class="body">{e(s.get('body'))}</p>
 <div class="dm"><span class="k">DM &ldquo;{e(s['keyword'].upper())}&rdquo;</span>
 <span class="alt">or tap the link in bio: <b>blackwellgraphics.com</b></span></div>"""
-        return frame("dark", tag, i, n, inner, "cta")
+        return frame("dark", tag, i, n, inner, "cta", full)
     raise ValueError(k)
 
 def main(spec_path, out):
@@ -128,7 +175,8 @@ def main(spec_path, out):
             pg.evaluate("document.fonts.ready")
             pg.wait_for_timeout(600)
             # overflow guard: fail loudly if text spills past the slide
-            over = pg.evaluate("document.querySelector('.s').scrollHeight > 1350")
+            over = pg.evaluate("(()=>{const s=document.querySelector('.s'),f=s.querySelector('.foot');"
+                               "return s.scrollHeight>1350||f.getBoundingClientRect().bottom>1350-60})()")
             if over:
                 raise SystemExit(f"slide {i} overflows, shorten the copy")
             pg.screenshot(path=str(out / f"slide-{i:02d}.png"), clip={"x": 0, "y": 0, "width": W, "height": H})

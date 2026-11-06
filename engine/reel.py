@@ -24,8 +24,8 @@ Any scene except sources can add real media: "media": "path/to/photo.jpg" or "pa
 (Pixabay files from the media-cache branch, or a screenshot), shown full-bleed with a slow push-in
 under a dark gradient. "layout": "split" puts it in a rounded panel above the text instead (point only).
 "focus": "50% 30%" sets which part of the photo stays in frame.
-  {"kind":"shot",    "say":"...", "media":"shots/s1.jpg", "publication":"PR Newswire", "date":"Nov 3, 2026",
-   "title":"optional line above the phone", "accent":"word"}   a real article screenshot scrolling in a phone
+  {"kind":"shot",    "say":"...", "media":"shots/s1.jpg", "publication":"PR Newswire", "date":"Nov 3, 2026"}
+   a real article screenshot in a phone: holds on the headline ("hold" seconds, default 2), then scrolls
 "say" is the narration, written exactly as spoken ("thirty dollars a month"). Captions come from it.
 Every reel needs one "sources" scene (2 or 3 real articles, real headlines).
 """
@@ -40,7 +40,7 @@ W, H, FPS = 1080, 1920, 30
 SR = 24000
 MIN_S, MAX_S = 30.0, 40.0
 GAP = 0.22           # breath after each scene's narration
-SFX_LEVEL = 0.7      # sound effects at 70% (Eddy, Oct 24: 30% quieter)
+SFX_LEVEL = 0.35     # sound effects at 35% (Eddy, Nov 6: another 50% quieter; was 0.7 from Oct 24)
 VOICE = "af_bella"   # narrator: Kokoro Bella, American female (Eddy, Nov 2 2026; replaced am_onyx)
 SPEED = 1.1          # Bella's pace for reels
 WPS = 3.2            # Bella's spoken words per second at SPEED, for length advice
@@ -52,7 +52,7 @@ LIMITS = {
     "logos": {"title": 36},
     "stat": {"big": 6, "label": 50, "source": 40},
     "cta": {"title": 50},
-    "shot": {"title": 36, "publication": 26, "date": 14},
+    "shot": {"publication": 26, "date": 14},
 }
 SRC_LIMITS = {"publication": 26, "date": 14, "headline": 80, "domain": 28}
 TRANSITIONS = ["zoom", "push", "whip", "circle", "wipe"]
@@ -641,10 +641,6 @@ def scene_html(s, i, logos, ctx):
         ctx.sfx(t0 + 0.15, "whoosh"); ctx.sfx(t0 + 0.6, "pop"); ctx.shake(t0 + 0.6, 6)
         lg = brand_svg(s.get("logo")) or ""
         lab = f'<div class="shotlab" data-fx="rise" data-a="0.1" style="opacity:0"><span class="badge">Read it</span>{lg and lg.replace("<svg", "<svg width=44 height=44")}<span>{e(s.get("publication"))}</span><span class="date">{e(s.get("date"))}</span></div>'
-        head = ""
-        if s.get("title"):
-            t, _ = words_html(s["title"], s.get("accent"), 0.2, 0.06, "punch", ctx, t0)
-            head = f'<h2 style="position:absolute;left:80px;right:140px;top:200px;font-size:64px;z-index:5">{t}</h2>'
         src = s["_media"]["src"]
         phone = f'<div class="phone" data-fx="phone" data-a="0.15" style="opacity:0"><div class="scr"><div class="notch"></div><img src="{e(src)}" data-fx="scroll" data-a="{s.get("hold", 2.0)}" data-max="{s.get("scroll", 0.35)}"></div></div>'
         top = f'<div class="content" style="top:1350px;height:0"></div>'
