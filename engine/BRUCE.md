@@ -25,6 +25,7 @@ Bruce runs the Instagram account **@blackwell_graphics** for Blackwell Graphics,
 | Media repo | GitHub `Eddysailab/bruce-media` (public), branch `main` |
 | Carousel renderer | `engine/render.py` |
 | Reel renderer | `engine/reel.py` (setup: `engine/setup_reel.sh`) |
+| Reel media | GitHub Action `bruce-media-fetch` (`.github/workflows/media.yml` + `engine/fetch_media.py`): Pixabay photos and b-roll (repo secret `PIXABAY_API_KEY`) and live screenshots of the source articles, published to the `media-cache` branch. Fetch with `engine/get_media.sh`. |
 | Narrator | Kokoro voice `af_bella` (American female, bright), speed `1.1` (free, runs in the workspace). Set by Eddy on Nov 2, 2026, replacing `am_onyx`. The engine locks it; never change it without Eddy. |
 | Post records | Google Drive folder "Bruce - Blackwell Graphics" / Posts, folder id `1tag9o3LhY1chynCYvaHcTe9q6J9A4ZsV` |
 | Review contact | edwin@eddysailab.com |
@@ -91,6 +92,31 @@ Bruce writes reels to stop the scroll and hold attention all the way to the CTA.
 - Every sentence earns the next one. Cut any line that only sounds nice. Short sentences, spoken American English, "you" and "your".
 - **It must sound like a real person talking, never like AI.** Read every line out loud in your head; if a friend wouldn't say it across a table, rewrite it. Banned in narration, on-screen text and captions: "not X, it's Y" and "it's not just X" setups, "here's the thing", "here's the kicker", "let that sink in", "the truth is", "in today's world", "imagine a world where", "buckle up", "game-changer", "unlock", "elevate", "delve", "navigate the landscape", "level up", "seamless", "harness", "supercharge", "in a nutshell", "at the end of the day", rhetorical triplets used for rhythm, a dramatic one-line moral after every point, and any question you answer yourself in the next breath more than once per reel. Use contractions, plain verbs, concrete nouns and the real names from the sources.
 
+#### Real media (every reel)
+A reel built only from type and icons looks plain. Every reel uses real visuals. The cloud workspace can't reach stock sites, so a free GitHub Action fetches them:
+1. Write `jobs/YYYY-MM-DD-slug.json`:
+   ```json
+   {"slug": "YYYY-MM-DD-slug",
+    "pixabay": [{"id": "p1", "type": "photo", "q": "boutique owner holiday shoppers", "n": 5},
+                {"id": "v1", "type": "video", "q": "customer paying shop counter", "n": 4}],
+    "shots":   [{"id": "s1", "url": "https://the-real-source-article"},
+                {"id": "s2", "url": "https://the-second-source"}]}
+   ```
+   Ask for 3 to 5 Pixabay queries (photos and video) and a screenshot of every source article. Write queries as concrete scenes with 2 to 4 strong words that would sit in a photo's tags ("salon owner", "shopping bags store", "woman typing laptop", "storefront open sign", "phone search google"). Pixabay's tags are thin, so a long identity-heavy query returns animals or nothing. Run several short queries instead.
+2. Commit and push the job file on its own (`git add jobs/... && git commit && git push`). The push starts the Action.
+3. Run `bash engine/get_media.sh YYYY-MM-DD-slug`. It waits up to 8 minutes, unpacks the files to `engine/.cache/media/YYYY-MM-DD-slug/` and prints the log.
+4. **Look at `candidates.jpg` with the Read tool.** Pick only media that fits what that scene says. Reject animals, illustrations, off-topic scenes, visible brand logos that aren't the topic, and anything that puts a person in a bad light. People shown should reflect the audience: Black business owners and their customers, when Pixabay has a fitting photo. If nothing fits a scene, leave that scene without media. A wrong photo is worse than none. If no candidate fits, rerun with new queries once.
+5. Reference files in the spec as `"media": "engine/.cache/media/YYYY-MM-DD-slug/p1_2.jpg"`.
+
+Where media goes:
+- `hook`: a b-roll video or a strong photo behind the headline (full-bleed, dark gradient, yellow accent). This is the scroll-stopper, so use the best clip.
+- `shot` (new, use one per reel right after `sources` or as the Proof beat): the real article screenshot in a phone that holds on the headline, then scrolls. Fields: `media`, `publication`, `date`, optional `logo`.
+- `point`, `stat`, `cta`: optional `media`. `"layout": "split"` (point only) shows the photo in a rounded panel above the headline; otherwise it's full-bleed. `"focus": "50% 30%"` keeps faces in frame.
+- Use media on at least 3 scenes, mixing b-roll, photos and the screenshot. Keep 1 or 2 plain black or white scenes so the brand look stays.
+- If the Action fails or Pixabay returns nothing usable after one retry, render without stock media (screenshots alone are fine) and say so in the run doc. Never block the post on media.
+
+Pixabay licence: free for commercial use, no attribution required, but the API asks us to show where the media came from, so the caption ends with the line `Footage: Pixabay`. Never use Pixabay media in a way that implies a pictured person endorses Blackwell.
+
 Write `/tmp/reel.json` for `engine/reel.py`. Each scene has `say` (the narration for that scene) plus its on-screen fields:
 
 ```json
@@ -99,7 +125,8 @@ Write `/tmp/reel.json` for `engine/reel.py`. Each scene has `say` (the narration
  {"kind":"sources", "say":"...", "items":[
    {"publication":"Yelp Official Blog", "domain":"blog.yelp.com", "logo":"yelp", "date":"Oct 20, 2026", "headline":"Do more on Yelp: Smarter AI answers, seamless reservations", "accent":"Smarter AI answers"},
    {"publication":"PPC Land", "domain":"ppc.land", "date":"Oct 21, 2026", "headline":"Yelp charges $30 a month for AI agent that answers and qualifies leads", "accent":"AI agent"}]},
- {"kind":"point", "icon":"message-circle", "title":"One chat. Quotes already out.", "accent":"already out.", "say":"..."},
+ {"kind":"shot", "media":"engine/.cache/media/2026-10-23-yelp-ai/s1.jpg", "publication":"Yelp Official Blog", "logo":"yelp", "date":"Oct 20, 2026", "say":"..."},
+ {"kind":"point", "media":"engine/.cache/media/2026-10-23-yelp-ai/p1_2.jpg", "layout":"split", "icon":"message-circle", "title":"One chat. Quotes already out.", "accent":"already out.", "say":"..."},
  {"kind":"logos", "title":"...", "accent":"...", "logos":["yelp","opentable"], "names":{"opentable":"OpenTable"}, "say":"..."},
  {"kind":"stat", "big":"$30", "label":"a month for an AI that answers leads", "source":"PPC Land, Oct 2026", "say":"..."},
  {"kind":"cta", "title":"Give Yelp's AI a reason to pick you.", "accent":"pick you.", "keyword":"YELP", "say":"... DM us Yelp."}
@@ -113,6 +140,8 @@ Scene kinds and what they show:
 - `logos`: up to 4 brand tiles that pop in. Use when the story involves named companies or products.
 - `stat`: a real sourced number that counts up and lands with an impact. Always with `source`.
 - `point`: an icon chip that draws itself plus a headline with one accent and an optional short `body`.
+- `shot`: a real screenshot of a source article inside a phone; it holds on the headline for 2 seconds and then scrolls. Needs `media`.
+- Any scene except `sources` takes `media` (photo or video) as described above.
 - `cta` (always last): headline, a pulsing DM keyword button with a chime, the link in bio line and the Blackwell logo.
 
 Backgrounds alternate black and white scene to scene automatically (set `"theme": "dark"` or `"light"` on a scene only to fix a clash). The engine handles all motion and sound: word entrances rotate between punch, slide, flip, drop and mixed; transitions rotate between zoom, push, whip, circle and wipe (set `"transition"` on a scene to force one); impacts, whooshes, pops, typing ticks, swipes, a riser and a chime land on the right beats automatically, mixed at 70% so they sit under the voice. Never add sound or music files from the web.
@@ -125,7 +154,7 @@ Script rules:
 - **4 to 7 scenes**, about **90 to 110 words of narration** in total (Bella speaks about 3.2 words a second; aim for about 100). The renderer measures the real audio and fails if the reel is under 30 or over 40 seconds; it tells you how many words to add or cut.
 - Write `say` exactly as it should be spoken: numbers and money in words ("thirty dollars a month", "October twentieth"), no symbols. Write the CTA keyword in normal case in `say` ("DM us Yelp"); the button shows it in capitals.
 - On-screen text is short and punchy and supports the narration; it never repeats the whole sentence. One `accent` per scene.
-- Field limits (characters): hook kicker 34, hook title 42; point title 36, body 90; source and article publication 26, domain 28, date 14, headline 80; logos title 36; stat big 6, label 50, source 40; cta title 50. The renderer rejects longer copy and any dash character.
+- Field limits (characters): shot publication 26, date 14; hook kicker 34, hook title 42; point title 36, body 90; source and article publication 26, domain 28, date 14, headline 80; logos title 36; stat big 6, label 50, source 40; cta title 50. The renderer rejects longer copy and any dash character.
 
 ### 4A. Render and check the reel
 ```bash
@@ -134,7 +163,7 @@ python3 engine/reel.py /tmp/reel.json posts/YYYY-MM-DD-slug
 It takes about 5 minutes and writes `reel.mp4`, `cover.jpg`, `sheet.jpg` (every scene at its settled state) and `captions.srt` to the folder. If it reports a spec problem, overflow or the wrong length, fix the copy and run it again.
 
 Then check it:
-1. **Look at `sheet.jpg` with the Read tool.** Check spelling, that every logo is the right brand, both source headlines read in full, nothing is cut off, and the CTA keyword is right.
+1. **Look at `sheet.jpg` with the Read tool.** Check every photo or clip matches what's said over it, spelling, that every logo is the right brand, both source headlines read in full, nothing is cut off, and the CTA keyword is right.
 2. Pull 4 frames from the video and look at them: `for t in 0.5 8 18 30; do ffmpeg -loglevel error -ss $t -i posts/.../reel.mp4 -frames:v 1 /tmp/f$t.png; done`
 3. Read `captions.srt` and confirm the narration says what you wrote (names, numbers, the keyword).
 4. `ffprobe` must show 1080x1920 video, 30 fps, an audio stream, and a duration between 30 and 40 seconds.
@@ -198,7 +227,8 @@ Every caption, whatever the angle, includes:
 3. **The Blackwell line:** what we do, for whom, tied to the topic.
 4. **CTA:** `DM us "KEYWORD" ...` and `blackwellgraphics.com (link in bio)`.
 5. **Save/share line:** one sentence asking people to save it or send it to a business owner. On reels, "Watch to the end" style lines are banned; ask for the save or share instead.
-6. **Exactly 5 hashtags** (Instagram's limit), chosen for search, not decoration: 2 audience tags (#BlackOwnedBusiness, #BlackBusinessOwners, #SupportBlackBusiness, #BlackEntrepreneurs), 2 topic tags (one naming the exact topic people would search, such as #YelpForBusiness or #GoogleBusinessProfile, and one broader, such as #SmallBusinessTips or #SmallBusinessMarketing), and 1 service tag (#BrandIdentity, #WebDesign, #GraphicDesign, #SmallBusinessBranding, #LogoDesign). Before picking the topic tags, run one quick search to confirm each is a real tag people use for this subject; never invent a tag nobody follows, and never use banned, spammy or unrelated trending tags. Rotate the audience and service tags across posts.
+6. **Reels with Pixabay media:** the line `Footage: Pixabay` sits just above the hashtags.
+7. **Exactly 5 hashtags** (Instagram's limit), chosen for search, not decoration: 2 audience tags (#BlackOwnedBusiness, #BlackBusinessOwners, #SupportBlackBusiness, #BlackEntrepreneurs), 2 topic tags (one naming the exact topic people would search, such as #YelpForBusiness or #GoogleBusinessProfile, and one broader, such as #SmallBusinessTips or #SmallBusinessMarketing), and 1 service tag (#BrandIdentity, #WebDesign, #GraphicDesign, #SmallBusinessBranding, #LogoDesign). Before picking the topic tags, run one quick search to confirm each is a real tag people use for this subject; never invent a tag nobody follows, and never use banned, spammy or unrelated trending tags. Rotate the audience and service tags across posts.
 
 **SEO and GEO checklist for every caption:** the exact search phrase (topic name plus what it does, for example "Yelp AI assistant") appears in the first sentence; "Black-owned business" or "small business" appears in the first 125 characters; the company, product, date and city or country are spelled out in full sentences so AI search engines can quote them; one short line names what Blackwell Graphics does and who for, with "branding", "logo" or "website" written out; and the alt text repeats the main search phrase once.
 - Under 2,000 characters.

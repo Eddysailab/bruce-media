@@ -20,6 +20,12 @@ spec.json:
   {"kind":"point",   "say":"...", "title":"...", "accent":"...", "icon":"eye", "body":"optional"},
   {"kind":"cta",     "say":"...", "title":"...", "accent":"...", "keyword":"YELP"}
  ]}
+Any scene except sources can add real media: "media": "path/to/photo.jpg" or "path/to/clip.mp4"
+(Pixabay files from the media-cache branch, or a screenshot), shown full-bleed with a slow push-in
+under a dark gradient. "layout": "split" puts it in a rounded panel above the text instead (point only).
+"focus": "50% 30%" sets which part of the photo stays in frame.
+  {"kind":"shot",    "say":"...", "media":"shots/s1.jpg", "publication":"PR Newswire", "date":"Nov 3, 2026",
+   "title":"optional line above the phone", "accent":"word"}   a real article screenshot scrolling in a phone
 "say" is the narration, written exactly as spoken ("thirty dollars a month"). Captions come from it.
 Every reel needs one "sources" scene (2 or 3 real articles, real headlines).
 """
@@ -46,6 +52,7 @@ LIMITS = {
     "logos": {"title": 36},
     "stat": {"big": 6, "label": 50, "source": 40},
     "cta": {"title": 50},
+    "shot": {"title": 36, "publication": 26, "date": 14},
 }
 SRC_LIMITS = {"publication": 26, "date": 14, "headline": 80, "domain": 28}
 TRANSITIONS = ["zoom", "push", "whip", "circle", "wipe"]
@@ -108,6 +115,10 @@ def icon(name):
 def tts(scenes, voice, speed):
     from kokoro_onnx import Kokoro
     k = Kokoro(str(CACHE / "kokoro.onnx"), str(CACHE / "voices.bin"))
+    if "+" in voice or ":" in voice:   # blend recipe, e.g. "af_heart:0.6+af_bella:0.4"
+        parts = [(n, float(w or 1)) for n, _, w in (x.partition(":") for x in voice.split("+"))]
+        tot = sum(w for _, w in parts)
+        voice = sum(k.get_voice_style(n) * (w / tot) for n, w in parts)
     clips = []
     for s in scenes:
         a, sr = k.create(s["say"], voice=voice, speed=speed, lang="en-us")
@@ -318,6 +329,30 @@ h1{font-size:104px}h2{font-size:88px}
 .light .card{box-shadow:0 30px 80px rgba(0,0,0,.28),0 0 0 3px #000}
 .light .tile{box-shadow:0 0 0 3px #000 inset}
 .dark .tile{box-shadow:none}
+.bgm{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 45%;will-change:transform}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.28) 30%,rgba(0,0,0,.45) 55%,rgba(0,0,0,.9) 100%)}
+.photo{background:#000;color:#fff}
+.photo .content{text-shadow:0 4px 30px rgba(0,0,0,.55)}
+.photo .kicker,.photo .chip,.photo .dm{background:#fff;color:#000;text-shadow:none}
+.photo .acc .hb{background:#FFE14D}.photo .acc .t{color:#000;text-shadow:none}
+.photo .hlogo{box-shadow:none}
+.panel{position:absolute;left:80px;right:140px;top:360px;height:640px;border-radius:40px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.light .panel{box-shadow:0 0 0 4px #000}
+.panel .bgm{position:absolute;inset:0}
+.split .content{top:1040px;height:280px;justify-content:flex-start}
+.split h2{font-size:76px}
+.split .chip,.split .body{display:none}
+.phone{position:absolute;left:190px;width:700px;top:470px;height:860px;border-radius:64px;background:#0b0b0b;padding:22px;
+ box-shadow:0 50px 120px rgba(0,0,0,.6),0 0 0 3px #333}
+.light .phone{box-shadow:0 40px 100px rgba(0,0,0,.35),0 0 0 3px #000}
+.phone .scr{position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#fff}
+.phone .scr img{position:absolute;left:0;top:0;width:100%;will-change:transform}
+.phone .notch{position:absolute;left:50%;top:14px;width:150px;height:34px;margin-left:-75px;border-radius:20px;background:#0b0b0b;z-index:3}
+.shotlab{position:absolute;left:80px;right:140px;top:360px;display:flex;align-items:center;gap:18px;font-size:34px;font-weight:800}
+.shotlab .date{font-weight:500;opacity:.7;font-size:28px}
+.shotlab .badge{padding:10px 20px;border-radius:12px;font-size:26px;letter-spacing:.1em;text-transform:uppercase}
+.dark .shotlab .badge,.photo .shotlab .badge{background:#FFE14D;color:#000}.light .shotlab .badge{background:#000;color:#fff}
+.shot .content{top:1350px;height:0}
 #top{position:absolute;left:80px;right:140px;top:200px;display:flex;align-items:center;justify-content:space-between;z-index:50;mix-blend-mode:difference;color:#fff}
 #top img{height:66px}
 #top .pill{border:3px solid #fff;border-radius:999px;padding:10px 26px;font-size:25px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
@@ -417,6 +452,13 @@ function render(t) {
       else if (fx === 'count') { const e = outq(pr(lt, a, 0.9)); const to = +el.dataset.to, dec = +el.dataset.dec || 0;
         el.textContent = el.dataset.pre + (to * e).toFixed(dec) + el.dataset.suf;
         el.style.transform = `scale(${1 + 0.25 * Math.max(0, 1 - Math.abs((lt - a - 0.9) * 6))})`; }
+      else if (fx === 'kb') { const p = cl(lt / Math.max(1, s._dur + TR)); const z = +el.dataset.z || 1;
+        el.style.transform = `scale(${z * (1.16 - 0.12 * out(p))}) translate(${(el.dataset.dir === 'l' ? -1 : 1) * 18 * p}px, ${-12 * p}px)`; }
+      else if (fx === 'scroll') { const img = el; const h = img.naturalHeight * (img.clientWidth / Math.max(1, img.naturalWidth));
+        const room = Math.max(0, h - img.parentNode.clientHeight); const p = out(pr(lt, a, Math.max(1.5, s._dur - a - 0.4)));
+        img.style.transform = `translateY(${-room * Math.min(1, +el.dataset.max || 0.55) * p}px)`; }
+      else if (fx === 'phone') { const e = outq(pr(lt, a, 0.7)); el.style.opacity = cl(e * 3);
+        el.style.transform = `translateY(${(1 - e) * 700}px) rotate(${(1 - e) * 6}deg) scale(${1 + 0.03 * cl(lt / Math.max(1, s._dur))})`; }
       else if (fx === 'pulse') { const p = pr(lt, a, 0.5); const k = lt > a + 0.5 ? 1 + 0.045 * Math.sin((lt - a) * 6) : 0.4 + 0.6 * back(p);
         el.style.opacity = cl(p * 3); el.style.transform = `scale(${k})`; }
     });
@@ -434,6 +476,19 @@ function render(t) {
   }
 }
 window.render = render;
+async function prep(t) {   // point each video layer at its frame for time t, then wait for decode
+  const jobs = [];
+  document.querySelectorAll('img[data-vid]').forEach(img => {
+    const i = +img.dataset.vid, s = D.scenes[i], nx = D.scenes[i + 1];
+    const end = nx ? nx._start + TR : D.total + 1;
+    if (t < s._start || t > end) return;
+    const n = +img.dataset.n, f = Math.min(n, Math.floor((t - s._start) * 30) % n + 1);
+    const src = `${img.dataset.dir}/${String(f).padStart(4, '0')}.jpg`;
+    if (img.getAttribute('src') !== src) { img.setAttribute('src', src); jobs.push(img.decode().catch(() => 0)); }
+  });
+  await Promise.all(jobs);
+}
+window.prep = prep;
 """
 
 def e(x):
@@ -500,13 +555,60 @@ def card_html(it, a, rot, top, ctx, t0, type_dur=0.9):
 <div class="chrome"><i></i><i></i><i></i><span class="url">{e(dom)}</span></div>
 <div class="cbody"><div class="pub">{lg}<span>{e(it["publication"])}</span><span class="date">{e(it.get("date"))}</span></div><hr>{head}</div></div>'''
 
+VIDEO_EXT = (".mp4", ".mov", ".webm", ".m4v")
+
+def prepare_media(scenes, work, root):
+    """Copy photos and explode video clips into frames inside the work dir (page.html loads them by relative path)."""
+    work.mkdir(parents=True, exist_ok=True)
+    for i, s in enumerate(scenes):
+        m = s.get("media")
+        if not m:
+            continue
+        f = pathlib.Path(m)
+        if not f.is_absolute():
+            f = (root / m) if (root / m).exists() else (pathlib.Path.cwd() / m)
+        if not f.exists():
+            raise SystemExit(f"scene {i + 1} media not found: {m}")
+        if f.suffix.lower() in VIDEO_EXT:
+            d = work / f"f{i}"; d.mkdir(exist_ok=True)
+            secs = s["_dur"] + 0.6
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-stream_loop", "-1", "-i", str(f), "-t", f"{secs:.2f}", "-an",
+                            "-vf", "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30",
+                            "-q:v", "4", str(d / "%04d.jpg")], check=True)
+            n = len(list(d.glob("*.jpg")))
+            s["_media"] = {"video": True, "dir": d.name, "n": n, "src": f"{d.name}/0001.jpg"}
+        else:
+            from PIL import Image, ImageOps
+            im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
+            im.thumbnail((2000, 3200))
+            dst = work / f"m{i}.jpg"; im.save(dst, quality=88)
+            s["_media"] = {"video": False, "src": dst.name}
+
+def media_html(s, i, wrap=False):
+    m = s["_media"]
+    pos = e(s.get("focus") or "50% 40%")
+    if m["video"]:
+        img = f'<img class="bgm" data-vid="{i}" data-dir="{m["dir"]}" data-n="{m["n"]}" src="{m["src"]}" style="object-position:{pos}" data-fx="kb" data-z="0.94" data-dir2="r">'
+    else:
+        img = f'<img class="bgm" src="{e(m["src"])}" style="object-position:{pos}" data-fx="kb" data-dir="{"l" if i % 2 else "r"}">'
+    return f'<div class="panel" data-fx="pop" data-a="0.05" style="opacity:0">{img}</div>' if wrap else img
+
 def scene_html(s, i, logos, ctx):
     k, t0 = s["kind"], s["_start"]
     theme = s.get("theme") or ("dark" if i % 2 == 0 else "light")   # black and white alternate scene to scene
+    split = bool(s.get("_media")) and s.get("layout") == "split" and k == "point"
+    full = bool(s.get("_media")) and not split and k not in ("shot", "sources")
+    if full:
+        theme = "photo"
     style = s.get("style") or ["punch", "slide", "flip", "drop", "mix"][i % 5]
     ghost_word = s.get("ghost") or (s.get("accent") or s.get("keyword") or s.get("big") or "").split(" ")[0]
     deco = f'<div class="grid"></div><div class="ghost">{e(ghost_word)} {e(ghost_word)} {e(ghost_word)}</div>' \
            f'<div class="orb" style="width:420px;height:420px;left:640px;top:180px"></div><div class="orb" style="width:220px;height:220px;left:-60px;top:1250px"></div>'
+    if full or split:
+        deco = ""
+    mlayer = media_html(s, i, wrap=split) if (full or split) else ""
+    if full:
+        mlayer += '<div class="shade"></div>'
     push = ""
     if i > 0:
         ctx.sfx(t0, "whoosh")
@@ -535,6 +637,18 @@ def scene_html(s, i, logos, ctx):
             cards.append(card_html(it, 0.1 + j * step, rot, 56 + j * gapy, ctx, t0, type_dur=min(1.0, step * 0.55)))
         label = f'<div class="srclabel" data-fx="fade" data-a="0.6" style="opacity:0">Our sources</div>'
         inner = f'<div class="stack">{"".join(cards)}{label}</div>'
+    elif k == "shot":
+        ctx.sfx(t0 + 0.15, "whoosh"); ctx.sfx(t0 + 0.6, "pop"); ctx.shake(t0 + 0.6, 6)
+        lg = brand_svg(s.get("logo")) or ""
+        lab = f'<div class="shotlab" data-fx="rise" data-a="0.1" style="opacity:0"><span class="badge">Read it</span>{lg and lg.replace("<svg", "<svg width=44 height=44")}<span>{e(s.get("publication"))}</span><span class="date">{e(s.get("date"))}</span></div>'
+        head = ""
+        if s.get("title"):
+            t, _ = words_html(s["title"], s.get("accent"), 0.2, 0.06, "punch", ctx, t0)
+            head = f'<h2 style="position:absolute;left:80px;right:140px;top:200px;font-size:64px;z-index:5">{t}</h2>'
+        src = s["_media"]["src"]
+        phone = f'<div class="phone" data-fx="phone" data-a="0.15" style="opacity:0"><div class="scr"><div class="notch"></div><img src="{e(src)}" data-fx="scroll" data-a="{s.get("hold", 2.0)}" data-max="{s.get("scroll", 0.35)}"></div></div>'
+        top = f'<div class="content" style="top:1350px;height:0"></div>'
+        return f'<div class="L {theme} shot" id="L{i}" style="display:none;z-index:{i + 1}">{deco}{lab}{phone}{top}</div>'
     elif k == "article":
         it = {f: s.get(f) for f in ("publication", "domain", "logo", "date", "headline", "accent")}
         inner = f'<div class="stack">{card_html(it, 0.05, -2, 150, ctx, t0, 1.0)}</div>'
@@ -570,7 +684,7 @@ def scene_html(s, i, logos, ctx):
     else:
         raise SystemExit(f"unknown scene kind {k}")
     pa = f' data-push="{push}"' if push else ""
-    return f'<div class="L {theme}" id="L{i}" style="display:none;z-index:{i + 1}">{deco}<div class="content"{pa}>{inner}</div></div>'
+    return f'<div class="L {theme}{" split" if split else ""}" id="L{i}" style="display:none;z-index:{i + 1}">{deco}{mlayer}<div class="content"{pa}>{inner}</div></div>'
 
 def page(spec, scenes, caps, total, ctx):
     logos = logo_variants()
@@ -604,6 +718,8 @@ def validate(spec):
                     if len(it.get(f) or "") > lim: errs.append(f"scene {i} item {j} {f} is {len(it[f])} chars, max {lim}")
                 if not it.get("headline") or not it.get("publication"): errs.append(f"scene {i} item {j} needs publication and headline")
         if not s.get("say"): errs.append(f"scene {i} has no narration")
+        if s["kind"] == "shot" and not s.get("media"): errs.append(f"scene {i} shot needs media (a screenshot)")
+        if s["kind"] == "sources" and s.get("media"): errs.append(f"scene {i} sources scene can't take media")
         blob = json.dumps(s, ensure_ascii=False)
         if "—" in blob or "–" in blob: errs.append(f"scene {i} contains a dash character, remove it")
     if errs:
@@ -627,15 +743,21 @@ def main():
         diff = (MIN_S + 2 - total) if total < MIN_S else (total - MAX_S + 2)
         raise SystemExit(f"reel runs {total:.1f}s; it must land between {MIN_S:.0f} and {MAX_S:.0f}s. "
                          f"{'Add' if total < MIN_S else 'Cut'} about {diff * WPS:.0f} words of narration and re-render.")
+    work = out / "_work"
+    import shutil
+    shutil.rmtree(work, ignore_errors=True)
+    prepare_media(scenes, work, HERE.parent)
     ctx = Ctx()
     doc = page(spec, scenes, caps, total, ctx)
+    (work / "page.html").write_text(doc)
     build_audio(scenes, clips, total, ctx.events, out, sum(map(ord, out.name)))
 
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H})
-        pg.set_content(doc); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500)
+        pg.goto((work / "page.html").resolve().as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500)
+        pg.evaluate("Promise.all([...document.images].map(i => i.decode().catch(() => 0)))")
         over = []
         for i, s in enumerate(scenes):
             pg.evaluate(f"render({s['_start'] + s['_dur'] - 0.05})")
@@ -648,7 +770,8 @@ def main():
         from PIL import Image
         shots = []
         for s in scenes:
-            pg.evaluate(f"render({s['_start'] + min(s['_dur'] - 0.1, max(2.4, s['_dur'] * 0.75))})")
+            tq = s['_start'] + min(s['_dur'] - 0.1, max(2.4, s['_dur'] * 0.75))
+            pg.evaluate(f"prep({tq})"); pg.evaluate(f"render({tq})")
             shots.append(Image.open(io.BytesIO(pg.screenshot(type="jpeg", quality=80))))
         cw, ch = 270, 480
         cols = min(5, len(shots)); rows = math.ceil(len(shots) / cols)
@@ -656,7 +779,7 @@ def main():
         for j, im in enumerate(shots):
             sheet.paste(im.resize((cw, ch)), (10 + (j % cols) * (cw + 10), 10 + (j // cols) * (ch + 10)))
         sheet.save(out / "sheet.jpg", quality=85)
-        pg.evaluate(f"render({min(1.4, scenes[0]['_dur'] - 0.1)})")
+        pg.evaluate(f"prep({min(1.4, scenes[0]['_dur'] - 0.1)})"); pg.evaluate(f"render({min(1.4, scenes[0]['_dur'] - 0.1)})")
         pg.screenshot(path=str(out / "cover.jpg"), type="jpeg", quality=92)
         if not preview:
             nframes = int(math.ceil(total * FPS))
@@ -666,7 +789,7 @@ def main():
                                    "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out / "reel.mp4")],
                                   stdin=subprocess.PIPE)
             for f in range(nframes):
-                pg.evaluate(f"render({f / FPS})")
+                pg.evaluate(f"prep({f / FPS})"); pg.evaluate(f"render({f / FPS})")
                 ff.stdin.write(pg.screenshot(type="jpeg", quality=88))
             ff.stdin.close(); ff.wait()
             if ff.returncode: raise SystemExit("ffmpeg failed")
@@ -676,6 +799,7 @@ def main():
                                                 for j, c in enumerate(caps, 1)))
     if not preview:
         (out / "mix.wav").unlink(missing_ok=True)
+        shutil.rmtree(work, ignore_errors=True)
     mb = (out / "reel.mp4").stat().st_size / 1e6 if (out / "reel.mp4").exists() else 0
     print(json.dumps({"seconds": round(total, 1), "scenes": len(scenes), "sfx": len(ctx.events), "mp4_mb": round(mb, 1),
                       "files": sorted(x.name for x in out.iterdir())}))

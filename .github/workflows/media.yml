@@ -33,11 +33,13 @@ jobs:
           JOB: ${{ github.event.inputs.job }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          if [ -z "$JOB" ]; then JOB=$(git diff --name-only HEAD~1 HEAD -- jobs | tail -1); fi
+          if [ -z "$JOB" ]; then JOB=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'jobs/*.json' | tail -1); fi
           export JOB
+          [ -n "$JOB" ] || { echo "no new job file in this push"; exit 0; }
           python3 engine/fetch_media.py
       - name: Publish to media-cache branch
         run: |
+          [ -d out ] || { echo "nothing to publish"; exit 0; }
           cd out
           git config --global --add safe.directory "$PWD"
           git init -q -b media-cache

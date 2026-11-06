@@ -36,7 +36,8 @@ def rank(hits, q):
         tags = h.get("tags", "").lower()
         if any(b in tags for b in BAD): return -1
         return sum(1 for w in words if w in tags) + 0.001 * min(h.get("likes", 0), 900)
-    return [h for h in sorted(hits, key=score, reverse=True) if score(h) >= 1]
+    need = max(1, (len(words) + 1) // 2)   # most of the query has to show up in the tags
+    return [h for h in sorted(hits, key=score, reverse=True) if score(h) >= need]
 
 def pixabay(item, out, log):
     if not KEY:
@@ -111,7 +112,7 @@ def main():
     want = os.environ.get("JOB", "").strip()
     job = pathlib.Path(want) if want else (jobs[-1] if jobs else None)
     if not job or not job.exists():
-        sys.exit("no job file")
+        print("no job file to run"); sys.exit(0)
     spec = json.loads(job.read_text())
     slug = spec["slug"]
     out = pathlib.Path("out") / slug; out.mkdir(parents=True, exist_ok=True)
