@@ -25,6 +25,19 @@ def get(url, binary=False):
         data = r.read()
     return data if binary else json.loads(data)
 
+BAD = {"animation", "cartoon", "illustration", "vector", "3d", "render", "isometric", "clipart", "drawing", "anime"}
+STOP = {"a", "an", "the", "and", "of", "in", "on", "with", "at", "for", "to"}
+
+def rank(hits, q):
+    """Pixabay's own order drifts off-topic fast ("black woman" returns black dogs). Keep hits whose tags
+    share the most words with the query and drop illustrations and animations."""
+    words = [w for w in q.lower().split() if w not in STOP]
+    def score(h):
+        tags = h.get("tags", "").lower()
+        if any(b in tags for b in BAD): return -1
+        return sum(1 for w in words if w in tags) + 0.001 * min(h.get("likes", 0), 900)
+    return [h for h in sorted(hits, key=score, reverse=True) if score(h) >= 1]
+
 def pixabay(item, out, log):
     if not KEY:
         log.append(f"{item['id']}: skipped, PIXABAY_API_KEY secret is not set"); return []
@@ -32,8 +45,8 @@ def pixabay(item, out, log):
     q = urllib.parse.quote_plus(item["q"][:100])
     res = []
     if item.get("type") == "video":
-        d = get(f"https://pixabay.com/api/videos/?key={KEY}&q={q}&safesearch=true&per_page={max(3, n * 2)}&order=popular")
-        for k, h in enumerate(d.get("hits", [])[:n], 1):
+        d = get(f"https://pixabay.com/api/videos/?key={KEY}&q={q}&safesearch=true&video_type=film&per_page=40")
+        for k, h in enumerate(rank(d.get("hits", []), item["q"])[:n], 1):
             v = h["videos"].get("large") if h["videos"].get("large", {}).get("url") else h["videos"]["medium"]
             raw = out / f"_{item['id']}_{k}.mp4"; dst = out / f"{item['id']}_{k}.mp4"
             raw.write_bytes(get(v["url"], binary=True))
@@ -47,8 +60,8 @@ def pixabay(item, out, log):
             res.append({"file": dst.name, "type": "video", "query": item["q"], "tags": h.get("tags"), "page": h.get("pageURL"),
                         "user": h.get("user"), "seconds": h.get("duration")})
     else:
-        d = get(f"https://pixabay.com/api/?key={KEY}&q={q}&image_type=photo&safesearch=true&per_page={max(3, n * 2)}&order=popular")
-        for k, h in enumerate(d.get("hits", [])[:n], 1):
+        d = get(f"https://pixabay.com/api/?key={KEY}&q={q}&image_type=photo&safesearch=true&per_page=60")
+        for k, h in enumerate(rank(d.get("hits", []), item["q"])[:n], 1):
             url = h.get("largeImageURL") or h["webformatURL"]
             dst = out / f"{item['id']}_{k}.jpg"
             dst.write_bytes(get(url, binary=True))
