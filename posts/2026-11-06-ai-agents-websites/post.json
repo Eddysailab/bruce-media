@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-06",
+ "format": "REEL",
+ "topic": "AI agents visiting small business websites (Microsoft Clarity)",
+ "keyword": "AGENT",
+ "message_sentence": "Microsoft says AI agents now visit websites to shop and book for people, and those visits nearly doubled in three weeks, so small businesses need sites an agent can read. The fix is plain text for what you sell, prices, hours and booking.",
+ "spec": {
+  "tag": "AI agents",
+  "scenes": [
+   {
+    "kind": "hook",
+    "media": "engine/.cache/media/2026-11-06-ai-agents-websites/v2_2.mp4",
+    "kicker": "New from Microsoft, Nov 4",
+    "title": "Your next visitor might be a bot",
+    "accent": "a bot",
+    "say": "Your next website visitor might not be a person. It might be an AI shopping for one."
+   },
+   {
+    "kind": "sources",
+    "say": "On November fourth, Microsoft said AI agents now visit websites to shop and book for real people.",
+    "items": [
+     {
+      "publication": "Microsoft Clarity Blog",
+      "domain": "clarity.microsoft.com",
+      "date": "Nov 4, 2026",
+      "headline": "Agents act, LLMs recommend, and people browse.",
+      "accent": "Agents act"
+     },
+     {
+      "publication": "PPC Land",
+      "domain": "ppc.land",
+      "date": "Nov 5, 2026",
+      "headline": "ChatGPT reaches a fifth of Google search volume as Taboola blames AI",
+      "accent": "a fifth of Google"
+     }
+    ]
+   },
+   {
+    "kind": "stat",
+    "big": "2x",
+    "label": "weekly AI agent visits in three weeks",
+    "source": "Microsoft Clarity, Nov 2026",
+    "say": "Weekly visits from those agents nearly doubled in just three weeks."
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-06-ai-agents-websites/s1.jpg",
+    "publication": "Microsoft Clarity Blog",
+    "date": "Nov 4, 2026",
+    "say": "Microsoft even built a test to see if an agent can finish a task on your site. If your prices and hours are hard to find, you make that job harder."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-06-ai-agents-websites/p3_3.jpg",
+    "layout": "split",
+    "icon": "file-text",
+    "title": "Spell it out in plain text",
+    "accent": "plain text",
+    "say": "So here's the fix. Put what you sell, your prices, your hours and how to book in plain words on your site."
+   },
+   {
+    "kind": "cta",
+    "title": "A site people and AI both understand",
+    "accent": "both understand",
+    "keyword": "AGENT",
+    "say": "We build websites that people and AI can both read. DM us agent."
+   }
+  ]
+ },
+ "caption": "AI agents website checklist: 4 things Black-owned businesses should spell out now that AI shops and books for customers.\n\nOn November 4, 2026, Microsoft said AI agents now visit websites to shop and book for real people. Its free Microsoft Clarity tool found weekly visits from these agents nearly doubled in three weeks, to almost 2 million. Microsoft also added a test that checks whether an agent can finish a task on your site.\n\nMake sure your website says, in plain text:\n1. Exactly what you sell or the services you offer.\n2. Your prices, or at least a clear starting price.\n3. Your hours and where to find you.\n4. How to book or buy, in as few steps as possible.\n\nThe easier your site is to read, the easier it is for anyone, human or AI, to choose you.\n\nAt Blackwell Graphics we design branding and build websites for Black-owned businesses that people and AI can both understand. DM us \"AGENT\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner whose website hasn't been touched in a while.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #AIAgents #SmallBusinessMarketing #WebsiteDesign",
+ "caption_drafts": {
+  "checklist (published)": "AI agents website checklist: 4 things Black-owned businesses should spell out now that AI shops and books for customers.\n\nOn November 4, 2026, Microsoft said AI agents now visit websites to shop and book for real people. Its free Microsoft Clarity tool found weekly visits from these agents nearly doubled in three weeks, to almost 2 million. Microsoft also added a test that checks whether an agent can finish a task on your site.\n\nMake sure your website says, in plain text:\n1. Exactly what you sell or the services you offer.\n2. Your prices, or at least a clear starting price.\n3. Your hours and where to find you.\n4. How to book or buy, in as few steps as possible.\n\nThe easier your site is to read, the easier it is for anyone, human or AI, to choose you.\n\nAt Blackwell Graphics we design branding and build websites for Black-owned businesses that people and AI can both understand. DM us \"AGENT\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner whose website hasn't been touched in a while.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #AIAgents #SmallBusinessMarketing #WebsiteDesign",
+  "explainer": "Microsoft says AI agents are now visiting small business websites to shop and book for people, and Black-owned businesses should get ready.\n\nOn November 4, 2026, Microsoft Clarity reported that weekly visits from AI agents nearly doubled in three weeks, to almost 2 million. It also added a test to check whether an agent can finish a task on a website.\n\nWhen an AI is doing the shopping, clear words on your site matter as much as good photos. Prices, hours and booking steps should be easy to find.\n\nAt Blackwell Graphics we build websites for Black-owned businesses that people and AI can both read. DM us \"AGENT\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your next website update.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #AIAgents #SmallBusinessMarketing #WebsiteDesign",
+  "provocation": "Small business owners, could an AI book an appointment on your website right now? Microsoft just showed Black-owned businesses why that question matters.\n\nOn November 4, 2026, Microsoft said AI agents now visit websites to shop and book for people, and weekly agent visits nearly doubled in three weeks.\n\nPicture two salons. One lists its services, prices and a booking link in plain words. The other hides everything in a flyer image. Only one of them is easy for anyone to read.\n\nAt Blackwell Graphics we build websites for Black-owned businesses. DM us \"AGENT\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner who needs to hear it.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #AIAgents #SmallBusinessMarketing #WebsiteDesign"
+ },
+ "alt_text": [
+  "Motion graphics explainer about Microsoft's report that AI agents now shop and book on websites, showing articles from the Microsoft Clarity blog and PPC Land, a phone scrolling the Clarity post, and a DM AGENT button."
+ ],
+ "sources": [
+  "https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/",
+  "https://ppc.land/chatgpt-reaches-a-fifth-of-google-search-volume-as-taboola-blames-ai",
+  "https://www.businesswire.com/news/home/20261104999557/en/"
+ ],
+ "media_used": [
+  {
+   "file": "p3_3.jpg",
+   "type": "photo",
+   "query": "small shop owner tablet",
+   "tags": "small business, e commerce, order packing, business owner, online store, packaging, shipping orders, home business, startup, entrepreneur, workspace, wooden desk, natural light, productivity, order fulfillment, retail, small business owner, logistics, packaging process, handmade business, training material",
+   "page": "https://pixabay.com/photos/small-business-e-commerce-10207329/",
+   "user": "konkapo",
+   "w": 3072,
+   "h": 2048
+  },
+  {
+   "file": "v2_2.mp4",
+   "type": "video",
+   "query": "phone scrolling",
+   "tags": "smart phone, mobile phone, scrolling, photos, night, cellphone, phone, online, social media, browsing, internet, app, application, screen, dark room",
+   "page": "https://pixabay.com/videos/id-169445/",
+   "user": "magicmore",
+   "seconds": 25
+  },
+  {
+   "file": "s1.jpg",
+   "type": "shot",
+   "url": "https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/",
+   "title": "Agents act, LLMs recommend, People browse: Clarity connects all three."
+  }
+ ]
+}
