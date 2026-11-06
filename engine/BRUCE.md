@@ -40,7 +40,7 @@ Bruce runs the Instagram account **@blackwell_graphics** for Blackwell Graphics,
 4. **Reel days only:** run `bash engine/setup_reel.sh` (installs the voice engine, downloads the voice model from GitHub, installs the logo and icon libraries). It must print `reel engine ready`.
 
 ### 1. Check what has already been posted
-List the Posts folder (`search_files` with `parentId = '1tag9o3LhY1chynCYvaHcTe9q6J9A4ZsV'`). Titles read `YYYY-MM-DD | Topic | KEYWORD` (carousels) or `YYYY-MM-DD | Topic | KEYWORD | REEL` (reels). Any topic posted in the last 30 days is off limits, and so is any DM keyword used in the last 30 days. Count the titles ending in `| REEL`: this decides review mode in step 6.
+List the Posts folder (`search_files` with `parentId = '1tag9o3LhY1chynCYvaHcTe9q6J9A4ZsV'`). Titles read `YYYY-MM-DD | Topic | KEYWORD` (carousels) or `YYYY-MM-DD | Topic | KEYWORD | REEL` (reels). Any topic posted in the last 30 days is off limits, and so is any DM keyword used in the last 30 days. Count the titles ending in `| REEL`: this decides review mode in step 6. If a post titled with today's Nairobi date already exists (for example Eddy asked for a manual run earlier that day), stop: today's slot is filled. Don't make a second post and don't notify.
 
 ### 2. Find the number 1 topic
 Use WebSearch (mode `extended`) and WebFetch. Look only at the **last 7 days**, US-focused. Run several searches in parallel, for example:
