@@ -1,0 +1,10 @@
+{"slug": "2026-11-06-ai-agents-websites",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "online shopping laptop", "n": 5},
+             {"id": "p2", "type": "photo", "q": "woman smartphone shopping", "n": 5},
+             {"id": "p3", "type": "photo", "q": "small shop owner tablet", "n": 5},
+             {"id": "v1", "type": "video", "q": "typing laptop", "n": 4},
+             {"id": "v2", "type": "video", "q": "phone scrolling", "n": 4},
+             {"id": "v3", "type": "video", "q": "shop owner", "n": 4}],
+ "shots": [{"id": "s1", "url": "https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/"},
+           {"id": "s2", "url": "https://ppc.land/chatgpt-reaches-a-fifth-of-google-search-volume-as-taboola-blames-ai"},
+           {"id": "s3", "url": "https://www.businesswire.com/news/home/20261104999557/en/"}]}
