@@ -1,0 +1,31 @@
+name: eddylabs-media-fetch
+# One-off fetch for EddyLabs videos. Runs only on pushes to eddylabs/* branches and publishes to
+# its own eddylabs-media-cache branch, so Bruce's main and media-cache branches are untouched.
+on:
+  push:
+    branches: ["eddylabs/**"]
+    paths: ["jobs/eddylabs-*.json", ".github/workflows/eddylabs-media.yml"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container: mcr.microsoft.com/playwright/python:v1.48.0-noble
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install
+        run: python3 -m pip install -q --break-system-packages playwright==1.48.0 imageio-ffmpeg
+      - name: Fetch media
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          JOB: jobs/eddylabs-canva-layoffs.json
+        run: python3 engine/fetch_media.py
+      - name: Publish to eddylabs-media-cache branch
+        run: |
+          cd out
+          git config --global --add safe.directory "$PWD"
+          git init -q -b eddylabs-media-cache
+          git -c user.name="EddyLabs" -c user.email="noreply@anthropic.com" add -A
+          git -c user.name="EddyLabs" -c user.email="noreply@anthropic.com" commit -qm "media for $(ls)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" eddylabs-media-cache
