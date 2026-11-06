@@ -1,3 +1,5 @@
 engine/node_modules/
 engine/.cache/
 __pycache__/
+posts/*/sheet.jpg
+posts/*/captions.srt
