@@ -750,7 +750,7 @@ def main():
 
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
-        b = p.chromium.launch()
+        b = p.chromium.launch(channel="chrome")
         pg = b.new_page(viewport={"width": W, "height": H})
         pg.goto((work / "page.html").resolve().as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500)
         pg.evaluate("Promise.all([...document.images].map(i => i.decode().catch(() => 0)))")

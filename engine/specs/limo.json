@@ -1,0 +1,83 @@
+{
+  "subject": "limo",
+  "narrator": "am_onyx",
+  "speed": 1.0,
+  "theme": {
+    "bg": "#000000",
+    "ink": "#FFFFFF",
+    "accent": "#83FA0C"
+  },
+  "viewBox": "90 150 880 400",
+  "beats": [
+    {
+      "kind": "hook",
+      "say": "Saw grandma's sedan in half, drop her couch in the middle, and you have built a limo.",
+      "svg": "<g fill='none' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'><path d='M120 330 L120 268 Q128 236 168 230 L250 224 L300 262 L300 330 Z'/><path d='M700 330 L700 224 L800 230 Q840 236 848 268 L848 330 Z'/><path d='M120 330 L300 330'/><path d='M700 330 L848 330'/><circle cx='200' cy='352' r='40'/><circle cx='780' cy='352' r='40'/><rect x='352' y='252' width='268' height='78' rx='14' stroke='#83FA0C'/><path d='M352 282 L620 282' stroke='#83FA0C'/></g>"
+    },
+    {
+      "kind": "break",
+      "say": "But drive off and the whole thing folds like a sandwich."
+    },
+    {
+      "kind": "fix",
+      "say": "So you weld long steel beams under the car, front wheels to back.",
+      "label": "stretched frame",
+      "labelAt": [
+        490,
+        530
+      ],
+      "svg": "<g fill='none' stroke='#83FA0C' stroke-width='11' stroke-linecap='round'><path d='M186 392 L794 392'/><path d='M186 418 L794 418'/><path d='M300 392 L300 418'/><path d='M500 392 L500 418'/><path d='M700 392 L700 418'/></g>"
+    },
+    {
+      "kind": "problem",
+      "say": "Now the engine is up front and the old drive shaft cannot reach the back wheels."
+    },
+    {
+      "kind": "fix",
+      "say": "So you fit a new one almost as long as the car.",
+      "label": "long drive shaft",
+      "labelAt": [
+        300,
+        500
+      ],
+      "svg": "<g fill='none' stroke='#FFFFFF' stroke-width='9' stroke-linecap='round'><path d='M214 460 L766 460'/><circle cx='214' cy='460' r='16' fill='#000000'/><circle cx='766' cy='460' r='16' fill='#000000'/></g>"
+    },
+    {
+      "kind": "problem",
+      "say": "But a shaft that long whips like a jump rope and smashes through the floor."
+    },
+    {
+      "kind": "fix",
+      "say": "So you hold it up midway with brackets that still let it spin.",
+      "label": "center bearings",
+      "labelAt": [
+        500,
+        560
+      ],
+      "svg": "<g fill='none' stroke='#83FA0C' stroke-width='8' stroke-linecap='round'><path d='M400 430 L400 460'/><circle cx='400' cy='460' r='26'/><path d='M600 430 L600 460'/><circle cx='600' cy='460' r='26'/></g>"
+    },
+    {
+      "kind": "problem",
+      "say": "Now grandma hears every single word you say."
+    },
+    {
+      "kind": "fix",
+      "say": "So you build a wall with a little window that slides shut.",
+      "label": "privacy divider",
+      "labelAt": [
+        336,
+        180
+      ],
+      "svg": "<g fill='none' stroke='#83FA0C' stroke-width='8' stroke-linecap='round'><path d='M336 224 L336 330'/><path d='M336 252 L336 282' stroke='#000000' stroke-width='16'/><path d='M322 252 L350 252'/><path d='M322 282 L350 282'/></g>"
+    },
+    {
+      "kind": "payoff",
+      "say": "And with the wheels that far apart, a limo needs three lanes to turn one corner."
+    },
+    {
+      "kind": "close",
+      "say": "Look at you. You just built a limo.",
+      "banner": "YOU JUST BUILT A LIMO"
+    }
+  ]
+}
