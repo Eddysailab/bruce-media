@@ -1,0 +1,269 @@
+{
+ "slug": "2026-11-06-ai-agents-websites",
+ "job": "jobs/2026-11-06-ai-agents-websites.json",
+ "created": "2026-11-06T11:43:08Z",
+ "credit": "Photos and footage from Pixabay (pixabay.com)",
+ "log": [
+  "p1: 5 photo result(s) for 'online shopping laptop'",
+  "p2: 5 photo result(s) for 'woman smartphone shopping'",
+  "p3: 3 photo result(s) for 'small shop owner tablet'",
+  "v1: 4 video result(s) for 'typing laptop'",
+  "v2: 4 video result(s) for 'phone scrolling'",
+  "v3: 4 video result(s) for 'shop owner'",
+  "s1: screenshot ok (https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/)",
+  "s2: screenshot ok (https://ppc.land/chatgpt-reaches-a-fifth-of-google-search-volume-as-taboola-blames-ai)",
+  "s3: screenshot failed (https://www.businesswire.com/news/home/20261104999557/en/): Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.businesswire.com/news/home/20261104999557/en/\nCall log:\nnavigating to \"https://www.businesswire.com/news"
+ ],
+ "files": [
+  {
+   "file": "p1_1.jpg",
+   "type": "photo",
+   "query": "online shopping laptop",
+   "tags": "marketing online, social media, online, business, woman, business woman, attractive, corporate, shopping, credit card, happy, landscape, sunset, working, expressing, satisfaction, web, card, credit, laptop, purchase, young, sitting, female, internet, girl, happiness, using, person, smiling, beautiful, paying, buy, smile, pretty, lifestyle, consumer, technology, payment, buying, web design, digital marketing, ecommerce, nature, online shopping, adspublicity",
+   "page": "https://pixabay.com/photos/marketing-online-social-media-online-1427787/",
+   "user": "DigitalMarketingAgency",
+   "w": 5184,
+   "h": 3456
+  },
+  {
+   "file": "p1_2.jpg",
+   "type": "photo",
+   "query": "online shopping laptop",
+   "tags": "ecommerce, online, shopping, marketing, technology, internet, business, selling, e-commerce, shop, sales, payment, customers, workspace, mobile, laptop, wireless, digital, gray business, gray computer, gray technology, gray laptop, gray marketing, gray shopping, gray mobile, gray online, gray internet, gray digital, gray shop, gray company, gray sales, ecommerce, ecommerce, ecommerce, ecommerce, ecommerce, e-commerce, e-commerce",
+   "page": "https://pixabay.com/photos/ecommerce-online-shopping-marketing-3563183/",
+   "user": "QuinceCreative",
+   "w": 5000,
+   "h": 2750
+  },
+  {
+   "file": "p1_3.jpg",
+   "type": "photo",
+   "query": "online shopping laptop",
+   "tags": "marketing online, social media, online, shopping, credit, card, bussinesswoman, smiling, happy, payment, buying, paying, woman, attractive, computer, computer desk, corporate, credit card, landscape, laptop, sunset, working, young, banking, internet, technology, social, media, business, using, beautiful, smart, network, portrait, female, nature, teen, web design, digital marketing, ecommerce, online shopping, adspublicity",
+   "page": "https://pixabay.com/photos/marketing-online-social-media-online-1427786/",
+   "user": "DigitalMarketingAgency",
+   "w": 5184,
+   "h": 3456
+  },
+  {
+   "file": "p1_4.jpg",
+   "type": "photo",
+   "query": "online shopping laptop",
+   "tags": "ecommerce, computer, cash, e-commerce, online, money, keyboard, business, internet, technology, payment, credit, finance, laptop, gambling, investment, online banking, password, online gambling, computer laptop, gamble, atm, online transactions, online shopping, online sales, selling, auto teller, ecommerce, ecommerce, gambling, gambling, gambling, online gambling, online gambling, online gambling, online gambling, online gambling, atm, atm, online shopping",
+   "page": "https://pixabay.com/photos/ecommerce-computer-cash-e-commerce-2301933/",
+   "user": "stevepb",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p1_5.jpg",
+   "type": "photo",
+   "query": "online shopping laptop",
+   "tags": "online, shopping, ecommerce, e-commerce, cart, add, to, keyboard, buy, purchase, internet, customer, computer, website, amazon, gray computer, gray laptop, gray shopping, gray online, gray website, gray internet, gray shop, gray keyboard, gray amazon, ecommerce, ecommerce, ecommerce, ecommerce, e-commerce, amazon, amazon, amazon, amazon, amazon",
+   "page": "https://pixabay.com/photos/online-shopping-ecommerce-4275963/",
+   "user": "Tumisu",
+   "w": 3000,
+   "h": 1500
+  },
+  {
+   "file": "p2_1.jpg",
+   "type": "photo",
+   "query": "woman smartphone shopping",
+   "tags": "girl, texting, smartphone, mobile, technology, shopping, woman, people, fashion, texting, texting, texting, texting, texting, mobile, shopping",
+   "page": "https://pixabay.com/photos/girl-texting-smartphone-mobile-925470/",
+   "user": "StockSnap",
+   "w": 5616,
+   "h": 3744
+  },
+  {
+   "file": "p2_2.jpg",
+   "type": "photo",
+   "query": "woman smartphone shopping",
+   "tags": "girl, shopping bags, standing, talking, on the phone, brick wall, wall, shopping, young woman, female, fashion, style, stylish, stylish woman, outfit, shopping, shopping, shopping, shopping, shopping",
+   "page": "https://pixabay.com/photos/girl-shopping-bags-standing-talking-2581913/",
+   "user": "StockSnap",
+   "w": 4624,
+   "h": 2745
+  },
+  {
+   "file": "p2_3.jpg",
+   "type": "photo",
+   "query": "woman smartphone shopping",
+   "tags": "woman, shopping market, lifestyle, marketplace, people, people, people, people, people, people",
+   "page": "https://pixabay.com/photos/woman-shopping-market-lifestyle-7862413/",
+   "user": "thangshooter",
+   "w": 4000,
+   "h": 6000
+  },
+  {
+   "file": "p2_4.jpg",
+   "type": "photo",
+   "query": "woman smartphone shopping",
+   "tags": "woman, shopping bags, street, shopping, girl, young, person, fashion, happiness, shop, buy, mobile phone, walking, alley, outdoors, shopping bags, shopping bags, shopping bags, shopping bags, shopping bags, shopping, shopping, shopping",
+   "page": "https://pixabay.com/photos/woman-shopping-bags-street-shopping-5899643/",
+   "user": "19811900",
+   "w": 5432,
+   "h": 3621
+  },
+  {
+   "file": "p2_5.jpg",
+   "type": "photo",
+   "query": "woman smartphone shopping",
+   "tags": "staff, woman, young, girlie, bag, pants, smartphone, sunglasses, walking, sidewalk, street, urban",
+   "page": "https://pixabay.com/photos/staff-woman-young-girlie-bag-7275260/",
+   "user": "Surprising_Media",
+   "w": 3000,
+   "h": 4500
+  },
+  {
+   "file": "p3_1.jpg",
+   "type": "photo",
+   "query": "small shop owner tablet",
+   "tags": "woman, entrepreneur, owner, business, shop, store, clothing, manager, saleswoman, retail, sales, small business, retail, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+   "user": "Tumisu",
+   "w": 7360,
+   "h": 4912
+  },
+  {
+   "file": "p3_2.jpg",
+   "type": "photo",
+   "query": "small shop owner tablet",
+   "tags": "man, entrepreneur, business, manager, owner, restaurant, young, start, local, small business, bar, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/man-entrepreneur-business-manager-5475187/",
+   "user": "Tumisu",
+   "w": 5427,
+   "h": 3617
+  },
+  {
+   "file": "p3_3.jpg",
+   "type": "photo",
+   "query": "small shop owner tablet",
+   "tags": "small business, e commerce, order packing, business owner, online store, packaging, shipping orders, home business, startup, entrepreneur, workspace, wooden desk, natural light, productivity, order fulfillment, retail, small business owner, logistics, packaging process, handmade business, training material",
+   "page": "https://pixabay.com/photos/small-business-e-commerce-10207329/",
+   "user": "konkapo",
+   "w": 3072,
+   "h": 2048
+  },
+  {
+   "file": "v1_1.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "keyboard, typing, writing, notebook, computer, technology, laptop, business, internet, work, office, person, hand, communication, working, using, connection, pc, information, desktop, web, workplace",
+   "page": "https://pixabay.com/videos/id-10822/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 12
+  },
+  {
+   "file": "v1_2.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "notebook, ultrabook, typing, writing, laptop, home office, office, electronic device, letters, program, mobile, hands, man, work, business, luxury, apple macbook, smartphone, iphone 6, display, screen, monitor",
+   "page": "https://pixabay.com/videos/id-197/",
+   "user": "Life-Of-Vids",
+   "seconds": 36
+  },
+  {
+   "file": "v1_3.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "laptop, keyboard, typing, writing, notebook, developer, user, using, study, work, top view, working, computer, technology, communication",
+   "page": "https://pixabay.com/videos/id-3145/",
+   "user": "Life-Of-Vids",
+   "seconds": 43
+  },
+  {
+   "file": "v1_4.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "macbook, notebook, laptop, typing, office, write, keyboard, mobile, modern, startup, apple, device, electronics, technology, hands, man, working, communication, person, internet, gadget",
+   "page": "https://pixabay.com/videos/id-3576/",
+   "user": "Pexels",
+   "seconds": 37
+  },
+  {
+   "file": "v2_1.mp4",
+   "type": "video",
+   "query": "phone scrolling",
+   "tags": "smartphone, scrolling, app, mobile, device, modern, communication, internet, wireless, touchscreen, technology, digital, cellphone, gadget, telephone, using, equipment, hand, cellular, multimedia, smart phone, communicator, screen",
+   "page": "https://pixabay.com/videos/id-3180/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 13
+  },
+  {
+   "file": "v2_2.mp4",
+   "type": "video",
+   "query": "phone scrolling",
+   "tags": "smart phone, mobile phone, scrolling, photos, night, cellphone, phone, online, social media, browsing, internet, app, application, screen, dark room",
+   "page": "https://pixabay.com/videos/id-169445/",
+   "user": "magicmore",
+   "seconds": 25
+  },
+  {
+   "file": "v2_3.mp4",
+   "type": "video",
+   "query": "phone scrolling",
+   "tags": "iphone, smartphone, scrolling, mobile, device, technology, cellphone, smart phone, mobile device, mobile phones, digital technology, screen",
+   "page": "https://pixabay.com/videos/id-736/",
+   "user": "elchao",
+   "seconds": 14
+  },
+  {
+   "file": "v2_4.mp4",
+   "type": "video",
+   "query": "phone scrolling",
+   "tags": "phone, app, touch screen, mobile phone, smartphone, communication, scrolling, mobile, screen, digital, technology, contact, wireless, call, internet, modern, communicate, connection, web page",
+   "page": "https://pixabay.com/videos/id-64594/",
+   "user": "Josh_Malic",
+   "seconds": 17
+  },
+  {
+   "file": "v3_1.mp4",
+   "type": "video",
+   "query": "shop owner",
+   "tags": "people, commerce, shop, busy, mall, walking",
+   "page": "https://pixabay.com/videos/id-6387/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 14
+  },
+  {
+   "file": "v3_2.mp4",
+   "type": "video",
+   "query": "shop owner",
+   "tags": "coffee, beans, caffeine, coffee shop, coffee beans, food, aroma, pleasure, roasted, fragrance, luxury goods, slow motion, coffee enjoyment, drink, live wallpaper",
+   "page": "https://pixabay.com/videos/id-45358/",
+   "user": "NickyPe",
+   "seconds": 17
+  },
+  {
+   "file": "v3_3.mp4",
+   "type": "video",
+   "query": "shop owner",
+   "tags": "mall, shop, store, department store, people, busy, buy, sell, sale, purchase, customer, live, shopping, escalator, fashion",
+   "page": "https://pixabay.com/videos/id-24114/",
+   "user": "wcw6900",
+   "seconds": 13
+  },
+  {
+   "file": "v3_4.mp4",
+   "type": "video",
+   "query": "shop owner",
+   "tags": "clothing, clothes, fashion, shop, store, dress, retail, wear, shirt, women, shopping, colorful, apparel, buy, sale, wardrobe, color, woman, garment, boutique, female, hanger, fabric, clothing store, fashionable, textile, buying, model",
+   "page": "https://pixabay.com/videos/id-1006/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 19
+  },
+  {
+   "file": "s1.jpg",
+   "type": "shot",
+   "url": "https://clarity.microsoft.com/blog/clarity-connects-agents-llms-people/",
+   "title": "Agents act, LLMs recommend, People browse: Clarity connects all three."
+  },
+  {
+   "file": "s2.jpg",
+   "type": "shot",
+   "url": "https://ppc.land/chatgpt-reaches-a-fifth-of-google-search-volume-as-taboola-blames-ai",
+   "title": "ChatGPT reaches a fifth of Google search volume as Taboola blames AI"
+  }
+ ]
+}
