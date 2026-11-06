@@ -1,0 +1,599 @@
+{
+ "slug": "eddylabs-canva-layoffs",
+ "job": "jobs/eddylabs-canva-layoffs.json",
+ "created": "2026-11-06T18:31:55Z",
+ "credit": "Photos and footage from Pixabay (pixabay.com)",
+ "log": [
+  "p01: 5 photo result(s) for 'graphic designer computer'",
+  "p02: 5 photo result(s) for 'empty office desks'",
+  "p03: 5 photo result(s) for 'african man laptop'",
+  "p04: 4 photo result(s) for 'typing keyboard'",
+  "p05: 5 photo result(s) for 'african woman laptop'",
+  "p06: 2 photo result(s) for 'designer drawing tablet'",
+  "p07: 5 photo result(s) for 'african business team'",
+  "p08: 4 photo result(s) for 'office meeting laptop'",
+  "p09: 5 photo result(s) for 'nairobi city'",
+  "p10: 4 photo result(s) for 'black woman thinking'",
+  "p11: 4 photo result(s) for 'cardboard box office'",
+  "v01: 3 video result(s) for 'typing laptop'",
+  "v02: 3 video result(s) for 'african business meeting'",
+  "v03: 3 video result(s) for 'empty office'",
+  "s1: screenshot ok (https://fortune.com/2026/11/06/canva-layoffs-severance-package-praised-melanie-perkins/)",
+  "s2: screenshot ok (https://www.newsweek.com/canva-exit-package-praised-tech-company-announces-layoffs-12662250)"
+ ],
+ "files": [
+  {
+   "file": "p01_1.jpg",
+   "type": "photo",
+   "query": "graphic designer computer",
+   "tags": "laptop, mockup, graphics tablet, tablet, graphic design, designer, macbook, work, workplace, home office, apple, webdesign, computer, office, monitor, business, keyboard, graphic tablet, office work, internet, independent, freelancer, notebook, creative, wooden table, blogger, laptop, laptop, laptop, laptop, graphic design, graphic design, graphic design, designer, work, work, computer, computer, computer, computer, computer, office, office, business, business, blogger",
+   "page": "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+   "user": "lukasbieri",
+   "w": 5472,
+   "h": 3252
+  },
+  {
+   "file": "p01_2.jpg",
+   "type": "photo",
+   "query": "graphic designer computer",
+   "tags": "home office, person, work, web design, business, workplace, monitor, computer, keyboard, screen, laptop, office work, independent, freelancer, success, graphic designer, designer, digital, nomad, home office, web design, web design, success, success, graphic designer, graphic designer, graphic designer, graphic designer, graphic designer, designer",
+   "page": "https://pixabay.com/photos/home-office-person-work-web-design-4996834/",
+   "user": "cocoandwifi",
+   "w": 6720,
+   "h": 4480
+  },
+  {
+   "file": "p01_3.jpg",
+   "type": "photo",
+   "query": "graphic designer computer",
+   "tags": "communication, workplace, imac, desktop, creative, computer, mockup, mac, apple, design, handicraft tools, keyboard, mouse, desk, monitor, graphic designer, screen, cordless, color table, tone atlas, pencils, graphic designer, graphic designer, graphic designer, graphic designer, graphic designer",
+   "page": "https://pixabay.com/photos/communication-workplace-imac-2805785/",
+   "user": "ptra",
+   "w": 5616,
+   "h": 3744
+  },
+  {
+   "file": "p01_4.jpg",
+   "type": "photo",
+   "query": "graphic designer computer",
+   "tags": "blogger, screenwriter, desperate, unimaginative, uncreative, writer's block, thinking blockade, hair-tearing, headache, workplace, unmotivated, desk, home office, computer, office, macbook, mockup, exhausted, profession, work, resigned, writer, multimedia, graphic design, media specialist, young man, employees, entrepreneur, author, programmer, frustration, frustrated, resignation, the media, media-creating, burnout, headache, headache, computer, computer, office, work, work, work, work, work, writer, frustration, frustrated, burnout",
+   "page": "https://pixabay.com/photos/blogger-screenwriter-desperate-2838945/",
+   "user": "lukasbieri",
+   "w": 5100,
+   "h": 3648
+  },
+  {
+   "file": "p01_5.jpg",
+   "type": "photo",
+   "query": "graphic designer computer",
+   "tags": "keyboard, computer, technology, light, colorful, design, color, artist, digital, isolated, laptop, internet, work, work from home, network, tablet, designer, modern, object, electronic, communication, web, surf, creative, black computer, black home, black technology, black laptop, black work, black light, black network, black community, black internet, black digital, black communication, black design, black web, black keyboard, black color, black creative, black tablet, black lights, computer, computer, computer, computer, technology, technology, technology, technology, technology, digital, laptop, laptop, laptop, internet",
+   "page": "https://pixabay.com/photos/keyboard-computer-technology-light-5017973/",
+   "user": "JoshuaWoroniecki",
+   "w": 5700,
+   "h": 3706
+  },
+  {
+   "file": "p02_1.jpg",
+   "type": "photo",
+   "query": "empty office desks",
+   "tags": "bricks, chairs, classroom, empty, office, room, tables, wall, brick walls, office, office, office, office, office",
+   "page": "https://pixabay.com/photos/bricks-chairs-classroom-empty-2181920/",
+   "user": "Pexels",
+   "w": 5722,
+   "h": 3815
+  },
+  {
+   "file": "p02_2.jpg",
+   "type": "photo",
+   "query": "empty office desks",
+   "tags": "chairs, desks, windows, empty, interiors, indoors, tables, furniture, chairs, windows, windows, windows, furniture, furniture, furniture, furniture, furniture",
+   "page": "https://pixabay.com/photos/chairs-desks-windows-empty-1838776/",
+   "user": "Pexels",
+   "w": 5184,
+   "h": 3456
+  },
+  {
+   "file": "p02_3.jpg",
+   "type": "photo",
+   "query": "empty office desks",
+   "tags": "office, space, desk, business, room, chaos, paperwork, workplace, clutter, pforphoto, empty, decay, the atmosphere, expired, dilapidated, shabby, past, abandoned, chair, office chair, chaos, chaos, chaos, paperwork, clutter, clutter, clutter, clutter, clutter",
+   "page": "https://pixabay.com/photos/office-space-desk-business-room-4598772/",
+   "user": "Tama66",
+   "w": 6030,
+   "h": 4013
+  },
+  {
+   "file": "p02_4.jpg",
+   "type": "photo",
+   "query": "empty office desks",
+   "tags": "brick, business, creative, decoration, desk, desktop, display, empty, interior, living, minimal, mockup, modern, nobody, object, office, supplies, table, wall, white, wood, wooden, work, workplace, workspace, desk, desktop, desktop, desktop, minimal, minimal, minimal, minimal, minimal, workspace",
+   "page": "https://pixabay.com/photos/brick-business-creative-decoration-5066286/",
+   "user": "bongkarngraphic",
+   "w": 7200,
+   "h": 3638
+  },
+  {
+   "file": "p02_5.jpg",
+   "type": "photo",
+   "query": "empty office desks",
+   "tags": "computer, screen, empty, blank, laptop, monitor, desktop, display, macbook, office, desk, computer, computer, laptop, laptop, laptop, laptop, laptop, desktop, macbook, macbook",
+   "page": "https://pixabay.com/photos/computer-screen-empty-blank-laptop-3542771/",
+   "user": "Tumisu",
+   "w": 3888,
+   "h": 2406
+  },
+  {
+   "file": "p03_1.jpg",
+   "type": "photo",
+   "query": "african man laptop",
+   "tags": "student, typing, keyboard, text, woman, startup, business, people, students, office, strategy, work, technology, company, corporate, communication, young, plan, marketing, computer, design, professional, planning, internet, project, laptop, presentation, web, display, monitor, women, girls, screen, digital, electronic, pc, modern, student, business, business, business, business, students, office, work, work, work, work, marketing, marketing, computer, computer, computer, computer, computer, laptop, laptop, laptop",
+   "page": "https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/",
+   "user": "StartupStockPhotos",
+   "w": 3000,
+   "h": 2000
+  },
+  {
+   "file": "p03_2.jpg",
+   "type": "photo",
+   "query": "african man laptop",
+   "tags": "laptop, woman, education, study, young, computer, beautiful, desk, girl, homework, college, school, internet, people, lifestyle, office, student, studying, learning, person, stressed, burn-out, spectacles, tense, pressure, laptop, education, education, education, study, study, study, study, study, computer, computer, computer, college, school, school, internet, people, office, student, student, student, studying, learning, learning, learning",
+   "page": "https://pixabay.com/photos/laptop-woman-education-study-young-3087585/",
+   "user": "JESHOOTS-com",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p03_3.jpg",
+   "type": "photo",
+   "query": "african man laptop",
+   "tags": "office, business, accountant, accounting, notebook, mobile phone, smart phone, keyboard, woman, laptop, technology, office, office, business, business, business, business, business, accounting, mobile phone, laptop, laptop, laptop, technology, technology, technology",
+   "page": "https://pixabay.com/photos/office-business-accountant-620822/",
+   "user": "Firmbee",
+   "w": 4288,
+   "h": 2848
+  },
+  {
+   "file": "p03_4.jpg",
+   "type": "photo",
+   "query": "african man laptop",
+   "tags": "office, startup, business, home office, businessman, notebook, laptop, computer, company, people, marketing, planning, strategy, project, creative, technology, start-up, organization, development, commerce, working, desk, macbook, writing, pen, office, office, office, business, business, business, business, business, laptop, computer, computer, marketing, marketing, working, writing, writing, writing, writing",
+   "page": "https://pixabay.com/photos/office-startup-business-home-office-594132/",
+   "user": "StartupStockPhotos",
+   "w": 5616,
+   "h": 3744
+  },
+  {
+   "file": "p03_5.jpg",
+   "type": "photo",
+   "query": "african man laptop",
+   "tags": "man, writing, laptop, computer, write, studying, working, research, study, school, notebook, business, office, work, writing, writing, laptop, computer, studying, studying, research, research, research, study, study, study, study, study, school, business, office, work, work",
+   "page": "https://pixabay.com/photos/man-writing-laptop-computer-write-2562325/",
+   "user": "StockSnap",
+   "w": 4460,
+   "h": 2973
+  },
+  {
+   "file": "p04_1.jpg",
+   "type": "photo",
+   "query": "typing keyboard",
+   "tags": "student, typing, keyboard, text, startup, people, students, office, strategy, work, technology, company, corporate, communication, young, plan, marketing, computer, design, professional, planning, internet, project, laptop, presentation, web, display, monitor, screen, digital, electronic, pc, modern, student, office, work, work, work, marketing, computer, computer, computer, computer, computer, laptop, laptop, laptop",
+   "page": "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+   "user": "StartupStockPhotos",
+   "w": 3000,
+   "h": 2000
+  },
+  {
+   "file": "p04_2.jpg",
+   "type": "photo",
+   "query": "typing keyboard",
+   "tags": "student, typing, keyboard, text, woman, startup, business, people, students, office, strategy, work, technology, company, corporate, communication, young, plan, marketing, computer, design, professional, planning, internet, project, laptop, presentation, web, display, monitor, women, girls, screen, digital, electronic, pc, modern, student, business, business, business, business, students, office, work, work, work, work, marketing, marketing, computer, computer, computer, computer, computer, laptop, laptop, laptop",
+   "page": "https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/",
+   "user": "StartupStockPhotos",
+   "w": 3000,
+   "h": 2000
+  },
+  {
+   "file": "p04_3.jpg",
+   "type": "photo",
+   "query": "typing keyboard",
+   "tags": "computer, business, typing, keyboard, laptop, doctor, medical care, desk, doctor, doctor, doctor, doctor, doctor",
+   "page": "https://pixabay.com/photos/computer-business-typing-keyboard-1149148/",
+   "user": "Free-Photos",
+   "w": 2800,
+   "h": 1575
+  },
+  {
+   "file": "p04_4.jpg",
+   "type": "photo",
+   "query": "typing keyboard",
+   "tags": "laptop, human hands, keyboard, typing, working, business, office, writing, computer, internet, person, communication, browsing, finger, pc, web, data, mouse, screen, woman, table, business woman, keypad, modern, information, work, female, wireless, job, occupation, online, professional, busy, connection, human, technology, hand, keyboard, keyboard, keyboard, typing, typing, typing, typing, typing, writing, data, data, data, information, job, job, online, online, online",
+   "page": "https://pixabay.com/photos/laptop-human-hands-keyboard-typing-820274/",
+   "user": "fancycrave1",
+   "w": 4896,
+   "h": 3264
+  },
+  {
+   "file": "p05_1.jpg",
+   "type": "photo",
+   "query": "african woman laptop",
+   "tags": "laptop, woman, education, study, young, computer, beautiful, desk, girl, homework, college, school, internet, people, lifestyle, office, student, studying, learning, person, stressed, burn-out, spectacles, tense, pressure, laptop, education, education, education, study, study, study, study, study, computer, computer, computer, college, school, school, internet, people, office, student, student, student, studying, learning, learning, learning",
+   "page": "https://pixabay.com/photos/laptop-woman-education-study-young-3087585/",
+   "user": "JESHOOTS-com",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p05_2.jpg",
+   "type": "photo",
+   "query": "african woman laptop",
+   "tags": "student, typing, keyboard, text, woman, startup, business, people, students, office, strategy, work, technology, company, corporate, communication, young, plan, marketing, computer, design, professional, planning, internet, project, laptop, presentation, web, display, monitor, women, girls, screen, digital, electronic, pc, modern, student, business, business, business, business, students, office, work, work, work, work, marketing, marketing, computer, computer, computer, computer, computer, laptop, laptop, laptop",
+   "page": "https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/",
+   "user": "StartupStockPhotos",
+   "w": 3000,
+   "h": 2000
+  },
+  {
+   "file": "p05_3.jpg",
+   "type": "photo",
+   "query": "african woman laptop",
+   "tags": "office, business, accountant, accounting, notebook, mobile phone, smart phone, keyboard, woman, laptop, technology, office, office, business, business, business, business, business, accounting, mobile phone, laptop, laptop, laptop, technology, technology, technology",
+   "page": "https://pixabay.com/photos/office-business-accountant-620822/",
+   "user": "Firmbee",
+   "w": 4288,
+   "h": 2848
+  },
+  {
+   "file": "p05_4.jpg",
+   "type": "photo",
+   "query": "african woman laptop",
+   "tags": "woman, african, people, black, girl, female, face, couple, person, portrait, happy, women, young, happiness, smile, model, tribe, africa, south africa, portraits, girl power, human, figure, ethnic, green happy, green model, green smile, green portrait, green human, green power, green happiness, african, african, women, women, women, women, women, africa, africa, africa, africa, south africa",
+   "page": "https://pixabay.com/photos/woman-african-people-black-girl-4685862/",
+   "user": "1857643",
+   "w": 3618,
+   "h": 5427
+  },
+  {
+   "file": "p05_5.jpg",
+   "type": "photo",
+   "query": "african woman laptop",
+   "tags": "laptop, apple, macbook, computer, browser, research, study, work, desk, people, woman, laptop, laptop, computer, computer, computer, research, research, research, research, study, study, study, study, study, work, work, work, work",
+   "page": "https://pixabay.com/photos/laptop-apple-macbook-computer-2557571/",
+   "user": "StockSnap",
+   "w": 4460,
+   "h": 2973
+  },
+  {
+   "file": "p06_1.jpg",
+   "type": "photo",
+   "query": "designer drawing tablet",
+   "tags": "laptop, mockup, graphics tablet, tablet, graphic design, designer, macbook, work, workplace, home office, apple, webdesign, computer, office, monitor, business, keyboard, graphic tablet, office work, internet, independent, freelancer, notebook, creative, wooden table, blogger, laptop, laptop, laptop, laptop, graphic design, graphic design, graphic design, designer, work, work, computer, computer, computer, computer, computer, office, office, business, business, blogger",
+   "page": "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+   "user": "lukasbieri",
+   "w": 5472,
+   "h": 3252
+  },
+  {
+   "file": "p06_2.jpg",
+   "type": "photo",
+   "query": "designer drawing tablet",
+   "tags": "laptop, technology, computer, business, digital, office, work, keyboard, white, professional, tech, card, business card, glasses, black, tablet, device, influencer, blogger, flatlay, flat lay, art, pen, creative, graphic, designer, tech, tech, tech, tech, tech, influencer",
+   "page": "https://pixabay.com/photos/laptop-technology-computer-business-3244483/",
+   "user": "Veex",
+   "w": 4549,
+   "h": 3013
+  },
+  {
+   "file": "p07_1.jpg",
+   "type": "photo",
+   "query": "african business team",
+   "tags": "people, business, meeting, business meeting, coworkers, agreement, men, women, professionals, office, employees, suit, work, greeting, boss, computer, group, handshake, desk, team, colleagues, arrangement, people, business, business, business, business, business, meeting, meeting, business meeting, office, office, work, team",
+   "page": "https://pixabay.com/photos/people-business-meeting-1979261/",
+   "user": "089photoshootings",
+   "w": 5760,
+   "h": 3840
+  },
+  {
+   "file": "p07_2.jpg",
+   "type": "photo",
+   "query": "african business team",
+   "tags": "job, office, team, business, internet, technology, design, draft, portable, meeting, job, office, office, office, office, team, team, business, business, business, business, business, technology, meeting, meeting, meeting",
+   "page": "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+   "user": "RonaldCandonga",
+   "w": 3354,
+   "h": 2019
+  },
+  {
+   "file": "p07_3.jpg",
+   "type": "photo",
+   "query": "african business team",
+   "tags": "laptops, meeting, businessmen, coworkers, colleagues, business meeting, conference room, meeting room, startup, start-up, notebooks, creative, company, silicon valley, modern, office, conference, table, discussion, business, team, computers, desk, technology, vaio, people, working, meeting, meeting, meeting, meeting, meeting, business meeting, office, office, discussion, discussion, business, business, business, team, team",
+   "page": "https://pixabay.com/photos/laptops-meeting-businessmen-593296/",
+   "user": "StartupStockPhotos",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p07_4.jpg",
+   "type": "photo",
+   "query": "african business team",
+   "tags": "meeting, workplace, team, office, group, business, teamwork, conference, company, colleagues, coworkers, brainstorming, discussion, cooperation, seminar, meeting, meeting, meeting, meeting, meeting, team, team, teamwork, discussion",
+   "page": "https://pixabay.com/photos/meeting-workplace-team-office-5395615/",
+   "user": "WebTechExperts",
+   "w": 3000,
+   "h": 2000
+  },
+  {
+   "file": "p07_5.jpg",
+   "type": "photo",
+   "query": "african business team",
+   "tags": "feedback, report back, business people, group, team, balloons, clouds, word clouds, dialog, nature, discussion, conversation, icon, communicate, people, man, news, talk, to speak, communication, share with, exchange, social, conn",
+   "page": "https://pixabay.com/photos/feedback-report-back-business-people-3653368/",
+   "user": "geralt",
+   "w": 5184,
+   "h": 3456
+  },
+  {
+   "file": "p08_1.jpg",
+   "type": "photo",
+   "query": "office meeting laptop",
+   "tags": "startup, start-up, people, silicon valley, teamwork, business, team, office, group, meeting, corporate, conference, company, men, partnership, table, technology, casual, successful, seminar, colleagues, working, planning, network, strategy, cooperation, professional, notes, notepad, writing, laptop, computer, drinks, business, business, business, business, business, team, team, office, office, meeting, meeting, meeting, company, technology, writing, writing, computer",
+   "page": "https://pixabay.com/photos/startup-start-up-people-593341/",
+   "user": "StartupStockPhotos",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p08_2.jpg",
+   "type": "photo",
+   "query": "office meeting laptop",
+   "tags": "startup, meeting, brainstorming, business, teamwork, team, people, office, group, corporate, conference, colleagues, company, partnership, seminar, project, table, professionals, casual, partners, plan, sketch, notepad, coworkers, writing, coffee, laptop, computer, notes, working, meeting, meeting, meeting, business, business, business, business, business, teamwork, team, team, team, people, office, office, office, writing, computer, working",
+   "page": "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+   "user": "StartupStockPhotos",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p08_3.jpg",
+   "type": "photo",
+   "query": "office meeting laptop",
+   "tags": "meeting, brainstorming, business, teamwork, team, people, office, group, corporate, conference, colleagues, company, partnership, project, table, partners, plan, sketch, notepad, coworkers, writing, drinks, laptop, computer, notes, working, meeting, meeting, meeting, meeting, business, business, business, business, business, teamwork, team, team, team, people, office, office, office, company",
+   "page": "https://pixabay.com/photos/meeting-brainstorming-business-594091/",
+   "user": "StartupStockPhotos",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p08_4.jpg",
+   "type": "photo",
+   "query": "office meeting laptop",
+   "tags": "laptops, meeting, businessmen, coworkers, colleagues, business meeting, conference room, meeting room, startup, start-up, notebooks, creative, company, silicon valley, modern, office, conference, table, discussion, business, team, computers, desk, technology, vaio, people, working, meeting, meeting, meeting, meeting, meeting, business meeting, office, office, discussion, discussion, business, business, business, team, team",
+   "page": "https://pixabay.com/photos/laptops-meeting-businessmen-593296/",
+   "user": "StartupStockPhotos",
+   "w": 5472,
+   "h": 3648
+  },
+  {
+   "file": "p09_1.jpg",
+   "type": "photo",
+   "query": "nairobi city",
+   "tags": "nairobi, kenya, street, crowded, africa, city, urban, business, district, car wallpapers, downtown, car, commercial, day",
+   "page": "https://pixabay.com/photos/nairobi-kenya-street-crowded-2770345/",
+   "user": "ninastock",
+   "w": 4592,
+   "h": 2744
+  },
+  {
+   "file": "p09_2.jpg",
+   "type": "photo",
+   "query": "nairobi city",
+   "tags": "nairobi, car wallpapers, kenya, streets, matatu, urban, city, africa, business, district, car, commercial, commute, travel",
+   "page": "https://pixabay.com/photos/nairobi-kenya-streets-matatu-urban-2770340/",
+   "user": "ninastock",
+   "w": 3797,
+   "h": 2824
+  },
+  {
+   "file": "p09_3.jpg",
+   "type": "photo",
+   "query": "nairobi city",
+   "tags": "nairobi, landscape, cityscape, nairobi, nairobi, nairobi, nairobi, nairobi",
+   "page": "https://pixabay.com/photos/nairobi-landscape-cityscape-2730268/",
+   "user": "JamesWahome",
+   "w": 5577,
+   "h": 2889
+  },
+  {
+   "file": "p09_4.jpg",
+   "type": "photo",
+   "query": "nairobi city",
+   "tags": "city, cityscape, panoramic, skyline, architecture, building, skyscraper, aerial, urban, town, outdoors, nairobi, kenya, africa, nature, scene, modern, sky",
+   "page": "https://pixabay.com/photos/city-cityscape-panoramic-skyline-3149170/",
+   "user": "ninastock",
+   "w": 4032,
+   "h": 3024
+  },
+  {
+   "file": "p09_5.jpg",
+   "type": "photo",
+   "query": "nairobi city",
+   "tags": "city, cityscape, skyline, panoramic, architecture, travel, skyscraper, urban, town, building, outdoors, sky, nairobi, kenya, africa, modern, landscape, capital, tower, nairobi, nairobi, nairobi, nairobi, nairobi, kenya",
+   "page": "https://pixabay.com/photos/city-cityscape-skyline-panoramic-3143632/",
+   "user": "ninastock",
+   "w": 3835,
+   "h": 2876
+  },
+  {
+   "file": "p10_1.jpg",
+   "type": "photo",
+   "query": "black woman thinking",
+   "tags": "african, black woman, model, profile, thinking, wondering, cosmetics, make-up, portrait, woman, girl, lady, modeling, posing, black woman, thinking, thinking, thinking, thinking, thinking",
+   "page": "https://pixabay.com/photos/african-black-woman-model-profile-5505598/",
+   "user": "houseoflegacy",
+   "w": 5792,
+   "h": 7635
+  },
+  {
+   "file": "p10_2.jpg",
+   "type": "photo",
+   "query": "black woman thinking",
+   "tags": "thinking, black woman, black white, black thinking, black think",
+   "page": "https://pixabay.com/photos/thinking-black-woman-black-white-1925849/",
+   "user": "berry3",
+   "w": 5616,
+   "h": 3744
+  },
+  {
+   "file": "p10_3.jpg",
+   "type": "photo",
+   "query": "black woman thinking",
+   "tags": "woman, face, portrait, model, skin, makeup, young woman, close up, modeling, studio photography, monochrome, black and white, woman, woman, woman, face, face, face, face, face, portrait, skin",
+   "page": "https://pixabay.com/photos/woman-face-portrait-model-skin-2303361/",
+   "user": "Engin_Akyurt",
+   "w": 4995,
+   "h": 3330
+  },
+  {
+   "file": "p10_4.jpg",
+   "type": "photo",
+   "query": "black woman thinking",
+   "tags": "girl, portrait, rose, model, woman, young woman, lady, blonde, blonde girl, blonde woman, blonde model, female model, black dress, fishnet stockings, stockings, rose flower, fragrant flowers, red rose, sit, sitting",
+   "page": "https://pixabay.com/photos/girl-portrait-rose-model-woman-559307/",
+   "user": "Bergadder",
+   "w": 4096,
+   "h": 6144
+  },
+  {
+   "file": "p11_1.jpg",
+   "type": "photo",
+   "query": "cardboard box office",
+   "tags": "space, wood, deliver, logistics, receive, transportation, business, logistic, transfer, courier, office, paper, pack, send, fragile, service, object, container, carton, box, storage, shipping, cardboard, parcel, package, brown office, brown box, brown service, logistics, courier, courier, box, box, box, parcel, parcel, parcel, parcel, parcel, package, package",
+   "page": "https://pixabay.com/photos/space-wood-deliver-logistics-4967335/",
+   "user": "ha11ok",
+   "w": 4000,
+   "h": 2250
+  },
+  {
+   "file": "p11_2.jpg",
+   "type": "photo",
+   "query": "cardboard box office",
+   "tags": "beige, board, box, brown, business, card, cardboard, cargo, carton, closed, container, corrugated, deliver, delivery, distribution, environment, estate, fedex, fragile, freight, gift, isolated, mail, merchandise, moving, object, office, opened, pack, box, box, box, box, box, carton, carton, carton, container, fedex, fedex, fedex, office",
+   "page": "https://pixabay.com/photos/beige-board-box-brown-business-316396/",
+   "user": "PublicDomainPictures",
+   "w": 1920,
+   "h": 1271
+  },
+  {
+   "file": "p11_3.jpg",
+   "type": "photo",
+   "query": "cardboard box office",
+   "tags": "beige, board, box, brown, business, card, cardboard, cargo, carton, closed, container, corrugated, deliver, delivery, distribution, environment, estate, fedex, fragile, freight, gift, isolated, mail, merchandise, moving, object, office, pack",
+   "page": "https://pixabay.com/photos/beige-board-box-brown-business-316395/",
+   "user": "PublicDomainPictures",
+   "w": 1920,
+   "h": 1271
+  },
+  {
+   "file": "p11_4.jpg",
+   "type": "photo",
+   "query": "cardboard box office",
+   "tags": "parcels, packages, delivery, box, service, shipping, cardboard, post, cargo, shipment, mail, transportation, business, packaging, courier, postal, order, goods, pack, distribution, retail, transport, purchase, group of boxes, delivery, box, box, box, box, box, packaging",
+   "page": "https://pixabay.com/photos/parcels-packages-delivery-box-2484036/",
+   "user": "harshahars",
+   "w": 2000,
+   "h": 2000
+  },
+  {
+   "file": "v01_1.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "keyboard, typing, writing, notebook, computer, technology, laptop, business, internet, work, office, person, hand, communication, working, using, connection, pc, information, desktop, web, workplace",
+   "page": "https://pixabay.com/videos/id-10822/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 12
+  },
+  {
+   "file": "v01_2.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "notebook, ultrabook, typing, writing, laptop, home office, office, electronic device, letters, program, mobile, hands, man, work, business, luxury, apple macbook, smartphone, iphone 6, display, screen, monitor",
+   "page": "https://pixabay.com/videos/id-197/",
+   "user": "Life-Of-Vids",
+   "seconds": 36
+  },
+  {
+   "file": "v01_3.mp4",
+   "type": "video",
+   "query": "typing laptop",
+   "tags": "laptop, keyboard, typing, writing, notebook, developer, user, using, study, work, top view, working, computer, technology, communication",
+   "page": "https://pixabay.com/videos/id-3145/",
+   "user": "Life-Of-Vids",
+   "seconds": 43
+  },
+  {
+   "file": "v02_1.mp4",
+   "type": "video",
+   "query": "african business meeting",
+   "tags": "meeting, planning, marketing, business, team, people, office, teamwork, group, discussion, business meeting, group meeting, office meeting, team meeting, communication, corporate, talking, plan",
+   "page": "https://pixabay.com/videos/id-2340/",
+   "user": "Life-Of-Vids",
+   "seconds": 44
+  },
+  {
+   "file": "v02_2.mp4",
+   "type": "video",
+   "query": "african business meeting",
+   "tags": "work space, meeting, startup, notebook, laptops, teamwork, office, corporate, communication, people, computer, internet, businessman, professional, group, coworking, network, brainstorming, conference, discussion, table, seminar",
+   "page": "https://pixabay.com/videos/id-3132/",
+   "user": "Life-Of-Vids",
+   "seconds": 33
+  },
+  {
+   "file": "v02_3.mp4",
+   "type": "video",
+   "query": "african business meeting",
+   "tags": "discussion, desk, people, office, team, meeting, business, businessman, brainstorming, group, table, workplace, worker, corporate, creative, discussing, communication, teamwork, talking",
+   "page": "https://pixabay.com/videos/id-8252/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 18
+  },
+  {
+   "file": "v03_1.mp4",
+   "type": "video",
+   "query": "empty office",
+   "tags": "notes, hands, document, a4, map, office, empty, cardboard, blank",
+   "page": "https://pixabay.com/videos/id-67763/",
+   "user": "Kmeel_com",
+   "seconds": 16
+  },
+  {
+   "file": "v03_2.mp4",
+   "type": "video",
+   "query": "empty office",
+   "tags": "meeting, planning, marketing, business, team, people, office, teamwork, group, discussion, business meeting, group meeting, office meeting, team meeting, communication, corporate, talking, plan",
+   "page": "https://pixabay.com/videos/id-2340/",
+   "user": "Life-Of-Vids",
+   "seconds": 44
+  },
+  {
+   "file": "v03_3.mp4",
+   "type": "video",
+   "query": "empty office",
+   "tags": "keyboard, hands, writing, computer, mouse, typing, project, design, coffee mug, working, study, technology, business, office",
+   "page": "https://pixabay.com/videos/id-1046/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 17
+  },
+  {
+   "file": "s1.jpg",
+   "type": "shot",
+   "url": "https://fortune.com/2026/11/06/canva-layoffs-severance-package-praised-melanie-perkins/",
+   "title": "Canva is restructuring 22% of its workforce, and LinkedIn is applauding the exit package | Fortune"
+  },
+  {
+   "file": "s2.jpg",
+   "type": "shot",
+   "url": "https://www.newsweek.com/canva-exit-package-praised-tech-company-announces-layoffs-12662250",
+   "title": "Canva Exit Package Praised As Tech Company Announces Layoffs - Newsweek"
+  }
+ ]
+}
