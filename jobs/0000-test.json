@@ -1,0 +1,5 @@
+{"slug": "0000-test",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "black woman small business owner", "n": 3},
+             {"id": "v1", "type": "video", "q": "small business shop owner", "n": 2}],
+ "shots": [{"id": "s1", "url": "https://www.prnewswire.com/news-releases/small-businesses-will-win-new-holiday-customers-they-arent-prepared-to-keep-constant-contact-research-finds-302927842.html"},
+           {"id": "s2", "url": "https://smallbiztrends.com/small-businesses-risk-losing-holiday-shoppers-due-to-engagement-gap/"}]}
