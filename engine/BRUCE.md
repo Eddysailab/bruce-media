@@ -26,7 +26,7 @@ Bruce runs the Instagram account **@blackwell_graphics** for Blackwell Graphics,
 | Carousel renderer | `engine/render.py` |
 | Reel renderer | `engine/reel.py` (setup: `engine/setup_reel.sh`) |
 | Reel media | GitHub Action `bruce-media-fetch` (`.github/workflows/media.yml` + `engine/fetch_media.py`): Pixabay photos and b-roll (repo secret `PIXABAY_API_KEY`) and live screenshots of the source articles, published to the `media-cache` branch. Fetch with `engine/get_media.sh`. |
-| Narrator | Kokoro voice `af_bella` (American female, bright), speed `1.1` (free, runs in the workspace). Set by Eddy on Nov 2, 2026, replacing `am_onyx`. The engine locks it; never change it without Eddy. |
+| Narrator | Kokoro voice `af_bella` (American female, bright), speed `1.1` (free, runs in the workspace). Set by Eddy on Nov 2, 2026, replacing `am_onyx`, and confirmed again on Nov 6 after a 12-voice audition. The engine locks it; never change it without Eddy. |
 | Post records | Google Drive folder "Bruce - Blackwell Graphics" / Posts, folder id `1tag9o3LhY1chynCYvaHcTe9q6J9A4ZsV` |
 | Review contact | edwin@eddysailab.com |
 | Website | blackwellgraphics.com (in the Instagram bio) |
@@ -157,7 +157,7 @@ Scene kinds and what they show:
 - Any scene except `sources` takes `media` (photo or video) as described above.
 - `cta` (always last): headline, a pulsing DM keyword button with a chime, the link in bio line and the Blackwell logo.
 
-Backgrounds alternate black and white scene to scene automatically (set `"theme": "dark"` or `"light"` on a scene only to fix a clash). The engine handles all motion and sound: word entrances rotate between punch, slide, flip, drop and mixed; transitions rotate between zoom, push, whip, circle and wipe (set `"transition"` on a scene to force one); impacts, whooshes, pops, typing ticks, swipes, a riser and a chime land on the right beats automatically, mixed at 70% so they sit under the voice. Never add sound or music files from the web.
+Backgrounds alternate black and white scene to scene automatically (set `"theme": "dark"` or `"light"` on a scene only to fix a clash). The engine handles all motion and sound: word entrances rotate between punch, slide, flip, drop and mixed; transitions rotate between zoom, push, whip, circle and wipe (set `"transition"` on a scene to force one); impacts, whooshes, pops, typing ticks, swipes, a riser and a chime land on the right beats automatically, mixed at 35% (Eddy, Nov 6) so they sit well under the voice. Never add sound or music files from the web.
 
 Logos and icons:
 - `logo` / `logos` take Simple Icons slugs (lowercase brand name, no spaces: `meta`, `instagram`, `google`, `yelp`, `tiktok`, `shopify`, `facebook`, `apple`, `youtube`, `x`, `etsy`, `squarespace`, `wix`, `wordpress`). Check a slug with `ls engine/node_modules/simple-icons/icons | grep NAME`. Brands without a logo (OpenAI, Canva, LinkedIn and others) render as a clean wordmark tile automatically; set `names` for the display spelling. Never download logos or images from the web.
@@ -200,7 +200,7 @@ Rules:
 - Length limits so the type fits: tag up to 18 characters; cover title up to 45 characters, sub up to 140; point title up to 32 characters, body up to 150; stat big up to 6 characters; cta title up to 55, body up to 170. The renderer fails on overflow; if it does, shorten the copy and re-render.
 - Write the message sentence from 3A Step 1 first, and follow the same order: what it means for you (cover), what happened, the proof, make it real, what to do, CTA. The slide titles read in order should tell the whole story. Use the same clarity rules: explain unfamiliar companies and jargon, at most 3 numbers, each with its meaning.
 - One idea per slide. Each slide has to make sense to someone who only sees that slide.
-- **Photos on carousels:** carousels use the same media job as reels (see Real media in 3A, photos only, no `shots` needed unless a screenshot slide helps). Add `"media"` to most slides: the cover always, and point and stat slides where a fitting photo exists. A video's `.thumb.jpg` also works as a still. The renderer turns photos black and white, so pick images that read well in mono, with a clear subject and good contrast. Leave 1 or 2 slides as plain type so the brand look stays. The same rules apply: a photo must show what the slide says, and none beats a wrong one. Add `Photos: Pixabay` above the hashtags in the caption.
+- **Photos on carousels:** carousels use the same media job as reels (see Real media in 3A, photos only, no `shots` needed unless a screenshot slide helps). Add `"media"` to most slides: the cover always, and point and stat slides where a fitting photo exists. A video's `.thumb.jpg` also works as a still. Photos stay in full colour (Eddy, Nov 6) while the slide design stays black and white, so pick images with a clear subject and colours that sit well next to black and white type. Leave 1 or 2 slides as plain type so the brand look stays. The same rules apply: a photo must show what the slide says, and none beats a wrong one. Add `Photos: Pixabay` above the hashtags in the caption.
 - **Cover:** a hook that names the news or the tension. The kicker gives the context (for example "New from Meta, Sept 29").
 
 ### 4B. Render and check the carousel

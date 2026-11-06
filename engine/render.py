@@ -7,7 +7,7 @@ Slide kinds:
   stat:  {"kind":"stat","big":"73%","title":"...","body":"...","source":"..."}
   cta:   {"kind":"cta","title":"...","body":"...","keyword":"LOGO"}
 Any slide can add "media": "engine/.cache/media/SLUG/p1_2.jpg" (a Pixabay photo or a video's .thumb.jpg,
-or an article screenshot) and optional "focus": "50% 30%". Photos are turned black and white to keep the brand.
+or an article screenshot) and optional "focus": "50% 30%". Photos stay in full colour (Eddy, Nov 6); the slide design stays black and white.
 Cover and cta show it full-bleed under a dark gradient; point and stat show it as a panel above the text.
 Needs: ./fonts/bricolage.woff2 and ./assets/logo-black.png (white version is derived)
 """
@@ -89,16 +89,14 @@ h1,h2{font-weight:800;font-stretch:78%;line-height:.92;letter-spacing:-.02em}
 ROOT = HERE.parent
 
 def photo(path, w, h):
-    """Black-and-white, contrast-lifted, cropped photo as a data URL (keeps the black and white brand)."""
+    """Full-colour photo (Eddy, Nov 6 2026), resized, as a data URL."""
     from PIL import Image, ImageOps, ImageEnhance
     f = pathlib.Path(path)
     if not f.is_absolute():
         f = ROOT / path if (ROOT / path).exists() else pathlib.Path.cwd() / path
     if not f.exists():
         raise SystemExit(f"media not found: {path}")
-    im = ImageOps.exif_transpose(Image.open(f)).convert("L")
-    im = ImageOps.autocontrast(im, cutoff=1)
-    im = ImageEnhance.Contrast(im).enhance(1.12)
+    im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
     im.thumbnail((w * 2, h * 2 if h else 4000))
     buf = io.BytesIO(); im.convert("RGB").save(buf, "JPEG", quality=86)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
