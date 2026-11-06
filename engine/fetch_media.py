@@ -12,6 +12,11 @@ Job file:
 import json, os, pathlib, subprocess, sys, time, urllib.parse, urllib.request
 
 KEY = os.environ.get("PIXABAY_API_KEY", "").strip()
+try:
+    import imageio_ffmpeg
+    FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+except Exception:
+    FFMPEG = "ffmpeg"
 UA = {"User-Agent": "bruce-media-fetcher/1.0 (+https://github.com/Eddysailab/bruce-media)"}
 
 def get(url, binary=False):
@@ -33,11 +38,11 @@ def pixabay(item, out, log):
             raw = out / f"_{item['id']}_{k}.mp4"; dst = out / f"{item['id']}_{k}.mp4"
             raw.write_bytes(get(v["url"], binary=True))
             # 9:16 cover crop, max 8 s, no audio, small file
-            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(raw), "-t", "8", "-an",
+            subprocess.run([FFMPEG, "-loglevel", "error", "-y", "-i", str(raw), "-t", "8", "-an",
                             "-vf", "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30",
                             "-c:v", "libx264", "-crf", "24", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(dst)], check=True)
             raw.unlink()
-            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1", "-i", str(dst), "-frames:v", "1",
+            subprocess.run([FFMPEG, "-loglevel", "error", "-y", "-ss", "1", "-i", str(dst), "-frames:v", "1",
                             "-vf", "scale=360:-1", str(out / f"{item['id']}_{k}.thumb.jpg")], check=True)
             res.append({"file": dst.name, "type": "video", "query": item["q"], "tags": h.get("tags"), "page": h.get("pageURL"),
                         "user": h.get("user"), "seconds": h.get("duration")})

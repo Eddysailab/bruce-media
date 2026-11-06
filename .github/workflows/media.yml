@@ -19,30 +19,27 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
+    container: mcr.microsoft.com/playwright/python:v1.48.0-noble
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
       - name: Install
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-          pip install -q playwright==1.48.0
-          python -m playwright install --with-deps chromium >/dev/null
+        run: python3 -m pip install -q --break-system-packages playwright==1.48.0 imageio-ffmpeg
       - name: Fetch media
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           JOB: ${{ github.event.inputs.job }}
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           if [ -z "$JOB" ]; then JOB=$(git diff --name-only HEAD~1 HEAD -- jobs | tail -1); fi
           export JOB
-          python engine/fetch_media.py
+          python3 engine/fetch_media.py
       - name: Publish to media-cache branch
         run: |
           cd out
+          git config --global --add safe.directory "$PWD"
           git init -q -b media-cache
           git -c user.name="Bruce" -c user.email="noreply@anthropic.com" add -A
           git -c user.name="Bruce" -c user.email="noreply@anthropic.com" commit -qm "media for $(ls)"
