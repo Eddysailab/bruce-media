@@ -1,0 +1,9 @@
+{"slug": "2026-11-09-ai-mode-home-booking",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "plumber fixing sink", "n": 5},
+             {"id": "p2", "type": "photo", "q": "house cleaning", "n": 5},
+             {"id": "p3", "type": "photo", "q": "woman phone kitchen", "n": 5},
+             {"id": "v1", "type": "video", "q": "handyman repair", "n": 4},
+             {"id": "v2", "type": "video", "q": "phone search", "n": 4},
+             {"id": "v3", "type": "video", "q": "leaking faucet", "n": 4}],
+ "shots": [{"id": "s1", "url": "https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871/"},
+           {"id": "s2", "url": "https://homepros.news/google-adds-home-services-booking-to-ai-mode/"}]}
