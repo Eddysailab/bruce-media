@@ -1,0 +1,85 @@
+{
+ "date": "2026-11-09",
+ "format": "REEL",
+ "topic": "Google AI Mode home service booking links",
+ "keyword": "BOOK",
+ "spec": {
+  "tag": "Google AI Mode",
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "google",
+    "media": "engine/.cache/media/2026-11-09-ai-mode-home-booking/v3_1.mp4",
+    "kicker": "New in Google AI Mode, Nov 4",
+    "title": "Google now books the pro for them",
+    "accent": "books",
+    "say": "Google can now book a plumber or cleaner right inside a search. If it doesn't show your business, that job goes somewhere else."
+   },
+   {
+    "kind": "sources",
+    "say": "On November fourth, Google added book and quote links to AI Mode in the US, through partners like Angi, Thumbtack, Housecall Pro and Jobber.",
+    "items": [
+     {
+      "publication": "Search Engine Journal",
+      "domain": "searchenginejournal.com",
+      "date": "Nov 4, 2026",
+      "headline": "Google Adds Home Service Booking & Quote Links To AI Mode",
+      "accent": "Booking & Quote Links"
+     },
+     {
+      "publication": "Homepros",
+      "domain": "homepros.news",
+      "date": "Nov 6, 2026",
+      "headline": "Google adds home services booking to AI Mode",
+      "accent": "booking"
+     }
+    ]
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-09-ai-mode-home-booking/s2.jpg",
+    "publication": "Homepros",
+    "date": "Nov 6, 2026",
+    "say": "In Google's demo, AI Mode shows four local pros, each with reviews and a button to book."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-09-ai-mode-home-booking/v2_3.mp4",
+    "icon": "smartphone",
+    "title": "Open time and reviews win the tap",
+    "accent": "win the tap",
+    "say": "Picture a homeowner with a leak late at night. They tap the pro with open time and good reviews."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-09-ai-mode-home-booking/p2_3.jpg",
+    "layout": "split",
+    "focus": "50% 30%",
+    "icon": "calendar-check",
+    "title": "Make yourself bookable this week",
+    "accent": "bookable",
+    "say": "So this week, connect your booking calendar, finish your Google Business Profile and ask for reviews."
+   },
+   {
+    "kind": "cta",
+    "title": "Be the pro Google can book.",
+    "accent": "book.",
+    "keyword": "BOOK",
+    "say": "We build the brand and website that make you the obvious pick. DM us Book."
+   }
+  ]
+ },
+ "caption": "Google AI Mode now books home service pros: 4 things small and Black-owned home service businesses should set up this week.\n\nOn November 4, 2026, Google added booking and quote links to AI Mode in the United States. Robby Stein, VP of Product for Google Search, said it works through partners like Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan coming soon. In Google's demo, AI Mode showed four local businesses, each with a photo, a short review summary and a way to book, get a quote or visit the website.\n\nGoogle says local results are mainly based on relevance, distance and popularity. Here's what to get ready:\n1. A complete Google Business Profile with your real address and hours.\n2. Your booking or request form connected through the software you already use, like Jobber or Housecall Pro.\n3. A steady flow of fresh reviews from happy customers.\n4. A website and logo that look trustworthy the second someone taps through.\n\nPlumbers, cleaners, handymen and electricians: this is where your next job may start.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses. DM us \"BOOK\" and we'll talk through what makes you the easy pick, or visit blackwellgraphics.com (link in bio).\n\nSend this to a home service owner who lives on Google calls.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #HomeServices #SmallBusinessBranding",
+ "caption_drafts": {
+  "checklist (published)": "Google AI Mode now books home service pros: 4 things small and Black-owned home service businesses should set up this week.\n\nOn November 4, 2026, Google added booking and quote links to AI Mode in the United States. Robby Stein, VP of Product for Google Search, said it works through partners like Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan coming soon. In Google's demo, AI Mode showed four local businesses, each with a photo, a short review summary and a way to book, get a quote or visit the website.\n\nGoogle says local results are mainly based on relevance, distance and popularity. Here's what to get ready:\n1. A complete Google Business Profile with your real address and hours.\n2. Your booking or request form connected through the software you already use, like Jobber or Housecall Pro.\n3. A steady flow of fresh reviews from happy customers.\n4. A website and logo that look trustworthy the second someone taps through.\n\nPlumbers, cleaners, handymen and electricians: this is where your next job may start.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses. DM us \"BOOK\" and we'll talk through what makes you the easy pick, or visit blackwellgraphics.com (link in bio).\n\nSend this to a home service owner who lives on Google calls.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #GoogleBusinessProfile #HomeServices #SmallBusinessBranding",
+  "explainer": "Google AI Mode booking links are live in the US, and small home service businesses, including Black-owned ones, should know how they work.\n\nOn November 4, 2026, Google added book and quote links to AI Mode through partners like Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan coming soon. A homeowner can ask for a handyman tomorrow and see local pros with review summaries and a button to book.\n\nJobber says eligible customers need a paid plan and a Google Business Profile connected at the same address. Housecall Pro says there is no lead fee.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses. DM us \"BOOK\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your next profile cleanup.",
+  "provocation": "If Google AI Mode books the plumber for your customer, will it pick your small business or the one down the street?\n\nSince November 4, 2026, Google's AI Mode in the US shows home service pros with review summaries and a button to book or get a quote, through partners like Angi, Thumbtack, Housecall Pro and Jobber.\n\nOne pro has open slots, fresh reviews and a profile that looks the part. The other has a two year old profile and a phone number. The homeowner taps once.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses. DM us \"BOOK\" or visit blackwellgraphics.com (link in bio).\n\nSend this to a contractor friend."
+ },
+ "alt_text": "Motion graphics explainer about Google AI Mode adding home service booking and quote links, showing articles from Search Engine Journal and Homepros, ending with a DM BOOK button.",
+ "duration_s": 38.6,
+ "sources": [
+  "https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871/",
+  "https://homepros.news/google-adds-home-services-booking-to-ai-mode/",
+  "https://www.relevantaudience.com/seo/google-ai-mode-home-services-booking-links/"
+ ]
+}
