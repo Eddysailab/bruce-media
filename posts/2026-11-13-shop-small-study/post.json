@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-13",
+ "format": "REEL",
+ "topic": "Amex Shop Small Study 2026",
+ "keyword": "SHOP",
+ "spec": {
+  "tag": "Shop Small 2026",
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "americanexpress",
+    "media": "engine/.cache/media/2026-11-13-shop-small-study/v1_3.mp4",
+    "kicker": "Amex Shop Small study, Nov 12",
+    "title": "Shoppers want small. Will they pick you?",
+    "accent": "pick you?",
+    "say": "Almost nine in ten shoppers plan to buy from small businesses this holiday season. Now they have to pick one."
+   },
+   {
+    "kind": "sources",
+    "say": "That's from the new Shop Small study by American Express, the company behind Small Business Saturday.",
+    "items": [
+     {
+      "publication": "American Express Newsroom",
+      "domain": "americanexpress.com",
+      "logo": "americanexpress",
+      "date": "Nov 12, 2026",
+      "headline": "More Consumers Say They Plan to Shop Small This Holiday Season",
+      "accent": "Shop Small"
+     },
+     {
+      "publication": "Investing News Network",
+      "domain": "investingnews.com",
+      "date": "Nov 12, 2026",
+      "headline": "More Consumers Say They Plan to Shop Small This Holiday Season",
+      "accent": "Plan to Shop Small"
+     }
+    ]
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-13-shop-small-study/s1.jpg",
+    "publication": "Amex Newsroom",
+    "logo": "americanexpress",
+    "date": "Nov 12, 2026",
+    "say": "It also shows how those shoppers choose."
+   },
+   {
+    "kind": "stat",
+    "big": "65%",
+    "label": "choose a small shop on a friend or family tip",
+    "source": "American Express, Nov 2026",
+    "say": "About two in three go with a shop a friend or family member told them about."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-13-shop-small-study/v2_2.mp4",
+    "icon": "smartphone",
+    "title": "A blurry logo loses the referral",
+    "accent": "loses",
+    "say": "Picture someone hearing about your bakery, looking you up, and finding a blurry logo and no website. That sale goes elsewhere."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-13-shop-small-study/p1_4.jpg",
+    "layout": "split",
+    "focus": "50% 30%",
+    "icon": "share-2",
+    "title": "Make your shop easy to share",
+    "accent": "easy to share",
+    "body": "Clear logo. Fresh photos. A site with your hours.",
+    "say": "So before Small Business Saturday, make your shop easy to recommend: a clear logo, fresh photos, a site with your hours."
+   },
+   {
+    "kind": "cta",
+    "title": "Be the shop friends recommend.",
+    "accent": "recommend.",
+    "keyword": "SHOP",
+    "say": "We build brands and websites worth sharing. DM us Shop."
+   }
+  ]
+ },
+ "caption": "Small Business Saturday checklist: 4 things Black-owned businesses should fix before November 28, when shoppers start asking friends where to buy.\n\nAmerican Express released its 2026 Shop Small Impact Study on November 12. 88% of US consumers said they're likely to shop at small businesses this holiday season, the highest level since 2012. Recommendations from friends and family are the top way they choose a small business (65%), followed by customer reviews (45%) and social media posts (39%).\n\nSo when someone hears about your shop, the next thing they do is look you up. Here's what they should find:\n1. A logo that stays sharp on a phone screen and as your profile picture.\n2. Recent photos of your products, your space and your team.\n3. A website with your hours, location and a clear way to buy or book.\n4. Fresh reviews you've actually replied to.\n\nSmall Business Saturday is November 28, 2026, so there's still time to get this right.\n\nAt Blackwell Graphics we design brand identities, logos and websites for Black-owned businesses across the US. DM us \"SHOP\" to talk about getting your shop ready, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who's counting on the holidays.\n\nFootage: Pixabay\n\n#SupportBlackBusiness #BlackBusinessOwners #SmallBusinessSaturday #SmallBusinessMarketing #SmallBusinessBranding",
+ "caption_drafts": {
+  "checklist (published)": "Small Business Saturday checklist: 4 things Black-owned businesses should fix before November 28, when shoppers start asking friends where to buy.\n\nAmerican Express released its 2026 Shop Small Impact Study on November 12. 88% of US consumers said they're likely to shop at small businesses this holiday season, the highest level since 2012. Recommendations from friends and family are the top way they choose a small business (65%), followed by customer reviews (45%) and social media posts (39%).\n\nSo when someone hears about your shop, the next thing they do is look you up. Here's what they should find:\n1. A logo that stays sharp on a phone screen and as your profile picture.\n2. Recent photos of your products, your space and your team.\n3. A website with your hours, location and a clear way to buy or book.\n4. Fresh reviews you've actually replied to.\n\nSmall Business Saturday is November 28, 2026, so there's still time to get this right.\n\nAt Blackwell Graphics we design brand identities, logos and websites for Black-owned businesses across the US. DM us \"SHOP\" to talk about getting your shop ready, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who's counting on the holidays.\n\nFootage: Pixabay\n\n#SupportBlackBusiness #BlackBusinessOwners #SmallBusinessSaturday #SmallBusinessMarketing #SmallBusinessBranding",
+  "explainer": "American Express Shop Small study 2026: shoppers plan to buy small this holiday season, and small businesses that look easy to recommend stand to win.\n\nOn November 12, American Express released its 2026 Shop Small Impact Study. 88% of US consumers said they're likely to shop at small businesses this holiday season, the highest level since 2012.\n\nThe study also asked how people choose. Friends and family recommendations came first (65%), then customer reviews (45%) and social media posts (39%). Small Business Saturday is November 28.\n\nAt Blackwell Graphics we build brand identities, logos and websites for Black-owned businesses so the first look matches the recommendation. DM us \"SHOP\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your holiday prep.\n\nFootage: Pixabay\n\n#SupportBlackBusiness #BlackBusinessOwners #SmallBusinessSaturday #SmallBusinessMarketing #SmallBusinessBranding",
+  "provocation": "A friend recommends your small business. They look you up. What do they find? Small Business Saturday shoppers will decide in seconds.\n\nAmerican Express's 2026 Shop Small Impact Study, released November 12, found 88% of US consumers are likely to shop small this holiday season, the highest since 2012. Their top way to choose a shop is a recommendation from friends or family (65%).\n\nA great recommendation can still lose to a blurry logo, an old Instagram grid and no website. The shop down the street with a clear brand gets the sale instead.\n\nAt Blackwell Graphics we design brands, logos and websites for Black-owned businesses. DM us \"SHOP\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner getting ready for November 28.\n\nFootage: Pixabay\n\n#SupportBlackBusiness #BlackBusinessOwners #SmallBusinessSaturday #SmallBusinessMarketing #SmallBusinessBranding"
+ },
+ "alt_text": "Motion graphics explainer about the American Express Shop Small study ahead of Small Business Saturday, showing articles from the American Express Newsroom and Investing News Network, ending with a DM SHOP button.",
+ "duration_s": 38.9,
+ "sources": [
+  "https://www.americanexpress.com/en-us/newsroom/amex-for-business/2026-shop-small-impact-study-results/",
+  "https://investingnews.com/more-consumers-say-they-plan-to-shop-small-r-this-holiday-season-ahead-of-small-business-saturday-r/",
+  "https://www.stocktitan.net/news/AXP/more-consumers-say-they-plan-to-shop-small-this-holiday-season-ahead-zzequnqb340n.html"
+ ]
+}
