@@ -1,0 +1,278 @@
+{
+ "slug": "2026-11-13-shop-small-study",
+ "job": "jobs/2026-11-13-shop-small-study.json",
+ "created": "2026-11-13T11:59:33Z",
+ "credit": "Photos and footage from Pixabay (pixabay.com)",
+ "log": [
+  "p1: 4 photo result(s) for 'small shop owner'",
+  "p2: 5 photo result(s) for 'hair salon stylist'",
+  "p3: 5 photo result(s) for 'boutique storefront'",
+  "v1: 4 video result(s) for 'shopping bags street'",
+  "v2: 4 video result(s) for 'woman phone scrolling'",
+  "v3: 4 video result(s) for 'friends shopping'",
+  "s1: screenshot ok (https://www.americanexpress.com/en-us/newsroom/amex-for-business/2026-shop-small-impact-study-results/)",
+  "s2: screenshot ok (https://www.stocktitan.net/news/AXP/more-consumers-say-they-plan-to-shop-small-this-holiday-season-ahead-zzequnqb340n.html)"
+ ],
+ "files": [
+  {
+   "file": "p1_1.jpg",
+   "type": "photo",
+   "query": "small shop owner",
+   "tags": "woman, entrepreneur, owner, business, shop, store, clothing, manager, saleswoman, retail, sales, small business, retail, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+   "user": "Tumisu",
+   "w": 7360,
+   "h": 4912
+  },
+  {
+   "file": "p1_2.jpg",
+   "type": "photo",
+   "query": "small shop owner",
+   "tags": "man, entrepreneur, business, manager, owner, restaurant, young, start, local, small business, bar, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/man-entrepreneur-business-manager-5475187/",
+   "user": "Tumisu",
+   "w": 5427,
+   "h": 3617
+  },
+  {
+   "file": "p1_3.jpg",
+   "type": "photo",
+   "query": "small shop owner",
+   "tags": "small business, e commerce, order packing, business owner, online store, packaging, shipping orders, home business, startup, entrepreneur, workspace, wooden desk, natural light, productivity, order fulfillment, retail, small business owner, logistics, packaging process, handmade business, training material",
+   "page": "https://pixabay.com/photos/small-business-e-commerce-10207329/",
+   "user": "konkapo",
+   "w": 3072,
+   "h": 2048
+  },
+  {
+   "file": "p1_4.jpg",
+   "type": "photo",
+   "query": "small shop owner",
+   "tags": "baker, bakery, woman, smiling, happy, bread, craft, freshly baked, small business, owner, entrepreneur, authentic, commercial, food, product, organic, delicious, successful, natural ingredients, artisan product",
+   "page": "https://pixabay.com/photos/baker-bakery-woman-smiling-happy-10436141/",
+   "user": "erwinbosman",
+   "w": 5504,
+   "h": 3072
+  },
+  {
+   "file": "p2_1.jpg",
+   "type": "photo",
+   "query": "hair salon stylist",
+   "tags": "hair, color, coloring, brush, white, woman, care, beauty, young, female, dye, apply, dyeing, hairdresser, beautiful, hairstyle, dying, close-up, head, salon, people, girl, adult, pretty, work, professional, paint, hairdressing, occupation, profession, styling, haircare, hairstylist, hair coloring, portrait, treatment, business, hairdresser, hairdresser, hairdresser, hairdresser, salon, salon, salon, salon, salon, hairdressing, haircare, hairstylist, hair coloring, hair coloring, hair coloring, hair coloring",
+   "page": "https://pixabay.com/photos/hair-color-coloring-brush-white-1744959/",
+   "user": "artursfoto",
+   "w": 4288,
+   "h": 2848
+  },
+  {
+   "file": "p2_2.jpg",
+   "type": "photo",
+   "query": "hair salon stylist",
+   "tags": "barber, barbershop, haircut, hairdresser, salon, beard, scissors, hairstyle, man, male, shop, stylist, fashion, hairstylist, blue shop, barber, barber, barber, barber, barber, barbershop, haircut, hairdresser, salon, salon, salon",
+   "page": "https://pixabay.com/photos/barber-barbershop-haircut-5194406/",
+   "user": "vahidkanani",
+   "w": 5134,
+   "h": 3563
+  },
+  {
+   "file": "p2_3.jpg",
+   "type": "photo",
+   "query": "hair salon stylist",
+   "tags": "hairdresser, haircut, hair, salon, hairstyle, care, customer, professional, style, caucasian, stylist, people, hairdressing, barber, fashion, work, comb, female, woman, scissors, young, client, adult, occupation, cutting, hairstylist, male, man, cut, girl, treatment, person, beautician, profession, face, long, gray work, gray fashion, gray hair, gray care, hairdresser, hairdresser, hairdresser, hairdresser, hairdresser, haircut, haircut, haircut, haircut, salon, barber, barber, barber, hairstylist, beautician",
+   "page": "https://pixabay.com/photos/hairdresser-haircut-hair-salon-1555599/",
+   "user": "xenostral",
+   "w": 3978,
+   "h": 2941
+  },
+  {
+   "file": "p2_4.jpg",
+   "type": "photo",
+   "query": "hair salon stylist",
+   "tags": "haircut, hairdresser, salon, hair, hairstyle, stylist, hairdressing, work, woman, hairstylist, occupation, client, blow dryer, hairstylist, hairstylist, hairstylist, hairstylist, blow dryer, blow dryer, blow dryer, blow dryer, blow dryer",
+   "page": "https://pixabay.com/photos/haircut-hairdresser-salon-hair-2664088/",
+   "user": "Jo_Johnston",
+   "w": 2524,
+   "h": 1728
+  },
+  {
+   "file": "p2_5.jpg",
+   "type": "photo",
+   "query": "hair salon stylist",
+   "tags": "barber, haircut, hair, salon, barber shop, scissors, grooming, comb, man, hairstyle, male, people, stylist, black and white, gray shopping, gray shop, gray hair, barber, barber, barber, barber, barber, haircut, salon, salon, barber shop",
+   "page": "https://pixabay.com/photos/barber-haircut-hair-salon-1007902/",
+   "user": "Renee_Olmsted_Photography",
+   "w": 3183,
+   "h": 3372
+  },
+  {
+   "file": "p3_1.jpg",
+   "type": "photo",
+   "query": "boutique storefront",
+   "tags": "couple, elderly, elderly couple, city, plaza, downtown, night, night shopping, plaza stores, window shopping, boutique store, plaza lights, people, old couple, senior couple, romance, city streets, streets at night, warm lit streets, warm lit sidewalk, holding hands, brown city, brown shopping, brown window, brown night, brown street, brown shop, brown elderly, plaza, plaza, plaza, plaza, window shopping, window shopping, window shopping, window shopping, window shopping, boutique store, old couple",
+   "page": "https://pixabay.com/photos/couple-elderly-elderly-couple-city-1298432/",
+   "user": "Cloud11",
+   "w": 4032,
+   "h": 2272
+  },
+  {
+   "file": "p3_2.jpg",
+   "type": "photo",
+   "query": "boutique storefront",
+   "tags": "festival, parookaville, weeze, germany, airport, boutique, hut, tin roof, shopping, clothes, old, airport, boutique, boutique, boutique, boutique, boutique, shopping",
+   "page": "https://pixabay.com/photos/festival-parookaville-weeze-germany-1539083/",
+   "user": "Tama66",
+   "w": 6000,
+   "h": 3687
+  },
+  {
+   "file": "p3_3.jpg",
+   "type": "photo",
+   "query": "boutique storefront",
+   "tags": "woman, shopping, boutique, california, los angeles, beverly, hills, sign, drive, rodeo, city, rich, road, luxury, tourism, historic, brown city, brown road, brown shopping, brown shop, brown angel, boutique, los angeles, los angeles, los angeles, los angeles, los angeles, rich, rich",
+   "page": "https://pixabay.com/photos/woman-shopping-boutique-california-500703/",
+   "user": "466654",
+   "w": 4320,
+   "h": 3240
+  },
+  {
+   "file": "p3_4.jpg",
+   "type": "photo",
+   "query": "boutique storefront",
+   "tags": "building, business, design, display, interior, light, retail, retail shopping, shop, shop window, showcase, store, store window, storefront, toy, toy shop, window, storefront, toy, toy, toy, toy shop, toy shop, toy shop, toy shop, toy shop",
+   "page": "https://pixabay.com/photos/building-business-design-display-1867350/",
+   "user": "Pexels",
+   "w": 6000,
+   "h": 3376
+  },
+  {
+   "file": "p3_5.jpg",
+   "type": "photo",
+   "query": "boutique storefront",
+   "tags": "boutique, hats, business, load, fashion, summer fashion, beach fashion, jeans, clothing, naxos, greece, boutique, boutique, boutique, boutique, boutique, naxos",
+   "page": "https://pixabay.com/photos/boutique-hats-business-load-8025034/",
+   "user": "Tho-Ge",
+   "w": 5657,
+   "h": 3771
+  },
+  {
+   "file": "v1_1.mp4",
+   "type": "video",
+   "query": "shopping bags street",
+   "tags": "seoul, night street, korea, tourism, neon, night, people walking, city spirit, street shopping, people",
+   "page": "https://pixabay.com/videos/id-24603/",
+   "user": "RafterJr72",
+   "seconds": 9
+  },
+  {
+   "file": "v1_2.mp4",
+   "type": "video",
+   "query": "shopping bags street",
+   "tags": "market, shopping, busy, people, walking, street",
+   "page": "https://pixabay.com/videos/id-44860/",
+   "user": "FlorenceCdeM",
+   "seconds": 10
+  },
+  {
+   "file": "v1_3.mp4",
+   "type": "video",
+   "query": "shopping bags street",
+   "tags": "the hague, the netherlands, shopping street, small street, time lapse",
+   "page": "https://pixabay.com/videos/id-27999/",
+   "user": "watchitnow",
+   "seconds": 10
+  },
+  {
+   "file": "v1_4.mp4",
+   "type": "video",
+   "query": "shopping bags street",
+   "tags": "chinatown, street market, chinese, shopping street, traditional, colorful streets, shopping",
+   "page": "https://pixabay.com/videos/id-57770/",
+   "user": "Close-UpStock",
+   "seconds": 13
+  },
+  {
+   "file": "v2_1.mp4",
+   "type": "video",
+   "query": "woman phone scrolling",
+   "tags": "phone, scrolling phone, woman, picnic, hands, girl, summer, nature",
+   "page": "https://pixabay.com/videos/id-88686/",
+   "user": "Firmbee",
+   "seconds": 5
+  },
+  {
+   "file": "v2_2.mp4",
+   "type": "video",
+   "query": "woman phone scrolling",
+   "tags": "woman, phone, smartphone, technology, mobile, telephone, cellphone, person, female, wireless, device, media, communication, people, holding, business",
+   "page": "https://pixabay.com/videos/id-38084/",
+   "user": "mephala1980",
+   "seconds": 8
+  },
+  {
+   "file": "v2_3.mp4",
+   "type": "video",
+   "query": "woman phone scrolling",
+   "tags": "woman, social networking, post, website management, communication, network, online, internet, asian, phone",
+   "page": "https://pixabay.com/videos/id-174003/",
+   "user": "Amorn_mimi",
+   "seconds": 11
+  },
+  {
+   "file": "v2_4.mp4",
+   "type": "video",
+   "query": "woman phone scrolling",
+   "tags": "smartphone, scrolling, app, mobile, device, modern, communication, internet, wireless, touchscreen, technology, digital, cellphone, gadget, telephone, using, equipment, hand, cellular, multimedia, smart phone, communicator, screen",
+   "page": "https://pixabay.com/videos/id-3180/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 13
+  },
+  {
+   "file": "v3_1.mp4",
+   "type": "video",
+   "query": "friends shopping",
+   "tags": "seoul, night street, korea, tourism, neon, night, people walking, city spirit, street shopping, people",
+   "page": "https://pixabay.com/videos/id-24603/",
+   "user": "RafterJr72",
+   "seconds": 9
+  },
+  {
+   "file": "v3_2.mp4",
+   "type": "video",
+   "query": "friends shopping",
+   "tags": "mall, shop, store, department store, people, busy, buy, sell, sale, purchase, customer, live, shopping, escalator, fashion",
+   "page": "https://pixabay.com/videos/id-24114/",
+   "user": "wcw6900",
+   "seconds": 13
+  },
+  {
+   "file": "v3_3.mp4",
+   "type": "video",
+   "query": "friends shopping",
+   "tags": "clothing, clothes, fashion, shop, store, dress, retail, wear, shirt, women, shopping, colorful, apparel, buy, sale, wardrobe, color, woman, garment, boutique, female, hanger, fabric, clothing store, fashionable, textile, buying, model",
+   "page": "https://pixabay.com/videos/id-1006/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 19
+  },
+  {
+   "file": "v3_4.mp4",
+   "type": "video",
+   "query": "friends shopping",
+   "tags": "people, crowd, many, bokeh, blur, background, city, beautiful wallpaper, town, urban, consumers, shopping",
+   "page": "https://pixabay.com/videos/id-3606/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 14
+  },
+  {
+   "file": "s1.jpg",
+   "type": "shot",
+   "url": "https://www.americanexpress.com/en-us/newsroom/amex-for-business/2026-shop-small-impact-study-results/",
+   "title": "More Consumers Say They Plan to Shop Small\u00ae This Holiday Season Ahead of Small Business Saturday\u00ae"
+  },
+  {
+   "file": "s2.jpg",
+   "type": "shot",
+   "url": "https://www.stocktitan.net/news/AXP/more-consumers-say-they-plan-to-shop-small-this-holiday-season-ahead-zzequnqb340n.html",
+   "title": ""
+  }
+ ]
+}
