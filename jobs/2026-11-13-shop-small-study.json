@@ -1,0 +1,9 @@
+{"slug": "2026-11-13-shop-small-study",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "small shop owner", "n": 5},
+             {"id": "p2", "type": "photo", "q": "hair salon stylist", "n": 5},
+             {"id": "p3", "type": "photo", "q": "boutique storefront", "n": 5},
+             {"id": "v1", "type": "video", "q": "shopping bags street", "n": 4},
+             {"id": "v2", "type": "video", "q": "woman phone scrolling", "n": 4},
+             {"id": "v3", "type": "video", "q": "friends shopping", "n": 4}],
+ "shots": [{"id": "s1", "url": "https://www.americanexpress.com/en-us/newsroom/amex-for-business/2026-shop-small-impact-study-results/"},
+           {"id": "s2", "url": "https://www.stocktitan.net/news/AXP/more-consumers-say-they-plan-to-shop-small-this-holiday-season-ahead-zzequnqb340n.html"}]}
