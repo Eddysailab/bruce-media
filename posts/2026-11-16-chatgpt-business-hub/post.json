@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-16",
+ "format": "reel",
+ "topic": "ChatGPT Business Hub",
+ "keyword": "CLAIM",
+ "spec": {
+  "tag": "ChatGPT Business Hub",
+  "scenes": [
+   {
+    "kind": "hook",
+    "logo": "openai",
+    "names": {
+     "openai": "OpenAI"
+    },
+    "media": "engine/.cache/media/2026-11-16-chatgpt-business-hub/v2_3.mp4",
+    "kicker": "New from OpenAI, Nov 10",
+    "title": "ChatGPT is talking about your business",
+    "accent": "your business",
+    "say": "Customers ask ChatGPT which local business to pick. Now you control what it says about yours."
+   },
+   {
+    "kind": "sources",
+    "say": "On November tenth, OpenAI opened Business Hub, so U.S. shops and restaurants can claim their ChatGPT listing.",
+    "items": [
+     {
+      "publication": "BrightLocal",
+      "domain": "brightlocal.com",
+      "date": "Nov 11, 2026",
+      "headline": "ChatGPT launches 'Business Hub'. Claim your ChatGPT business profile",
+      "accent": "Claim your ChatGPT business profile"
+     },
+     {
+      "publication": "BizIQ",
+      "domain": "biziq.com",
+      "date": "Nov 13, 2026",
+      "headline": "Businesses in ChatGPT: What Business Owners Need to Know About Business Hub",
+      "accent": "Business Hub"
+     }
+    ]
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-16-chatgpt-business-hub/s1.jpg",
+    "publication": "BrightLocal",
+    "date": "Nov 11, 2026",
+    "say": "BrightLocal found AI tools jumped from six to forty five percent as a source of local recommendations."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-16-chatgpt-business-hub/p3_3.jpg",
+    "layout": "split",
+    "focus": "50% 35%",
+    "icon": "alert-triangle",
+    "title": "Wrong hours. Lost customer.",
+    "accent": "Lost customer.",
+    "say": "Picture someone asking ChatGPT for a barber. If your hours are wrong there, they go elsewhere."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-16-chatgpt-business-hub/v1_4.mp4",
+    "icon": "shield-check",
+    "title": "Claim your listing this week",
+    "accent": "this week",
+    "body": "Hours and description that match your website.",
+    "say": "So claim your listing this week, and make your hours and description match your website."
+   },
+   {
+    "kind": "cta",
+    "title": "Give ChatGPT the right story.",
+    "accent": "right story.",
+    "keyword": "CLAIM",
+    "say": "We build the brand and website behind it. DM us Claim."
+   }
+  ]
+ },
+ "caption": "ChatGPT Business Hub checklist: 4 things small business owners should fix before claiming their listing inside ChatGPT.\n\nOn November 10, 2026, OpenAI opened Business Hub in beta. Local stores and restaurants in the United States can now claim their existing listing in ChatGPT, update hours, description, category and products, and see how often ChatGPT mentions them and how many website clicks it sends. Claiming takes a phone, email or website check, then an identity check.\n\nBefore you claim yours:\n1. Write down your exact business name, address and hours, and use them everywhere.\n2. Pick the one category that says what you do.\n3. Write a two sentence description a stranger would understand.\n4. Make sure your website shows the same hours, services and contact details.\n\nBrightLocal, a local search company, reports AI tools went from 6% to 45% as a source of local recommendations. Customers are asking. Make sure ChatGPT has the right answer.\n\nAt Blackwell Graphics we build the branding, logo and website that Black-owned businesses need to show up clearly, in ChatGPT and everywhere else. DM us \"CLAIM\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who hasn't claimed their listing yet.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #ChatGPT #LocalSEO #SmallBusinessBranding",
+ "caption_drafts": {
+  "checklist (published)": "ChatGPT Business Hub checklist: 4 things small business owners should fix before claiming their listing inside ChatGPT.\n\nOn November 10, 2026, OpenAI opened Business Hub in beta. Local stores and restaurants in the United States can now claim their existing listing in ChatGPT, update hours, description, category and products, and see how often ChatGPT mentions them and how many website clicks it sends. Claiming takes a phone, email or website check, then an identity check.\n\nBefore you claim yours:\n1. Write down your exact business name, address and hours, and use them everywhere.\n2. Pick the one category that says what you do.\n3. Write a two sentence description a stranger would understand.\n4. Make sure your website shows the same hours, services and contact details.\n\nBrightLocal, a local search company, reports AI tools went from 6% to 45% as a source of local recommendations. Customers are asking. Make sure ChatGPT has the right answer.\n\nAt Blackwell Graphics we build the branding, logo and website that Black-owned businesses need to show up clearly, in ChatGPT and everywhere else. DM us \"CLAIM\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner who hasn't claimed their listing yet.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #ChatGPT #LocalSEO #SmallBusinessBranding",
+  "explainer": "ChatGPT Business Hub lets U.S. small businesses claim their listing inside ChatGPT, and Black-owned businesses should look at it this week.\n\nOpenAI launched Business Hub in beta on November 10, 2026. Local stores and restaurants can claim an existing U.S. listing, then edit hours, description, category and products. The dashboard shows mentions, website clicks and the topics people find you through.\n\nBrightLocal compares it to Google Business Profile. That means it's one more place your details have to be right.\n\nAt Blackwell Graphics we build brands and websites for Black-owned businesses so every listing tells the same clear story. DM us \"CLAIM\" or visit blackwellgraphics.com (link in bio).\n\nSave this for when you sit down to claim yours.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #ChatGPT #LocalSEO #SmallBusinessBranding",
+  "provocation": "Do you know what ChatGPT tells customers about your small business? As of November 10, Black-owned businesses in the U.S. can finally check.\n\nOpenAI's new Business Hub lets local stores and restaurants claim their listing in ChatGPT and fix hours, description and category. One owner claims it and keeps it current. Another never looks, and a customer shows up to a locked door.\n\nAt Blackwell Graphics we build the branding and websites that keep your story straight. DM us \"CLAIM\" or visit blackwellgraphics.com (link in bio).\n\nShare this with an owner who should claim theirs.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #SupportBlackBusiness #ChatGPT #LocalSEO #SmallBusinessBranding"
+ },
+ "alt_text": "Motion graphics explainer about ChatGPT Business Hub for small businesses, showing articles from BrightLocal and BizIQ, a barber shop example, and ending with a DM CLAIM button.",
+ "duration_s": 36.1,
+ "sources": [
+  "https://www.brightlocal.com/learn/chatgpt-business-hub/",
+  "https://biziq.com/blog/businesses-in-chatgpt-what-business-owners-need-to-know-about-business-hub/",
+  "https://www.seroundtable.com/video-11-13-2026-42523.html"
+ ]
+}
