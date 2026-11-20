@@ -1,0 +1,251 @@
+{
+ "slug": "2026-11-20-instagram-story-edit",
+ "job": "jobs/2026-11-20-instagram-story-edit.json",
+ "created": "2026-11-20T11:59:32Z",
+ "credit": "Photos and footage from Pixabay (pixabay.com)",
+ "log": [
+  "p1: 5 photo result(s) for 'woman phone shop'",
+  "p2: 5 photo result(s) for 'boutique owner'",
+  "v1: 4 video result(s) for 'scrolling phone'",
+  "v2: 4 video result(s) for 'shopping sale store'",
+  "p3: 5 photo result(s) for 'small business owner phone'",
+  "s1: screenshot ok (https://gizmodo.com/instagram-now-lets-you-edit-stories-you-already-posted-2000841943)",
+  "s2: screenshot ok (https://www.businesstoday.in/technology/news/story/instagrams-latest-update-now-lets-you-edit-stories-after-posting-but-theres-a-catch-568598-2026-11-20)"
+ ],
+ "files": [
+  {
+   "file": "p1_1.jpg",
+   "type": "photo",
+   "query": "woman phone shop",
+   "tags": "girl, shopping bags, standing, talking, on the phone, brick wall, wall, shopping, young woman, female, fashion, style, stylish, stylish woman, outfit, shopping, shopping, shopping, shopping, shopping",
+   "page": "https://pixabay.com/photos/girl-shopping-bags-standing-talking-2581913/",
+   "user": "StockSnap",
+   "w": 4624,
+   "h": 2745
+  },
+  {
+   "file": "p1_2.jpg",
+   "type": "photo",
+   "query": "woman phone shop",
+   "tags": "woman, shopping bags, street, shopping, girl, young, person, fashion, happiness, shop, buy, mobile phone, walking, alley, outdoors, shopping bags, shopping bags, shopping bags, shopping bags, shopping bags, shopping, shopping, shopping",
+   "page": "https://pixabay.com/photos/woman-shopping-bags-street-shopping-5899643/",
+   "user": "19811900",
+   "w": 5432,
+   "h": 3621
+  },
+  {
+   "file": "p1_3.jpg",
+   "type": "photo",
+   "query": "woman phone shop",
+   "tags": "woman, headphones, walking, sidewalk, earphones, street, urban, shopping, city, pavement, casual wear, everyday life, pedestrian, headphones, shopping, shopping, casual wear, everyday life, pedestrian, pedestrian, pedestrian, pedestrian, pedestrian",
+   "page": "https://pixabay.com/photos/woman-headphones-walking-sidewalk-7381936/",
+   "user": "Surprising_Media",
+   "w": 4950,
+   "h": 3712
+  },
+  {
+   "file": "p1_4.jpg",
+   "type": "photo",
+   "query": "woman phone shop",
+   "tags": "woman, shopping market, lifestyle, marketplace, people, people, people, people, people, people",
+   "page": "https://pixabay.com/photos/woman-shopping-market-lifestyle-7862413/",
+   "user": "thangshooter",
+   "w": 4000,
+   "h": 6000
+  },
+  {
+   "file": "p1_5.jpg",
+   "type": "photo",
+   "query": "woman phone shop",
+   "tags": "immediate, woman, young people, dress, bag, waiting, permanent, sidewalk, phone, store, graff, lifestyle",
+   "page": "https://pixabay.com/photos/immediate-woman-young-people-dress-8133391/",
+   "user": "Surprising_Media",
+   "w": 3712,
+   "h": 5568
+  },
+  {
+   "file": "p2_1.jpg",
+   "type": "photo",
+   "query": "boutique owner",
+   "tags": "woman, bike, sunset, walk, silhouettes, girl, dog, nature, pet, owner, travel, dusk, animal, twilight, backlighting, orange sky, afterglow",
+   "page": "https://pixabay.com/photos/woman-bike-sunset-walk-silhouettes-2711279/",
+   "user": "cocoparisienne",
+   "w": 3318,
+   "h": 1943
+  },
+  {
+   "file": "p2_2.jpg",
+   "type": "photo",
+   "query": "boutique owner",
+   "tags": "apparel, boutique, bags, shoes, shop, store, shopping, retail, fashion, luxury, shelves, showcase, shop, shop, store, store, shopping, shopping, shopping, shopping, shopping, retail, fashion, fashion, fashion",
+   "page": "https://pixabay.com/photos/apparel-boutique-bags-shoes-shop-1850804/",
+   "user": "Pexels",
+   "w": 4000,
+   "h": 2761
+  },
+  {
+   "file": "p2_3.jpg",
+   "type": "photo",
+   "query": "boutique owner",
+   "tags": "girl, dog, nature, pet, friendship, companion, owner, caucasian, blonde, caucasian female, blonde female, canine, domestic dog, doggy, happy, animal, love, woman, cute, puppy",
+   "page": "https://pixabay.com/photos/girl-dog-pet-friendship-companion-5623231/",
+   "user": "ZigmarsBerzins",
+   "w": 5340,
+   "h": 3560
+  },
+  {
+   "file": "p2_4.jpg",
+   "type": "photo",
+   "query": "boutique owner",
+   "tags": "puppy, sleeping, pet, owner, nature, adorable, animal, canine, cute, dog, sleep, sleeping puppy, asleep, portrait",
+   "page": "https://pixabay.com/photos/puppy-sleeping-pet-owner-adorable-1850276/",
+   "user": "Pexels",
+   "w": 5181,
+   "h": 3454
+  },
+  {
+   "file": "p2_5.jpg",
+   "type": "photo",
+   "query": "boutique owner",
+   "tags": "bulldog, puppy, pet, owner, woman, sleep, sleeping, asleep, sleeping dog, animal, canine, cute, dog, hands, nature, relax, stroking",
+   "page": "https://pixabay.com/photos/bulldog-puppy-pet-owner-woman-1846380/",
+   "user": "Pexels",
+   "w": 4746,
+   "h": 3164
+  },
+  {
+   "file": "v1_1.mp4",
+   "type": "video",
+   "query": "scrolling phone",
+   "tags": "smartphone, scrolling, app, mobile, device, modern, communication, internet, wireless, touchscreen, technology, digital, cellphone, gadget, telephone, using, equipment, hand, cellular, multimedia, smart phone, communicator, screen",
+   "page": "https://pixabay.com/videos/id-3180/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 13
+  },
+  {
+   "file": "v1_2.mp4",
+   "type": "video",
+   "query": "scrolling phone",
+   "tags": "smart phone, mobile phone, scrolling, photos, night, cellphone, phone, online, social media, browsing, internet, app, application, screen, dark room",
+   "page": "https://pixabay.com/videos/id-169445/",
+   "user": "magicmore",
+   "seconds": 25
+  },
+  {
+   "file": "v1_3.mp4",
+   "type": "video",
+   "query": "scrolling phone",
+   "tags": "iphone, smartphone, scrolling, mobile, device, technology, cellphone, smart phone, mobile device, mobile phones, digital technology, screen",
+   "page": "https://pixabay.com/videos/id-736/",
+   "user": "elchao",
+   "seconds": 14
+  },
+  {
+   "file": "v1_4.mp4",
+   "type": "video",
+   "query": "scrolling phone",
+   "tags": "phone, app, touch screen, mobile phone, smartphone, communication, scrolling, mobile, screen, digital, technology, contact, wireless, call, internet, modern, communicate, connection, web page",
+   "page": "https://pixabay.com/videos/id-64594/",
+   "user": "Josh_Malic",
+   "seconds": 17
+  },
+  {
+   "file": "v2_1.mp4",
+   "type": "video",
+   "query": "shopping sale store",
+   "tags": "mall, shop, store, department store, people, busy, buy, sell, sale, purchase, customer, live, shopping, escalator, fashion",
+   "page": "https://pixabay.com/videos/id-24114/",
+   "user": "wcw6900",
+   "seconds": 13
+  },
+  {
+   "file": "v2_2.mp4",
+   "type": "video",
+   "query": "shopping sale store",
+   "tags": "clothing, clothes, fashion, shop, store, dress, retail, wear, shirt, women, shopping, colorful, apparel, buy, sale, wardrobe, color, woman, garment, boutique, female, hanger, fabric, clothing store, fashionable, textile, buying, model",
+   "page": "https://pixabay.com/videos/id-1006/",
+   "user": "Coverr-Free-Footage",
+   "seconds": 19
+  },
+  {
+   "file": "v2_3.mp4",
+   "type": "video",
+   "query": "shopping sale store",
+   "tags": "shop, market, shopping, car, basket, food, product, store, for sale, retail, fresh, supermarket, online, healthy, consumption, marketing, move, economics, money",
+   "page": "https://pixabay.com/videos/id-47601/",
+   "user": "Engin_Akyurt",
+   "seconds": 58
+  },
+  {
+   "file": "v2_4.mp4",
+   "type": "video",
+   "query": "shopping sale store",
+   "tags": "apparel, boutique, business, everyday, clothes, women's clothing, collection, design, fashion, fast fashion, female, female clothes, female section, garment, mall, market, modern, retail, sale, sell, shop, shopping mall, store, style, clothing",
+   "page": "https://pixabay.com/videos/id-30703/",
+   "user": "iha31",
+   "seconds": 8
+  },
+  {
+   "file": "p3_1.jpg",
+   "type": "photo",
+   "query": "small business owner phone",
+   "tags": "woman, entrepreneur, owner, business, shop, store, clothing, manager, saleswoman, retail, sales, small business, retail, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+   "user": "Tumisu",
+   "w": 7360,
+   "h": 4912
+  },
+  {
+   "file": "p3_2.jpg",
+   "type": "photo",
+   "query": "small business owner phone",
+   "tags": "business, office, boss, managing director, business owners, wilfried th\u00fcnker, holder, the th\u00fcnker, bonn center, business center, make a phone call, necktie, men's suit, mobile, finance, man, stock broker, boss, boss, boss, boss, boss",
+   "page": "https://pixabay.com/photos/business-office-boss-170645/",
+   "user": "DT",
+   "w": 2400,
+   "h": 1601
+  },
+  {
+   "file": "p3_3.jpg",
+   "type": "photo",
+   "query": "small business owner phone",
+   "tags": "man, entrepreneur, business, manager, owner, restaurant, young, start, local, small business, bar, small business, small business, small business, small business, small business",
+   "page": "https://pixabay.com/photos/man-entrepreneur-business-manager-5475187/",
+   "user": "Tumisu",
+   "w": 5427,
+   "h": 3617
+  },
+  {
+   "file": "p3_4.jpg",
+   "type": "photo",
+   "query": "small business owner phone",
+   "tags": "baker, bakery, woman, smiling, happy, bread, craft, freshly baked, small business, owner, entrepreneur, authentic, commercial, food, product, organic, delicious, successful, natural ingredients, artisan product",
+   "page": "https://pixabay.com/photos/baker-bakery-woman-smiling-happy-10436141/",
+   "user": "erwinbosman",
+   "w": 5504,
+   "h": 3072
+  },
+  {
+   "file": "p3_5.jpg",
+   "type": "photo",
+   "query": "small business owner phone",
+   "tags": "iphone, smartphone, apps, apple inc, mobile phone, cell phone, phone, communication, mobile, telephone, technology, cellular, call, screen, wireless, business, modern, digital, message, connection, communicate, electronic, display, contact, hand, touch, conversation, portable, computer, touchscreen, applications, ios, holding, typing, browsing, brown business, brown computer, brown technology, brown laptop, brown phone, brown apple, brown mobile, brown community, brown digital, brown communication, brown company, brown conversation, brown smartphone, brown telephone, brown iphone, iphone, iphone, iphone, smartphone, smartphone, mobile phone, cell phone, phone, phone, phone, phone, phone, mobile, mobile",
+   "page": "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+   "user": "JESHOOTS-com",
+   "w": 2180,
+   "h": 1453
+  },
+  {
+   "file": "s1.jpg",
+   "type": "shot",
+   "url": "https://gizmodo.com/instagram-now-lets-you-edit-stories-you-already-posted-2000841943",
+   "title": "Just a moment..."
+  },
+  {
+   "file": "s2.jpg",
+   "type": "shot",
+   "url": "https://www.businesstoday.in/technology/news/story/instagrams-latest-update-now-lets-you-edit-stories-after-posting-but-theres-a-catch-568598-2026-11-20",
+   "title": "Instagram's latest update now let's you edit stories after posting, but there\u2019s a catch - BusinessToday"
+  }
+ ]
+}
