@@ -1,0 +1,8 @@
+{"slug": "2026-11-20-instagram-story-edit",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "woman phone shop", "n": 5},
+             {"id": "p2", "type": "photo", "q": "boutique owner", "n": 5},
+             {"id": "v1", "type": "video", "q": "scrolling phone", "n": 4},
+             {"id": "v2", "type": "video", "q": "shopping sale store", "n": 4},
+             {"id": "p3", "type": "photo", "q": "small business owner phone", "n": 5}],
+ "shots": [{"id": "s1", "url": "https://gizmodo.com/instagram-now-lets-you-edit-stories-you-already-posted-2000841943"},
+           {"id": "s2", "url": "https://www.businesstoday.in/technology/news/story/instagrams-latest-update-now-lets-you-edit-stories-after-posting-but-theres-a-catch-568598-2026-11-20"}]}
