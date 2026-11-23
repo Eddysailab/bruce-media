@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-23",
+ "format": "REEL",
+ "topic": "AI Answers Show Coupon Codes",
+ "keyword": "DEAL",
+ "spec": {
+  "tag": "AI Coupon Codes",
+  "scenes": [
+   {
+    "kind": "hook",
+    "media": "engine/.cache/media/2026-11-23-ai-coupon-codes/v1_2.mp4",
+    "kicker": "New in ChatGPT, Nov 19",
+    "title": "ChatGPT now hands out coupon codes",
+    "accent": "coupon codes",
+    "say": "This Black Friday, ChatGPT may give your customers a coupon code before they see your website."
+   },
+   {
+    "kind": "sources",
+    "say": "Search Engine Roundtable says ChatGPT and Google's AI now put promo codes right in their answers.",
+    "items": [
+     {
+      "publication": "Search Engine Roundtable",
+      "domain": "seroundtable.com",
+      "date": "Nov 20, 2026",
+      "headline": "Google, ChatGPT & Others AI Engines Provide Coupon Codes",
+      "accent": "Coupon Codes"
+     },
+     {
+      "publication": "Metehan Yesilyurt",
+      "domain": "metehanai.substack.com",
+      "date": "Nov 19, 2026",
+      "headline": "ChatGPT is giving out Black Friday coupon codes",
+      "accent": "Black Friday coupon codes"
+     }
+    ]
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-23-ai-coupon-codes/s1.jpg",
+    "publication": "Search Engine Roundtable",
+    "date": "Nov 20, 2026",
+    "say": "ChatGPT even adds the end date and a copy button."
+   },
+   {
+    "kind": "stat",
+    "media": "engine/.cache/media/2026-11-23-ai-coupon-codes/p1_3.jpg",
+    "big": "16%",
+    "label": "of Black Friday product answers had deal cards",
+    "source": "Metehan Yesilyurt, Nov 2026",
+    "say": "One researcher saw deal cards jump from about three to sixteen percent of ChatGPT's Black Friday shopping answers."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-23-ai-coupon-codes/p2_4.jpg",
+    "layout": "split",
+    "focus": "50% 30%",
+    "icon": "alert-triangle",
+    "title": "Is your real code on your site?",
+    "accent": "your site?",
+    "say": "So if your real code isn't on your own site, you can't control which code shoppers get."
+   },
+   {
+    "kind": "point",
+    "icon": "badge-dollar-sign",
+    "title": "Post it on one deals page",
+    "accent": "deals page",
+    "body": "Discount, code and end date, written out in plain text.",
+    "say": "This week, post your code on one deals page with the discount and end date."
+   },
+   {
+    "kind": "cta",
+    "title": "Make your site the place AI gets your deal.",
+    "accent": "your deal.",
+    "keyword": "DEAL",
+    "say": "We build websites for Black-owned businesses. DM us Deal."
+   }
+  ]
+ },
+ "caption": "ChatGPT coupon codes checklist: 4 things small businesses and Black-owned businesses should do before Black Friday, now that AI answers hand out promo codes.\n\nOn November 20, Search Engine Roundtable reported that Google's AI Overviews and ChatGPT now show coupon codes right inside their answers. In free ChatGPT, each brand gets a card with the code, an end date, a Copy button and a Get deal button. SEO researcher Metehan Yesilyurt found deal cards in about 16% of ChatGPT's Black Friday shopping answers on November 19, up from about 3% four weeks earlier. Black Friday is November 27.\n\nBefore Friday:\n1. Search \"[your business name] coupon code\" in ChatGPT and Google and see what comes up.\n2. Put your real Black Friday code on one deals page on your own website.\n3. Write the discount, the end date and any exclusions in plain text, not only inside a graphic.\n4. Take expired codes off your site so nobody finds an old one.\n\nAI can only repeat what it can find. Make sure the first place it finds your deal is your own site.\n\nAt Blackwell Graphics we design websites and branding for Black-owned businesses, built so people and AI can read them. DM us \"DEAL\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner running a Black Friday sale.\n\nFootage: Pixabay\n\n#BlackOwnedBusiness #BlackEntrepreneurs #BlackFridayDeals #SmallBusinessTips #WebDesign",
+ "caption_drafts": {
+  "checklist (published)": "ChatGPT coupon codes checklist: 4 things small businesses and Black-owned businesses should do before Black Friday, now that AI answers hand out promo codes.\n\nOn November 20, Search Engine Roundtable reported that Google's AI Overviews and ChatGPT now show coupon codes right inside their answers. In free ChatGPT, each brand gets a card with the code, an end date, a Copy button and a Get deal button. SEO researcher Metehan Yesilyurt found deal cards in about 16% of ChatGPT's Black Friday shopping answers on November 19, up from about 3% four weeks earlier. Black Friday is November 27.\n\nBefore Friday:\n1. Search \"[your business name] coupon code\" in ChatGPT and Google and see what comes up.\n2. Put your real Black Friday code on one deals page on your own website.\n3. Write the discount, the end date and any exclusions in plain text, not only inside a graphic.\n4. Take expired codes off your site so nobody finds an old one.\n\nAI can only repeat what it can find. Make sure the first place it finds your deal is your own site.\n\nAt Blackwell Graphics we design websites and branding for Black-owned businesses, built so people and AI can read them. DM us \"DEAL\" to talk it through, or visit blackwellgraphics.com (link in bio).\n\nSend this to a business owner running a Black Friday sale.\n\nFootage: Pixabay\n\n#BlackOwnedBusiness #BlackEntrepreneurs #BlackFridayDeals #SmallBusinessTips #WebDesign",
+  "explainer": "ChatGPT and Google's AI now show coupon codes inside their answers, and that matters for every small business and Black-owned business running a Black Friday sale.\n\nOn November 20, Search Engine Roundtable reported that Google AI Overviews and ChatGPT show promo codes directly in answers. Free ChatGPT shows a card per brand with the code, an end date, a Copy button and a Get deal button. Metehan Yesilyurt found deal cards in about 16% of ChatGPT's Black Friday shopping answers, up from about 3% four weeks earlier.\n\nIf your real code lives only in an email or a graphic, AI has nothing official to quote. A clear deals page on your website fixes that.\n\nAt Blackwell Graphics we build websites for Black-owned businesses. DM us \"DEAL\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your Black Friday prep.",
+  "provocation": "When a shopper asks ChatGPT for your Black Friday coupon code, does your small business get to decide what it says?\n\nSince November 19, ChatGPT has been showing deal cards with a code, an end date and a Copy button, and Google's AI Overviews show codes too, Search Engine Roundtable reported on November 20. One researcher saw those cards in about 16% of ChatGPT's Black Friday shopping answers, up from about 3% a month earlier.\n\nOne Black-owned business has its code on a clear deals page. Another has it buried in an Instagram story. Only one of them gave AI something official to find.\n\nAt Blackwell Graphics we build websites for Black-owned businesses. DM us \"DEAL\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner running a sale this week."
+ },
+ "alt_text": "Motion graphics explainer about ChatGPT and Google AI showing coupon codes inside their answers before Black Friday, featuring articles from Search Engine Roundtable and Metehan Yesilyurt, ending with a DM DEAL button.",
+ "sources": [
+  "https://www.seroundtable.com/google-chatgpt-coupon-codes-42581.html",
+  "https://metehanai.substack.com/p/chatgpt-is-giving-out-black-friday"
+ ]
+}
