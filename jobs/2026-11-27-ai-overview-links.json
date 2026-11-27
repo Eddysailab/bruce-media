@@ -1,0 +1,9 @@
+{"slug": "2026-11-27-ai-overview-links",
+ "pixabay": [{"id": "p1", "type": "photo", "q": "phone google search", "n": 5},
+             {"id": "p2", "type": "photo", "q": "woman typing laptop", "n": 5},
+             {"id": "p3", "type": "photo", "q": "bakery owner", "n": 5},
+             {"id": "v1", "type": "video", "q": "scrolling phone", "n": 4},
+             {"id": "v2", "type": "video", "q": "typing laptop", "n": 4}],
+ "shots":   [{"id": "s1", "url": "https://www.seroundtable.com/google-pushing-links-in-ai-overviews-down-42600.html"},
+             {"id": "s2", "url": "https://ppc.land/google-preannounces-a-december-core-update-as-ai-overview-links-slide-down/"},
+             {"id": "s3", "url": "https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality"}]}
