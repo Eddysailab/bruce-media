@@ -1,0 +1,97 @@
+{
+ "date": "2026-11-27",
+ "format": "REEL",
+ "topic": "Google AI Overview Links Pushed Lower",
+ "keyword": "LINK",
+ "spec": {
+  "tag": "Google AI answers",
+  "scenes": [
+   {
+    "kind": "hook",
+    "media": "engine/.cache/media/2026-11-27-ai-overview-links/v1_2.mp4",
+    "logo": "google",
+    "kicker": "Google AI Overviews, Nov 24",
+    "title": "Google moved your link lower",
+    "accent": "lower",
+    "say": "Google's AI answers are pushing the link to your website further down."
+   },
+   {
+    "kind": "sources",
+    "say": "Search Engine Roundtable reported it this week, and Google just explained how it picks those links.",
+    "items": [
+     {
+      "publication": "Search Engine Roundtable",
+      "domain": "seroundtable.com",
+      "date": "Nov 24, 2026",
+      "headline": "Google Burying Links Deeper Down In AI Overviews",
+      "accent": "Deeper Down"
+     },
+     {
+      "publication": "Google Search Central",
+      "domain": "developers.google.com",
+      "logo": "google",
+      "date": "Nov 24, 2026",
+      "headline": "Attribution and factuality in Search generative AI features",
+      "accent": "Attribution"
+     }
+    ]
+   },
+   {
+    "kind": "shot",
+    "media": "engine/.cache/media/2026-11-27-ai-overview-links/s1.jpg",
+    "publication": "Search Engine Roundtable",
+    "date": "Nov 24, 2026",
+    "say": "The data comes from Peec AI, a company that tracks AI search."
+   },
+   {
+    "kind": "stat",
+    "media": "engine/.cache/media/2026-11-27-ai-overview-links/p1_2.jpg",
+    "big": "51.8%",
+    "label": "of AI answers show the first link in the top third",
+    "source": "Peec AI via Search Engine Roundtable",
+    "say": "In September, three in four AI answers showed the first link near the top. By November twentieth, it was about half."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-27-ai-overview-links/p3_1.jpg",
+    "layout": "split",
+    "focus": "50% 30%",
+    "icon": "store",
+    "title": "Your info up top. Your link below.",
+    "accent": "Your link below.",
+    "say": "Picture a bakery whose hours show up in that answer, while her link sits way below."
+   },
+   {
+    "kind": "point",
+    "media": "engine/.cache/media/2026-11-27-ai-overview-links/v2_3.mp4",
+    "icon": "file-text",
+    "title": "Put the facts on your site",
+    "accent": "facts",
+    "body": "Hours, prices and services in plain text, plus a real About page.",
+    "say": "Google says it links pages that back up its answer. So put your hours, prices and services on your site in plain text, with a real About page."
+   },
+   {
+    "kind": "cta",
+    "title": "Be the site Google links to.",
+    "accent": "links to.",
+    "keyword": "LINK",
+    "say": "We build websites Google can quote. DM us Link."
+   }
+  ]
+ },
+ "caption": "Google AI Overviews are moving the link to your website lower. Small business checklist: 4 things to put on your site so Google's AI answers still link to you.\n\nOn November 24, Search Engine Roundtable shared new data from Peec AI, a company that tracks AI search. On September 21, 76.8% of Google's AI Overviews showed their first link in the top third of the answer. By November 20, that was 51.8%.\n\nThe same day, Google published a guide on how AI Overviews and AI Mode pick the pages they link to. Google says its AI links to the pages that support the information in the answer, and it asks site owners to keep important information in text and give clear background on who they are.\n\nHere's what we'd put in place first:\n1. Your hours, prices and services written as plain text on your site, not only inside images.\n2. An About page that says who you are, where you are and what you do.\n3. One clear page for each service you sell.\n4. The same facts everywhere: your site, your Google Business Profile and your Instagram.\n\nAt Blackwell Graphics we design websites and brands for Black-owned businesses, built so people and Google can read them fast. DM us \"LINK\" to talk about your site, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who counts on Google for customers.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #BlackEntrepreneurs #GoogleSearch #SmallBusinessMarketing #WebDesign",
+ "caption_drafts": {
+  "checklist (published)": "Google AI Overviews are moving the link to your website lower. Small business checklist: 4 things to put on your site so Google's AI answers still link to you.\n\nOn November 24, Search Engine Roundtable shared new data from Peec AI, a company that tracks AI search. On September 21, 76.8% of Google's AI Overviews showed their first link in the top third of the answer. By November 20, that was 51.8%.\n\nThe same day, Google published a guide on how AI Overviews and AI Mode pick the pages they link to. Google says its AI links to the pages that support the information in the answer, and it asks site owners to keep important information in text and give clear background on who they are.\n\nHere's what we'd put in place first:\n1. Your hours, prices and services written as plain text on your site, not only inside images.\n2. An About page that says who you are, where you are and what you do.\n3. One clear page for each service you sell.\n4. The same facts everywhere: your site, your Google Business Profile and your Instagram.\n\nAt Blackwell Graphics we design websites and brands for Black-owned businesses, built so people and Google can read them fast. DM us \"LINK\" to talk about your site, or visit blackwellgraphics.com (link in bio).\n\nSave this, or send it to a business owner who counts on Google for customers.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #BlackEntrepreneurs #GoogleSearch #SmallBusinessMarketing #WebDesign",
+  "explainer": "Google AI Overviews now show the first link to a website lower in the answer, and that matters for every small business that gets found on Google.\n\nSearch Engine Roundtable reported on November 24 that, according to Peec AI data, the share of AI Overviews with their first link in the top third of the answer fell from 76.8% on September 21 to 51.8% on November 20.\n\nGoogle also published a new guide that day explaining how AI Overviews and AI Mode choose links. Pages have to be indexed and eligible for a snippet, and Google asks owners to keep key information in text with clear background on the business.\n\nAt Blackwell Graphics we build websites for Black-owned businesses that give Google clear, readable facts to link to. DM us \"LINK\" or visit blackwellgraphics.com (link in bio).\n\nSend this to an owner who relies on Google.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #BlackEntrepreneurs #GoogleSearch #SmallBusinessMarketing #WebDesign",
+  "provocation": "If Google's AI answer already gives a customer your hours, why would they click through to your small business website?\n\nThat question got sharper this week. On November 24, Search Engine Roundtable shared Peec AI data showing the first link in Google AI Overviews now lands in the top third of the answer only 51.8% of the time, down from 76.8% in September.\n\nGoogle says its AI links the pages that back up its answer. A site with clear facts in plain text gives it a reason to link to you. A site where your prices live inside a flyer image gives it very little.\n\nAt Blackwell Graphics we design websites for Black-owned businesses that are easy for people and Google to read. DM us \"LINK\" or visit blackwellgraphics.com (link in bio).\n\nSave this for your next website update.\n\nFootage: Pixabay\n\n#BlackBusinessOwners #BlackEntrepreneurs #GoogleSearch #SmallBusinessMarketing #WebDesign"
+ },
+ "alt_text": [
+  "Motion graphics explainer about Google AI Overviews pushing website links lower, showing articles from Search Engine Roundtable and Google Search Central, a 51.8% stat, a bakery owner, and ending with a DM LINK button."
+ ],
+ "sources": [
+  "https://www.seroundtable.com/google-pushing-links-in-ai-overviews-down-42600.html",
+  "https://ppc.land/google-preannounces-a-december-core-update-as-ai-overview-links-slide-down/",
+  "https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality",
+  "https://www.relevantaudience.com/geo/google-ai-overviews-link-selection-generative-ai-controls/"
+ ]
+}
